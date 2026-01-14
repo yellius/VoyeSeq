@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.10)
 project(VoyeSeq)
 
-set(DPF_DIR "${CMAKE_CURRENT_SOURCE_DIR}/distrho")
+set(DPF_DIR "${CMAKE_CURRENT_SOURCE_DIR}/src/dpf")
 list(APPEND CMAKE_MODULE_PATH "${DPF_DIR}/cmake")
 include(DPF-plugin)
 
