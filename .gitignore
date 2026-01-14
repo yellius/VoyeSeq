@@ -1,0 +1,12 @@
+# Ignore build artifacts
+bin/
+obj/
+build/
+*.o
+*.a
+*.so
+*.lv2/
+*.vst3/
+
+# Ignore system files
+.DS_Store
