@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/jelle/src/VoyeSeqProject/src/cmake_install.cmake",
+		"/home/jelle/src/VoyeSeqProject/src/distrho/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
