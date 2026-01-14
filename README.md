@@ -2,6 +2,8 @@
 
 A lightweight, pattern-based MIDI sequencer plugin built with the [DISTRHO Plugin Framework (DPF)](https://distrho.github.io/DPF/). 
 
+![VoyeSeq UI Screenshot](assets/screenshot.png)
+
 VoyeSeq mimics the Voyetra Sequencer Plus Gold workflow to create patterns, which can be triggered using MIDI notes from the host.
 
 ## Features
