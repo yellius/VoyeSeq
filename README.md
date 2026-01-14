@@ -19,7 +19,7 @@ VoyeSeq mimics the Voyetra Sequencer Plus Gold workflow to create patterns, whic
 ### Installation
 ```bash
 # Clone the repository
-git clone --recursive [https://github.com/YOUR_USERNAME/VoyeSeq.git](https://github.com/YOUR_USERNAME/VoyeSeq.git)
+git clone --recursive https://github.com/yellius/VoyeSeq.git
 cd VoyeSeq
 
 # Build the project
