@@ -44,6 +44,7 @@ VoyeSeqUI::VoyeSeqUI()
     fSock = socket(AF_INET, SOCK_DGRAM, 0);
     if (fSock < 0) {
       std::fprintf(stderr, "VoyeSeq: Failed to create OSC socket\n");
+      std::fflush(stderr);
     }
  
     fFont = -1;
@@ -379,9 +380,6 @@ void VoyeSeqUI::resolveCollisions(uint8_t pitch, uint32_t start, uint32_t length
 //--Main keyboard handler for GridEdit mode
 //------------------------------------------------------------------------------
 bool VoyeSeqUI::handleKeyGridEdit(const KeyboardEvent& event) {
-    if (!event.press) return false;
-
-    // 1. Hotkeys for Edit Matrix
     switch (event.key) {
         case 'p': case 'P': fCurrentEditField = EditField::Pitch;    break;
         case 'v': case 'V': fCurrentEditField = EditField::Velocity; break;
@@ -392,7 +390,6 @@ bool VoyeSeqUI::handleKeyGridEdit(const KeyboardEvent& event) {
         case kKeyEscape:    fCurrentEditField = EditField::None;     break;
     }
 
-    // 2. Carrot Navigation (Arrows)
     uint32_t stepSize = getQuantizeTicks();
     bool isNavigation = false;
 
@@ -442,13 +439,6 @@ bool VoyeSeqUI::handleKeyGridEdit(const KeyboardEvent& event) {
             break;
     }
     
-    if (event.key == kKeyTab) {
-        fEdit = EditState::PatternSelect;
-        repaint();
-        return true;
-    }
-
-
     if (isNavigation) {
         fNoteEditBuffer.pitch = fView.carrotPitch;
         fNoteEditBuffer.startTick = fView.carrotTick;
@@ -460,6 +450,17 @@ bool VoyeSeqUI::handleKeyGridEdit(const KeyboardEvent& event) {
             auditionNote(note.pitch, note.velocity);
         }
         repaint();
+        return true;
+    }
+
+    if (event.key == kKeyTab) {
+        fEdit = EditState::PatternSelect;
+        repaint();
+        return true;
+    }
+
+    if (event.key == kKeySpace) {
+        fNeedsOscToggle = true;
         return true;
     }
 
@@ -557,14 +558,12 @@ bool VoyeSeqUI::handleKeyGridEdit(const KeyboardEvent& event) {
         repaint();
         return true;
     }
-    return true;
+    return false;
 }
 
 //--Main keyboard handler for PatternSelect mode
 //------------------------------------------------------------------------------
 bool VoyeSeqUI::handleKeyPatternSelect(const KeyboardEvent& event) {
-    if (!event.press) return false;
-
     if (event.key == '+' || event.key == '=' || event.key == kKeyUp) {
         if (fCurrentPattern < 127) fCurrentPattern++;
     }
@@ -648,8 +647,6 @@ bool VoyeSeqUI::handleKeyPatternSelect(const KeyboardEvent& event) {
 //--Main keyboard handler for NameEdit mode (change pattern names)
 //------------------------------------------------------------------------------
 bool VoyeSeqUI::handleKeyNameEdit(const KeyboardEvent& event) {
-    if (!event.press) return false;
-
     if (event.key == kKeyEnter) {
         if (!fTempName.empty()) {
             fLocalBank.names[fCurrentPattern] = fTempName;
@@ -707,10 +704,10 @@ bool VoyeSeqUI::onKeyboard(const KeyboardEvent& event) {
     if (!event.press) return false;
     
     switch (fEdit) {
-        case EditState::GridEdit: return handleKeyGridEdit(event);
-        case EditState::PatternSelect: return handleKeyPatternSelect(event);
-        case EditState::CopyPaste: return handleKeyPatternSelect(event);
-        case EditState::NameEdit: return handleKeyNameEdit(event);
+        case EditState::GridEdit: return handleKeyGridEdit(event); break;
+        case EditState::PatternSelect: return handleKeyPatternSelect(event); break;
+        case EditState::CopyPaste: return handleKeyPatternSelect(event); break;
+        case EditState::NameEdit: return handleKeyNameEdit(event); break;
         // Add future modes here
         default: return false;
     }

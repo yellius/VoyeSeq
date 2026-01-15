@@ -35,7 +35,7 @@ protected:
     void idleCallback() override;
 
 private:
-    std::atomic<bool> fNeedsOscToggle;
+    std::atomic<bool> fNeedsOscToggle = false;
     int fSock{-1};
     void  sendOscToggle();
     
