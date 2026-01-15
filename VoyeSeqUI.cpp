@@ -625,6 +625,10 @@ bool VoyeSeqUI::handleKeyPatternSelect(const KeyboardEvent& event) {
             fLocalBank.names.erase(fCurrentPattern);
         }
 
+        if (fLocalBank.patterns.find(fCurrentPattern) == fLocalBank.patterns.end()) {
+            fLocalBank.patterns[fCurrentPattern].lengthTicks = 768;
+        }
+
         setState("pattern_data", fLocalBank.serializeData().c_str());
         setState("pattern_names", fLocalBank.serializeNames().c_str());
 
@@ -632,16 +636,7 @@ bool VoyeSeqUI::handleKeyPatternSelect(const KeyboardEvent& event) {
         repaint();
         return true;
     }
-    else {
-        return false;
-    }
-
-    if (fLocalBank.patterns.find(fCurrentPattern) == fLocalBank.patterns.end()) {
-        fLocalBank.patterns[fCurrentPattern].lengthTicks = 768;
-    }
-    updateSelection(); 
-    repaint();
-    return true;
+    return false;
 }
 
 //--Main keyboard handler for NameEdit mode (change pattern names)
