@@ -8,7 +8,6 @@ VoyeSeq mimics the Voyetra Sequencer Plus Gold workflow to create patterns, whic
 
 ## Features
 - **Pattern Bank:** 128 patterns (0-127).
-- **Hex Serialization:** Compressed state strings for fast loading/saving.
 - **Keyboard-Driven Workflow:** Optimized for speed without heavy mouse reliance.
 - **Cross-Platform:** Built with DPF to run as JACK standalone, LV2, VST3, or CLAP.
 - **Start/stop:** from the Plugin is send to host through OSC (tested in Ardour)
