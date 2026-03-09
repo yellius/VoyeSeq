@@ -1,0 +1,2 @@
+/usr/bin/ar qc libVoyeSeq-dsp.a "CMakeFiles/VoyeSeq-dsp.dir/src/VoyeSeqPlugin.cpp.o"
+/usr/bin/ranlib libVoyeSeq-dsp.a

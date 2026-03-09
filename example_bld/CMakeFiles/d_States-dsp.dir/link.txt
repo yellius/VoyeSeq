@@ -1,0 +1,2 @@
+/usr/bin/ar qc libd_States-dsp.a "CMakeFiles/d_States-dsp.dir/example/ExamplePluginStates.cpp.o"
+/usr/bin/ranlib libd_States-dsp.a

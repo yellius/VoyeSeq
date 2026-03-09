@@ -1,0 +1,2 @@
+/usr/bin/ar qc libVoyeSeq-ui.a "CMakeFiles/VoyeSeq-ui.dir/src/VoyeSeqUI.cpp.o" "CMakeFiles/VoyeSeq-ui.dir/src/VoyeRenderer.cpp.o"
+/usr/bin/ranlib libVoyeSeq-ui.a

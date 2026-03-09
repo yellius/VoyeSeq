@@ -1,0 +1,2 @@
+/usr/bin/ar qc libd_States.a CMakeFiles/d_States.dir/_dpf_empty.c.o
+/usr/bin/ranlib libd_States.a

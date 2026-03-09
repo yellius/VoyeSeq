@@ -1,0 +1,33 @@
+@prefix lv2:   <http://lv2plug.in/ns/lv2core#> .
+@prefix pset:  <http://lv2plug.in/ns/ext/presets#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix state: <http://lv2plug.in/ns/ext/state#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+<http://distrho.sf.net/examples/States#preset001>
+    state:state [
+        <http://distrho.sf.net/examples/States#top-left> "false" ;
+        <http://distrho.sf.net/examples/States#top-center> "false" ;
+        <http://distrho.sf.net/examples/States#top-right> "false" ;
+        <http://distrho.sf.net/examples/States#middle-left> "false" ;
+        <http://distrho.sf.net/examples/States#middle-center> "false" ;
+        <http://distrho.sf.net/examples/States#middle-right> "false" ;
+        <http://distrho.sf.net/examples/States#bottom-left> "false" ;
+        <http://distrho.sf.net/examples/States#bottom-center> "false" ;
+        <http://distrho.sf.net/examples/States#bottom-right> "false" ;
+    ] .
+
+<http://distrho.sf.net/examples/States#preset002>
+    state:state [
+        <http://distrho.sf.net/examples/States#top-left> "true" ;
+        <http://distrho.sf.net/examples/States#top-center> "true" ;
+        <http://distrho.sf.net/examples/States#top-right> "false" ;
+        <http://distrho.sf.net/examples/States#middle-left> "false" ;
+        <http://distrho.sf.net/examples/States#middle-center> "true" ;
+        <http://distrho.sf.net/examples/States#middle-right> "true" ;
+        <http://distrho.sf.net/examples/States#bottom-left> "true" ;
+        <http://distrho.sf.net/examples/States#bottom-center> "false" ;
+        <http://distrho.sf.net/examples/States#bottom-right> "true" ;
+    ] .
+
