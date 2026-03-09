@@ -153,6 +153,7 @@ void VoyeSeqUI::idleCallback() {
     }
 }
 
+/*
 //--Main display trigger for Plugin UI
 //------------------------------------------------------------------------------
 void VoyeSeqUI::onNanoDisplay() {
@@ -181,6 +182,46 @@ void VoyeSeqUI::onNanoDisplay() {
         VoyeRenderer::drawGrid(*this, w, h, fEdit, fView, activePattern, fSelectedNoteIndex);
         VoyeRenderer::drawBottomBar(*this, w, h, fEdit, fView);
     }
+}
+*/
+void VoyeSeqUI::onNanoDisplay() {
+    // 1. Get the current scale factor from DPF
+    const float scaleFactor = getScaleFactor();
+    
+    // 2. Calculate design-space dimensions
+    // If the window is 1600px but scale is 2.0, w and h become 800px
+    const float w = getWidth() / scaleFactor;
+    const float h = getHeight() / scaleFactor;
+
+    if (fFont == -1) 
+        fFont = createFontFromMemory("fira", FiraMono_Medium_ttf, FiraMono_Medium_ttf_len, false);
+
+    // 3. Scale the nanoVG context so 1 unit = 1 design pixel
+    save(); // Push state
+    scale(scaleFactor, scaleFactor);
+
+    // Background: Voyetra Navy
+    beginPath(); 
+    rect(0.0f, 0.0f, w, h); 
+    fillColor(Voye::Colors::Navy); 
+    fill();
+    
+    if (fFont != -1) {
+        fontFaceId(fFont);
+    
+        const Pattern& activePattern = fLocalBank.patterns[fCurrentPattern];
+        const VoyeNote& displayNote = (fSelectedNoteIndex != -1) 
+                                      ? activePattern.notes[fSelectedNoteIndex] 
+                                      : fNoteEditBuffer;
+
+        // Now these functions receive "Design Pixels" and nanoVG scales them up
+        VoyeRenderer::drawTransportBar(*this, w, h, fEdit, fView, fCurrentEditField, displayNote);
+        VoyeRenderer::drawList(*this, w, h, fEdit, fView, fCurrentPattern, fCopyPattern, fLocalBank, fTempName);
+        VoyeRenderer::drawGrid(*this, w, h, fEdit, fView, activePattern, fSelectedNoteIndex);
+        VoyeRenderer::drawBottomBar(*this, w, h, fEdit, fView);
+    }
+
+    restore(); // Pop state to avoid cumulative scaling
 }
 
 //--Send MIDI note for Audition (when selecting note, inserting note)

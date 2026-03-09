@@ -1,5 +1,7 @@
 #pragma once
 #include "DistrhoUI.hpp"
+//#include "DistrhoDetails.hpp" // Helps DPF resolve namespaces
+//#include "Graphics.hpp" // Ensure DGL Graphics are included
 
 namespace Voye {
     namespace Colors {
