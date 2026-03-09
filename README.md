@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/25853518/README.md)
 # VoyeSeq
 
 A lightweight, pattern-based MIDI sequencer plugin built with the [DISTRHO Plugin Framework (DPF)](https://distrho.github.io/DPF/). 
