@@ -1,3 +1,4 @@
+#include <pthread.h>
 #include "VoyeSeqUI.hpp"
 #include "VoyeUIUtils.hpp"
 #include "VoyeRenderer.hpp"
@@ -15,6 +16,10 @@ START_NAMESPACE_DISTRHO
 //------------------------------------------------------------------------------
 VoyeSeqUI::VoyeSeqUI() 
     : UI(UI_WIDTH, UI_HEIGHT) {
+    
+    std::printf("UI Constructor: Thread ID = %lu\n", (unsigned long)pthread_self());
+    std::fflush(stdout);
+    
     std::printf("UI Constructor: Initializing...\n");
     std::fflush(stdout);
     // Initialize the "Camera" and Cursor state
@@ -54,9 +59,27 @@ VoyeSeqUI::VoyeSeqUI()
 //--Main Destructor for Plugin UI
 //------------------------------------------------------------------------------
 VoyeSeqUI::~VoyeSeqUI() {
-      if (fSock >= 0) close(fSock);
-      fSock = -1;
+      removeIdleCallback(this);
+
+      fFont = -1;
+      fLastVg = nullptr; // Clear the context pointer
+
+      std::printf("DEBUG: UI Destructor Called\n");
+      
+      if (fSock >= 0) {
+        close(fSock);
+        fSock = -1;
+      }
+      
+      std::fflush(stdout);
 }
+
+/*void VoyeSeqUI::uiWindowClosed() {
+    // Force NanoVG to release the font/context before the window handle is destroyed
+    fFont = -1;
+    // Calling the parent class cleanup
+    UI::uiWindowClosed();
+}*/
 
 //--Interface to allow Plugin to send parameter changes to UI
 //------------------------------------------------------------------------------
@@ -153,51 +176,32 @@ void VoyeSeqUI::idleCallback() {
     }
 }
 
-/*
 //--Main display trigger for Plugin UI
 //------------------------------------------------------------------------------
 void VoyeSeqUI::onNanoDisplay() {
-    const float w = getWidth();
-    const float h = getHeight();
+    NVGcontext* vg = getContext();
+    if (vg == nullptr) return;
 
-    if (fFont == -1) 
-        fFont = createFontFromMemory("fira", FiraMono_Medium_ttf, FiraMono_Medium_ttf_len, false);
-
-    // Background: Voyetra Navy
-    beginPath(); 
-    rect(0.0f, 0.0f, w, h); 
-    fillColor(Voye::Colors::Navy); 
-    fill();
-    
-    if (fFont != -1) {
-        fontFaceId(fFont);
-    
-        const Pattern& activePattern = fLocalBank.patterns[fCurrentPattern];
-        const VoyeNote& displayNote = (fSelectedNoteIndex != -1) 
-                                      ? activePattern.notes[fSelectedNoteIndex] 
-                                      : fNoteEditBuffer;
-
-        VoyeRenderer::drawTransportBar(*this, w, h, fEdit, fView, fCurrentEditField, displayNote);
-        VoyeRenderer::drawList(*this, w, h, fEdit, fView, fCurrentPattern, fCopyPattern, fLocalBank, fTempName);
-        VoyeRenderer::drawGrid(*this, w, h, fEdit, fView, activePattern, fSelectedNoteIndex);
-        VoyeRenderer::drawBottomBar(*this, w, h, fEdit, fView);
+    if (vg != fLastVg) {
+        std::printf("DPF: Context changed. Forcing font reload.\n");
+        fFont = -1; 
+        fLastVg = vg;
     }
-}
-*/
-void VoyeSeqUI::onNanoDisplay() {
-    // 1. Get the current scale factor from DPF
+
+    if (fFont == -1) { 
+        fFont = createFontFromMemory("fira", FiraMono_Medium_ttf, FiraMono_Medium_ttf_len, false);
+        if (fFont == -1) return;
+    }
+
     const float scaleFactor = getScaleFactor();
-    
-    // 2. Calculate design-space dimensions
-    // If the window is 1600px but scale is 2.0, w and h become 800px
+    if (scaleFactor <= 0.0f) return; // Guard against division by zero
+
     const float w = getWidth() / scaleFactor;
     const float h = getHeight() / scaleFactor;
+    
+    if (w < 1.0f || h < 1.0f) return;
 
-    if (fFont == -1) 
-        fFont = createFontFromMemory("fira", FiraMono_Medium_ttf, FiraMono_Medium_ttf_len, false);
-
-    // 3. Scale the nanoVG context so 1 unit = 1 design pixel
-    save(); // Push state
+    save();
     scale(scaleFactor, scaleFactor);
 
     // Background: Voyetra Navy

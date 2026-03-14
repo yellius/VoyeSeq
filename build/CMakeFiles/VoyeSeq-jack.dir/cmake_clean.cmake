@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/VoyeSeq-jack.dir/link.d"
-  "CMakeFiles/VoyeSeq-jack.dir/src/dpf/distrho/DistrhoPluginMain.cpp.o"
-  "CMakeFiles/VoyeSeq-jack.dir/src/dpf/distrho/DistrhoPluginMain.cpp.o.d"
-  "CMakeFiles/VoyeSeq-jack.dir/src/dpf/distrho/DistrhoUIMain.cpp.o"
-  "CMakeFiles/VoyeSeq-jack.dir/src/dpf/distrho/DistrhoUIMain.cpp.o.d"
+  "CMakeFiles/VoyeSeq-jack.dir/dpf/distrho/DistrhoPluginMain.cpp.o"
+  "CMakeFiles/VoyeSeq-jack.dir/dpf/distrho/DistrhoPluginMain.cpp.o.d"
+  "CMakeFiles/VoyeSeq-jack.dir/dpf/distrho/DistrhoUIMain.cpp.o"
+  "CMakeFiles/VoyeSeq-jack.dir/dpf/distrho/DistrhoUIMain.cpp.o.d"
   "bin/VoyeSeq"
   "bin/VoyeSeq.pdb"
 )

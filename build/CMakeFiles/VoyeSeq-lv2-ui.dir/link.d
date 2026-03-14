@@ -1,8 +1,8 @@
 bin/VoyeSeq.lv2/VoyeSeq_ui.so: \
-  /home/jelle/src/VoyeSeqProject/src/dpf/utils/symbols/lv2-ui.version \
+  /home/jelle/src/VoyeSeqProject/dpf/utils/symbols/lv2-ui.version \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o \
-  CMakeFiles/VoyeSeq-lv2-ui.dir/src/dpf/distrho/DistrhoUIMain.cpp.o \
+  CMakeFiles/VoyeSeq-lv2-ui.dir/dpf/distrho/DistrhoUIMain.cpp.o \
   libVoyeSeq-ui.a \
   libVoyeSeq.a \
   libdgl-opengl.a \
@@ -38,13 +38,13 @@ bin/VoyeSeq.lv2/VoyeSeq_ui.so: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
 
-/home/jelle/src/VoyeSeqProject/src/dpf/utils/symbols/lv2-ui.version:
+/home/jelle/src/VoyeSeqProject/dpf/utils/symbols/lv2-ui.version:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o:
 
-CMakeFiles/VoyeSeq-lv2-ui.dir/src/dpf/distrho/DistrhoUIMain.cpp.o:
+CMakeFiles/VoyeSeq-lv2-ui.dir/dpf/distrho/DistrhoUIMain.cpp.o:
 
 libVoyeSeq-ui.a:
 

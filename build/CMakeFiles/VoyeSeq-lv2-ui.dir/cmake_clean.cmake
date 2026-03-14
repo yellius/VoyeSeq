@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/VoyeSeq-lv2-ui.dir/link.d"
-  "CMakeFiles/VoyeSeq-lv2-ui.dir/src/dpf/distrho/DistrhoUIMain.cpp.o"
-  "CMakeFiles/VoyeSeq-lv2-ui.dir/src/dpf/distrho/DistrhoUIMain.cpp.o.d"
+  "CMakeFiles/VoyeSeq-lv2-ui.dir/dpf/distrho/DistrhoUIMain.cpp.o"
+  "CMakeFiles/VoyeSeq-lv2-ui.dir/dpf/distrho/DistrhoUIMain.cpp.o.d"
   "bin/VoyeSeq.lv2/VoyeSeq_ui.pdb"
   "bin/VoyeSeq.lv2/VoyeSeq_ui.so"
 )

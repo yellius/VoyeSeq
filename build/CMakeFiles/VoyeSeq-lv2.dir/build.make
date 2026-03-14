@@ -72,28 +72,28 @@ include CMakeFiles/VoyeSeq-lv2.dir/flags.make
 CMakeFiles/VoyeSeq-lv2.dir/codegen:
 .PHONY : CMakeFiles/VoyeSeq-lv2.dir/codegen
 
-CMakeFiles/VoyeSeq-lv2.dir/src/dpf/distrho/DistrhoPluginMain.cpp.o: CMakeFiles/VoyeSeq-lv2.dir/flags.make
-CMakeFiles/VoyeSeq-lv2.dir/src/dpf/distrho/DistrhoPluginMain.cpp.o: /home/jelle/src/VoyeSeqProject/src/dpf/distrho/DistrhoPluginMain.cpp
-CMakeFiles/VoyeSeq-lv2.dir/src/dpf/distrho/DistrhoPluginMain.cpp.o: CMakeFiles/VoyeSeq-lv2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jelle/src/VoyeSeqProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/VoyeSeq-lv2.dir/src/dpf/distrho/DistrhoPluginMain.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VoyeSeq-lv2.dir/src/dpf/distrho/DistrhoPluginMain.cpp.o -MF CMakeFiles/VoyeSeq-lv2.dir/src/dpf/distrho/DistrhoPluginMain.cpp.o.d -o CMakeFiles/VoyeSeq-lv2.dir/src/dpf/distrho/DistrhoPluginMain.cpp.o -c /home/jelle/src/VoyeSeqProject/src/dpf/distrho/DistrhoPluginMain.cpp
+CMakeFiles/VoyeSeq-lv2.dir/dpf/distrho/DistrhoPluginMain.cpp.o: CMakeFiles/VoyeSeq-lv2.dir/flags.make
+CMakeFiles/VoyeSeq-lv2.dir/dpf/distrho/DistrhoPluginMain.cpp.o: /home/jelle/src/VoyeSeqProject/dpf/distrho/DistrhoPluginMain.cpp
+CMakeFiles/VoyeSeq-lv2.dir/dpf/distrho/DistrhoPluginMain.cpp.o: CMakeFiles/VoyeSeq-lv2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jelle/src/VoyeSeqProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/VoyeSeq-lv2.dir/dpf/distrho/DistrhoPluginMain.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VoyeSeq-lv2.dir/dpf/distrho/DistrhoPluginMain.cpp.o -MF CMakeFiles/VoyeSeq-lv2.dir/dpf/distrho/DistrhoPluginMain.cpp.o.d -o CMakeFiles/VoyeSeq-lv2.dir/dpf/distrho/DistrhoPluginMain.cpp.o -c /home/jelle/src/VoyeSeqProject/dpf/distrho/DistrhoPluginMain.cpp
 
-CMakeFiles/VoyeSeq-lv2.dir/src/dpf/distrho/DistrhoPluginMain.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VoyeSeq-lv2.dir/src/dpf/distrho/DistrhoPluginMain.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jelle/src/VoyeSeqProject/src/dpf/distrho/DistrhoPluginMain.cpp > CMakeFiles/VoyeSeq-lv2.dir/src/dpf/distrho/DistrhoPluginMain.cpp.i
+CMakeFiles/VoyeSeq-lv2.dir/dpf/distrho/DistrhoPluginMain.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VoyeSeq-lv2.dir/dpf/distrho/DistrhoPluginMain.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jelle/src/VoyeSeqProject/dpf/distrho/DistrhoPluginMain.cpp > CMakeFiles/VoyeSeq-lv2.dir/dpf/distrho/DistrhoPluginMain.cpp.i
 
-CMakeFiles/VoyeSeq-lv2.dir/src/dpf/distrho/DistrhoPluginMain.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VoyeSeq-lv2.dir/src/dpf/distrho/DistrhoPluginMain.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jelle/src/VoyeSeqProject/src/dpf/distrho/DistrhoPluginMain.cpp -o CMakeFiles/VoyeSeq-lv2.dir/src/dpf/distrho/DistrhoPluginMain.cpp.s
+CMakeFiles/VoyeSeq-lv2.dir/dpf/distrho/DistrhoPluginMain.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VoyeSeq-lv2.dir/dpf/distrho/DistrhoPluginMain.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jelle/src/VoyeSeqProject/dpf/distrho/DistrhoPluginMain.cpp -o CMakeFiles/VoyeSeq-lv2.dir/dpf/distrho/DistrhoPluginMain.cpp.s
 
 # Object files for target VoyeSeq-lv2
 VoyeSeq__lv2_OBJECTS = \
-"CMakeFiles/VoyeSeq-lv2.dir/src/dpf/distrho/DistrhoPluginMain.cpp.o"
+"CMakeFiles/VoyeSeq-lv2.dir/dpf/distrho/DistrhoPluginMain.cpp.o"
 
 # External object files for target VoyeSeq-lv2
 VoyeSeq__lv2_EXTERNAL_OBJECTS =
 
-bin/VoyeSeq.lv2/VoyeSeq_dsp.so: CMakeFiles/VoyeSeq-lv2.dir/src/dpf/distrho/DistrhoPluginMain.cpp.o
+bin/VoyeSeq.lv2/VoyeSeq_dsp.so: CMakeFiles/VoyeSeq-lv2.dir/dpf/distrho/DistrhoPluginMain.cpp.o
 bin/VoyeSeq.lv2/VoyeSeq_dsp.so: CMakeFiles/VoyeSeq-lv2.dir/build.make
 bin/VoyeSeq.lv2/VoyeSeq_dsp.so: CMakeFiles/VoyeSeq-lv2.dir/compiler_depend.ts
 bin/VoyeSeq.lv2/VoyeSeq_dsp.so: libVoyeSeq-dsp.a

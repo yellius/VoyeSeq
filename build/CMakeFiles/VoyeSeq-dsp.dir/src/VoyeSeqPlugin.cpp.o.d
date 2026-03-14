@@ -2,11 +2,11 @@ CMakeFiles/VoyeSeq-dsp.dir/src/VoyeSeqPlugin.cpp.o: \
  /home/jelle/src/VoyeSeqProject/src/VoyeSeqPlugin.cpp \
  /usr/include/stdc-predef.h \
  /home/jelle/src/VoyeSeqProject/src/DistrhoPluginInfo.h \
- /home/jelle/src/VoyeSeqProject/src/dpf/distrho/DistrhoPlugin.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/distrho/DistrhoDetails.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/distrho/extra/String.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/distrho/extra/../DistrhoUtils.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/distrho/extra/../src/DistrhoDefines.h \
+ /home/jelle/src/VoyeSeqProject/dpf/distrho/DistrhoPlugin.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/distrho/DistrhoDetails.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/distrho/extra/String.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/distrho/extra/../DistrhoUtils.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/distrho/extra/../src/DistrhoDefines.h \
  /usr/include/c++/15.2.1/cstdarg \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
@@ -90,8 +90,8 @@ CMakeFiles/VoyeSeq-dsp.dir/src/VoyeSeqPlugin.cpp.o: \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/wchar.h \
  /usr/include/bits/stdint-uintn.h /usr/include/bits/stdint-least.h \
- /home/jelle/src/VoyeSeqProject/src/dpf/distrho/extra/../extra/ScopedSafeLocale.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/distrho/extra/../extra/../DistrhoUtils.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/distrho/extra/../extra/ScopedSafeLocale.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/distrho/extra/../extra/../DistrhoUtils.hpp \
  /usr/include/c++/15.2.1/clocale /usr/include/locale.h \
  /usr/include/bits/locale.h /usr/include/c++/15.2.1/algorithm \
  /usr/include/c++/15.2.1/bits/stl_algo.h \
@@ -117,8 +117,8 @@ CMakeFiles/VoyeSeq-dsp.dir/src/VoyeSeqPlugin.cpp.o: \
  /usr/include/c++/15.2.1/bits/ostream_insert.h \
  /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
  /usr/include/c++/15.2.1/bits/string_view.tcc \
- /home/jelle/src/VoyeSeqProject/src/dpf/distrho/extra/LeakDetector.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/distrho/src/DistrhoPluginChecks.h \
+ /home/jelle/src/VoyeSeqProject/dpf/distrho/extra/LeakDetector.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/distrho/src/DistrhoPluginChecks.h \
  /home/jelle/src/VoyeSeqProject/src/DistrhoPluginInfo.h \
  /home/jelle/src/VoyeSeqProject/src/VoyeSeqPlugin.hpp \
  /home/jelle/src/VoyeSeqProject/src/SequencerEngine.hpp \

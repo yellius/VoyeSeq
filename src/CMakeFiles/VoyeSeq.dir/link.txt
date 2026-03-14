@@ -1,2 +1,0 @@
-/usr/bin/ar qc libVoyeSeq.a CMakeFiles/VoyeSeq.dir/_dpf_empty.c.o
-/usr/bin/ranlib libVoyeSeq.a

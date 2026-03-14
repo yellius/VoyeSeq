@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/jelle/src/VoyeSeqProject/src/dpf/distrho/DistrhoPluginMain.cpp" "CMakeFiles/VoyeSeq-jack.dir/src/dpf/distrho/DistrhoPluginMain.cpp.o" "gcc" "CMakeFiles/VoyeSeq-jack.dir/src/dpf/distrho/DistrhoPluginMain.cpp.o.d"
-  "/home/jelle/src/VoyeSeqProject/src/dpf/distrho/DistrhoUIMain.cpp" "CMakeFiles/VoyeSeq-jack.dir/src/dpf/distrho/DistrhoUIMain.cpp.o" "gcc" "CMakeFiles/VoyeSeq-jack.dir/src/dpf/distrho/DistrhoUIMain.cpp.o.d"
+  "/home/jelle/src/VoyeSeqProject/dpf/distrho/DistrhoPluginMain.cpp" "CMakeFiles/VoyeSeq-jack.dir/dpf/distrho/DistrhoPluginMain.cpp.o" "gcc" "CMakeFiles/VoyeSeq-jack.dir/dpf/distrho/DistrhoPluginMain.cpp.o.d"
+  "/home/jelle/src/VoyeSeqProject/dpf/distrho/DistrhoUIMain.cpp" "CMakeFiles/VoyeSeq-jack.dir/dpf/distrho/DistrhoUIMain.cpp.o" "gcc" "CMakeFiles/VoyeSeq-jack.dir/dpf/distrho/DistrhoUIMain.cpp.o.d"
   "" "bin/VoyeSeq" "gcc" "CMakeFiles/VoyeSeq-jack.dir/link.d"
   )
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/jelle/src/VoyeSeqProject/src/dpf
+# Install script for directory: /home/jelle/src/VoyeSeqProject/dpf
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

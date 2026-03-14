@@ -2,7 +2,7 @@
 @prefix ui:   <http://lv2plug.in/ns/extensions/ui#> .
 @prefix opts: <http://lv2plug.in/ns/ext/options#> .
 
-<http://plantenberg.nl/voyeseq#DPF_UI>
+<https://github.com/yellius/VoyeSeq#DPF_UI>
     lv2:extensionData opts:interface ,
                       ui:idleInterface ,
                       ui:showInterface ;

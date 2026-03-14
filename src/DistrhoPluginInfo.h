@@ -19,7 +19,7 @@
 
 #define DISTRHO_PLUGIN_BRAND   "DISTRHO"
 #define DISTRHO_PLUGIN_NAME    "VoyeSeq"
-#define DISTRHO_PLUGIN_URI     "http://plantenberg.nl/voyeseq"
+#define DISTRHO_PLUGIN_URI     "https://github.com/yellius/VoyeSeq"
 #define DISTRHO_PLUGIN_CLAP_ID "distrho.voyeseq"
 
 #define DISTRHO_PLUGIN_BRAND_ID  Dstr

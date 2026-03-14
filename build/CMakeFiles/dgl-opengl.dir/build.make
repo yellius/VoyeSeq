@@ -72,348 +72,348 @@ include CMakeFiles/dgl-opengl.dir/flags.make
 CMakeFiles/dgl-opengl.dir/codegen:
 .PHONY : CMakeFiles/dgl-opengl.dir/codegen
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Application.cpp.o: CMakeFiles/dgl-opengl.dir/flags.make
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Application.cpp.o: /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/Application.cpp
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Application.cpp.o: CMakeFiles/dgl-opengl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jelle/src/VoyeSeqProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Application.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Application.cpp.o -MF CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Application.cpp.o.d -o CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Application.cpp.o -c /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/Application.cpp
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Application.cpp.o: CMakeFiles/dgl-opengl.dir/flags.make
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Application.cpp.o: /home/jelle/src/VoyeSeqProject/dpf/dgl/src/Application.cpp
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Application.cpp.o: CMakeFiles/dgl-opengl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jelle/src/VoyeSeqProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Application.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Application.cpp.o -MF CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Application.cpp.o.d -o CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Application.cpp.o -c /home/jelle/src/VoyeSeqProject/dpf/dgl/src/Application.cpp
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Application.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Application.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/Application.cpp > CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Application.cpp.i
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Application.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Application.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jelle/src/VoyeSeqProject/dpf/dgl/src/Application.cpp > CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Application.cpp.i
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Application.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Application.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/Application.cpp -o CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Application.cpp.s
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Application.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Application.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jelle/src/VoyeSeqProject/dpf/dgl/src/Application.cpp -o CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Application.cpp.s
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ApplicationPrivateData.cpp.o: CMakeFiles/dgl-opengl.dir/flags.make
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ApplicationPrivateData.cpp.o: /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/ApplicationPrivateData.cpp
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ApplicationPrivateData.cpp.o: CMakeFiles/dgl-opengl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jelle/src/VoyeSeqProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ApplicationPrivateData.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ApplicationPrivateData.cpp.o -MF CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ApplicationPrivateData.cpp.o.d -o CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ApplicationPrivateData.cpp.o -c /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/ApplicationPrivateData.cpp
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ApplicationPrivateData.cpp.o: CMakeFiles/dgl-opengl.dir/flags.make
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ApplicationPrivateData.cpp.o: /home/jelle/src/VoyeSeqProject/dpf/dgl/src/ApplicationPrivateData.cpp
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ApplicationPrivateData.cpp.o: CMakeFiles/dgl-opengl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jelle/src/VoyeSeqProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ApplicationPrivateData.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ApplicationPrivateData.cpp.o -MF CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ApplicationPrivateData.cpp.o.d -o CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ApplicationPrivateData.cpp.o -c /home/jelle/src/VoyeSeqProject/dpf/dgl/src/ApplicationPrivateData.cpp
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ApplicationPrivateData.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ApplicationPrivateData.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/ApplicationPrivateData.cpp > CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ApplicationPrivateData.cpp.i
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ApplicationPrivateData.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ApplicationPrivateData.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jelle/src/VoyeSeqProject/dpf/dgl/src/ApplicationPrivateData.cpp > CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ApplicationPrivateData.cpp.i
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ApplicationPrivateData.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ApplicationPrivateData.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/ApplicationPrivateData.cpp -o CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ApplicationPrivateData.cpp.s
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ApplicationPrivateData.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ApplicationPrivateData.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jelle/src/VoyeSeqProject/dpf/dgl/src/ApplicationPrivateData.cpp -o CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ApplicationPrivateData.cpp.s
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Color.cpp.o: CMakeFiles/dgl-opengl.dir/flags.make
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Color.cpp.o: /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/Color.cpp
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Color.cpp.o: CMakeFiles/dgl-opengl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jelle/src/VoyeSeqProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Color.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Color.cpp.o -MF CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Color.cpp.o.d -o CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Color.cpp.o -c /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/Color.cpp
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Color.cpp.o: CMakeFiles/dgl-opengl.dir/flags.make
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Color.cpp.o: /home/jelle/src/VoyeSeqProject/dpf/dgl/src/Color.cpp
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Color.cpp.o: CMakeFiles/dgl-opengl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jelle/src/VoyeSeqProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Color.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Color.cpp.o -MF CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Color.cpp.o.d -o CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Color.cpp.o -c /home/jelle/src/VoyeSeqProject/dpf/dgl/src/Color.cpp
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Color.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Color.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/Color.cpp > CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Color.cpp.i
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Color.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Color.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jelle/src/VoyeSeqProject/dpf/dgl/src/Color.cpp > CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Color.cpp.i
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Color.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Color.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/Color.cpp -o CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Color.cpp.s
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Color.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Color.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jelle/src/VoyeSeqProject/dpf/dgl/src/Color.cpp -o CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Color.cpp.s
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/EventHandlers.cpp.o: CMakeFiles/dgl-opengl.dir/flags.make
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/EventHandlers.cpp.o: /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/EventHandlers.cpp
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/EventHandlers.cpp.o: CMakeFiles/dgl-opengl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jelle/src/VoyeSeqProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/EventHandlers.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/EventHandlers.cpp.o -MF CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/EventHandlers.cpp.o.d -o CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/EventHandlers.cpp.o -c /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/EventHandlers.cpp
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/EventHandlers.cpp.o: CMakeFiles/dgl-opengl.dir/flags.make
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/EventHandlers.cpp.o: /home/jelle/src/VoyeSeqProject/dpf/dgl/src/EventHandlers.cpp
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/EventHandlers.cpp.o: CMakeFiles/dgl-opengl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jelle/src/VoyeSeqProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/dgl-opengl.dir/dpf/dgl/src/EventHandlers.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dgl-opengl.dir/dpf/dgl/src/EventHandlers.cpp.o -MF CMakeFiles/dgl-opengl.dir/dpf/dgl/src/EventHandlers.cpp.o.d -o CMakeFiles/dgl-opengl.dir/dpf/dgl/src/EventHandlers.cpp.o -c /home/jelle/src/VoyeSeqProject/dpf/dgl/src/EventHandlers.cpp
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/EventHandlers.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/EventHandlers.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/EventHandlers.cpp > CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/EventHandlers.cpp.i
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/EventHandlers.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dgl-opengl.dir/dpf/dgl/src/EventHandlers.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jelle/src/VoyeSeqProject/dpf/dgl/src/EventHandlers.cpp > CMakeFiles/dgl-opengl.dir/dpf/dgl/src/EventHandlers.cpp.i
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/EventHandlers.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/EventHandlers.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/EventHandlers.cpp -o CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/EventHandlers.cpp.s
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/EventHandlers.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dgl-opengl.dir/dpf/dgl/src/EventHandlers.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jelle/src/VoyeSeqProject/dpf/dgl/src/EventHandlers.cpp -o CMakeFiles/dgl-opengl.dir/dpf/dgl/src/EventHandlers.cpp.s
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Geometry.cpp.o: CMakeFiles/dgl-opengl.dir/flags.make
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Geometry.cpp.o: /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/Geometry.cpp
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Geometry.cpp.o: CMakeFiles/dgl-opengl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jelle/src/VoyeSeqProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Geometry.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Geometry.cpp.o -MF CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Geometry.cpp.o.d -o CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Geometry.cpp.o -c /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/Geometry.cpp
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Geometry.cpp.o: CMakeFiles/dgl-opengl.dir/flags.make
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Geometry.cpp.o: /home/jelle/src/VoyeSeqProject/dpf/dgl/src/Geometry.cpp
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Geometry.cpp.o: CMakeFiles/dgl-opengl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jelle/src/VoyeSeqProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Geometry.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Geometry.cpp.o -MF CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Geometry.cpp.o.d -o CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Geometry.cpp.o -c /home/jelle/src/VoyeSeqProject/dpf/dgl/src/Geometry.cpp
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Geometry.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Geometry.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/Geometry.cpp > CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Geometry.cpp.i
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Geometry.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Geometry.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jelle/src/VoyeSeqProject/dpf/dgl/src/Geometry.cpp > CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Geometry.cpp.i
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Geometry.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Geometry.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/Geometry.cpp -o CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Geometry.cpp.s
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Geometry.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Geometry.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jelle/src/VoyeSeqProject/dpf/dgl/src/Geometry.cpp -o CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Geometry.cpp.s
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ImageBase.cpp.o: CMakeFiles/dgl-opengl.dir/flags.make
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ImageBase.cpp.o: /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/ImageBase.cpp
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ImageBase.cpp.o: CMakeFiles/dgl-opengl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jelle/src/VoyeSeqProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ImageBase.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ImageBase.cpp.o -MF CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ImageBase.cpp.o.d -o CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ImageBase.cpp.o -c /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/ImageBase.cpp
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ImageBase.cpp.o: CMakeFiles/dgl-opengl.dir/flags.make
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ImageBase.cpp.o: /home/jelle/src/VoyeSeqProject/dpf/dgl/src/ImageBase.cpp
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ImageBase.cpp.o: CMakeFiles/dgl-opengl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jelle/src/VoyeSeqProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ImageBase.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ImageBase.cpp.o -MF CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ImageBase.cpp.o.d -o CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ImageBase.cpp.o -c /home/jelle/src/VoyeSeqProject/dpf/dgl/src/ImageBase.cpp
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ImageBase.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ImageBase.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/ImageBase.cpp > CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ImageBase.cpp.i
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ImageBase.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ImageBase.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jelle/src/VoyeSeqProject/dpf/dgl/src/ImageBase.cpp > CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ImageBase.cpp.i
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ImageBase.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ImageBase.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/ImageBase.cpp -o CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ImageBase.cpp.s
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ImageBase.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ImageBase.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jelle/src/VoyeSeqProject/dpf/dgl/src/ImageBase.cpp -o CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ImageBase.cpp.s
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ImageBaseWidgets.cpp.o: CMakeFiles/dgl-opengl.dir/flags.make
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ImageBaseWidgets.cpp.o: /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/ImageBaseWidgets.cpp
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ImageBaseWidgets.cpp.o: CMakeFiles/dgl-opengl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jelle/src/VoyeSeqProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ImageBaseWidgets.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ImageBaseWidgets.cpp.o -MF CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ImageBaseWidgets.cpp.o.d -o CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ImageBaseWidgets.cpp.o -c /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/ImageBaseWidgets.cpp
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ImageBaseWidgets.cpp.o: CMakeFiles/dgl-opengl.dir/flags.make
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ImageBaseWidgets.cpp.o: /home/jelle/src/VoyeSeqProject/dpf/dgl/src/ImageBaseWidgets.cpp
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ImageBaseWidgets.cpp.o: CMakeFiles/dgl-opengl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jelle/src/VoyeSeqProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ImageBaseWidgets.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ImageBaseWidgets.cpp.o -MF CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ImageBaseWidgets.cpp.o.d -o CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ImageBaseWidgets.cpp.o -c /home/jelle/src/VoyeSeqProject/dpf/dgl/src/ImageBaseWidgets.cpp
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ImageBaseWidgets.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ImageBaseWidgets.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/ImageBaseWidgets.cpp > CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ImageBaseWidgets.cpp.i
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ImageBaseWidgets.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ImageBaseWidgets.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jelle/src/VoyeSeqProject/dpf/dgl/src/ImageBaseWidgets.cpp > CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ImageBaseWidgets.cpp.i
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ImageBaseWidgets.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ImageBaseWidgets.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/ImageBaseWidgets.cpp -o CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ImageBaseWidgets.cpp.s
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ImageBaseWidgets.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ImageBaseWidgets.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jelle/src/VoyeSeqProject/dpf/dgl/src/ImageBaseWidgets.cpp -o CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ImageBaseWidgets.cpp.s
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Layout.cpp.o: CMakeFiles/dgl-opengl.dir/flags.make
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Layout.cpp.o: /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/Layout.cpp
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Layout.cpp.o: CMakeFiles/dgl-opengl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jelle/src/VoyeSeqProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Layout.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Layout.cpp.o -MF CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Layout.cpp.o.d -o CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Layout.cpp.o -c /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/Layout.cpp
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Layout.cpp.o: CMakeFiles/dgl-opengl.dir/flags.make
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Layout.cpp.o: /home/jelle/src/VoyeSeqProject/dpf/dgl/src/Layout.cpp
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Layout.cpp.o: CMakeFiles/dgl-opengl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jelle/src/VoyeSeqProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Layout.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Layout.cpp.o -MF CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Layout.cpp.o.d -o CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Layout.cpp.o -c /home/jelle/src/VoyeSeqProject/dpf/dgl/src/Layout.cpp
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Layout.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Layout.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/Layout.cpp > CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Layout.cpp.i
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Layout.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Layout.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jelle/src/VoyeSeqProject/dpf/dgl/src/Layout.cpp > CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Layout.cpp.i
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Layout.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Layout.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/Layout.cpp -o CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Layout.cpp.s
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Layout.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Layout.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jelle/src/VoyeSeqProject/dpf/dgl/src/Layout.cpp -o CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Layout.cpp.s
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/SubWidget.cpp.o: CMakeFiles/dgl-opengl.dir/flags.make
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/SubWidget.cpp.o: /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/SubWidget.cpp
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/SubWidget.cpp.o: CMakeFiles/dgl-opengl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jelle/src/VoyeSeqProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/SubWidget.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/SubWidget.cpp.o -MF CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/SubWidget.cpp.o.d -o CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/SubWidget.cpp.o -c /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/SubWidget.cpp
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/SubWidget.cpp.o: CMakeFiles/dgl-opengl.dir/flags.make
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/SubWidget.cpp.o: /home/jelle/src/VoyeSeqProject/dpf/dgl/src/SubWidget.cpp
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/SubWidget.cpp.o: CMakeFiles/dgl-opengl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jelle/src/VoyeSeqProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/dgl-opengl.dir/dpf/dgl/src/SubWidget.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dgl-opengl.dir/dpf/dgl/src/SubWidget.cpp.o -MF CMakeFiles/dgl-opengl.dir/dpf/dgl/src/SubWidget.cpp.o.d -o CMakeFiles/dgl-opengl.dir/dpf/dgl/src/SubWidget.cpp.o -c /home/jelle/src/VoyeSeqProject/dpf/dgl/src/SubWidget.cpp
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/SubWidget.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/SubWidget.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/SubWidget.cpp > CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/SubWidget.cpp.i
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/SubWidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dgl-opengl.dir/dpf/dgl/src/SubWidget.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jelle/src/VoyeSeqProject/dpf/dgl/src/SubWidget.cpp > CMakeFiles/dgl-opengl.dir/dpf/dgl/src/SubWidget.cpp.i
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/SubWidget.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/SubWidget.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/SubWidget.cpp -o CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/SubWidget.cpp.s
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/SubWidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dgl-opengl.dir/dpf/dgl/src/SubWidget.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jelle/src/VoyeSeqProject/dpf/dgl/src/SubWidget.cpp -o CMakeFiles/dgl-opengl.dir/dpf/dgl/src/SubWidget.cpp.s
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/SubWidgetPrivateData.cpp.o: CMakeFiles/dgl-opengl.dir/flags.make
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/SubWidgetPrivateData.cpp.o: /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/SubWidgetPrivateData.cpp
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/SubWidgetPrivateData.cpp.o: CMakeFiles/dgl-opengl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jelle/src/VoyeSeqProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/SubWidgetPrivateData.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/SubWidgetPrivateData.cpp.o -MF CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/SubWidgetPrivateData.cpp.o.d -o CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/SubWidgetPrivateData.cpp.o -c /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/SubWidgetPrivateData.cpp
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/SubWidgetPrivateData.cpp.o: CMakeFiles/dgl-opengl.dir/flags.make
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/SubWidgetPrivateData.cpp.o: /home/jelle/src/VoyeSeqProject/dpf/dgl/src/SubWidgetPrivateData.cpp
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/SubWidgetPrivateData.cpp.o: CMakeFiles/dgl-opengl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jelle/src/VoyeSeqProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/dgl-opengl.dir/dpf/dgl/src/SubWidgetPrivateData.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dgl-opengl.dir/dpf/dgl/src/SubWidgetPrivateData.cpp.o -MF CMakeFiles/dgl-opengl.dir/dpf/dgl/src/SubWidgetPrivateData.cpp.o.d -o CMakeFiles/dgl-opengl.dir/dpf/dgl/src/SubWidgetPrivateData.cpp.o -c /home/jelle/src/VoyeSeqProject/dpf/dgl/src/SubWidgetPrivateData.cpp
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/SubWidgetPrivateData.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/SubWidgetPrivateData.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/SubWidgetPrivateData.cpp > CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/SubWidgetPrivateData.cpp.i
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/SubWidgetPrivateData.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dgl-opengl.dir/dpf/dgl/src/SubWidgetPrivateData.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jelle/src/VoyeSeqProject/dpf/dgl/src/SubWidgetPrivateData.cpp > CMakeFiles/dgl-opengl.dir/dpf/dgl/src/SubWidgetPrivateData.cpp.i
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/SubWidgetPrivateData.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/SubWidgetPrivateData.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/SubWidgetPrivateData.cpp -o CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/SubWidgetPrivateData.cpp.s
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/SubWidgetPrivateData.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dgl-opengl.dir/dpf/dgl/src/SubWidgetPrivateData.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jelle/src/VoyeSeqProject/dpf/dgl/src/SubWidgetPrivateData.cpp -o CMakeFiles/dgl-opengl.dir/dpf/dgl/src/SubWidgetPrivateData.cpp.s
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/TopLevelWidget.cpp.o: CMakeFiles/dgl-opengl.dir/flags.make
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/TopLevelWidget.cpp.o: /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/TopLevelWidget.cpp
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/TopLevelWidget.cpp.o: CMakeFiles/dgl-opengl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jelle/src/VoyeSeqProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/TopLevelWidget.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/TopLevelWidget.cpp.o -MF CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/TopLevelWidget.cpp.o.d -o CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/TopLevelWidget.cpp.o -c /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/TopLevelWidget.cpp
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/TopLevelWidget.cpp.o: CMakeFiles/dgl-opengl.dir/flags.make
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/TopLevelWidget.cpp.o: /home/jelle/src/VoyeSeqProject/dpf/dgl/src/TopLevelWidget.cpp
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/TopLevelWidget.cpp.o: CMakeFiles/dgl-opengl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jelle/src/VoyeSeqProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/dgl-opengl.dir/dpf/dgl/src/TopLevelWidget.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dgl-opengl.dir/dpf/dgl/src/TopLevelWidget.cpp.o -MF CMakeFiles/dgl-opengl.dir/dpf/dgl/src/TopLevelWidget.cpp.o.d -o CMakeFiles/dgl-opengl.dir/dpf/dgl/src/TopLevelWidget.cpp.o -c /home/jelle/src/VoyeSeqProject/dpf/dgl/src/TopLevelWidget.cpp
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/TopLevelWidget.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/TopLevelWidget.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/TopLevelWidget.cpp > CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/TopLevelWidget.cpp.i
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/TopLevelWidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dgl-opengl.dir/dpf/dgl/src/TopLevelWidget.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jelle/src/VoyeSeqProject/dpf/dgl/src/TopLevelWidget.cpp > CMakeFiles/dgl-opengl.dir/dpf/dgl/src/TopLevelWidget.cpp.i
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/TopLevelWidget.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/TopLevelWidget.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/TopLevelWidget.cpp -o CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/TopLevelWidget.cpp.s
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/TopLevelWidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dgl-opengl.dir/dpf/dgl/src/TopLevelWidget.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jelle/src/VoyeSeqProject/dpf/dgl/src/TopLevelWidget.cpp -o CMakeFiles/dgl-opengl.dir/dpf/dgl/src/TopLevelWidget.cpp.s
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/TopLevelWidgetPrivateData.cpp.o: CMakeFiles/dgl-opengl.dir/flags.make
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/TopLevelWidgetPrivateData.cpp.o: /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/TopLevelWidgetPrivateData.cpp
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/TopLevelWidgetPrivateData.cpp.o: CMakeFiles/dgl-opengl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jelle/src/VoyeSeqProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/TopLevelWidgetPrivateData.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/TopLevelWidgetPrivateData.cpp.o -MF CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/TopLevelWidgetPrivateData.cpp.o.d -o CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/TopLevelWidgetPrivateData.cpp.o -c /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/TopLevelWidgetPrivateData.cpp
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/TopLevelWidgetPrivateData.cpp.o: CMakeFiles/dgl-opengl.dir/flags.make
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/TopLevelWidgetPrivateData.cpp.o: /home/jelle/src/VoyeSeqProject/dpf/dgl/src/TopLevelWidgetPrivateData.cpp
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/TopLevelWidgetPrivateData.cpp.o: CMakeFiles/dgl-opengl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jelle/src/VoyeSeqProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/dgl-opengl.dir/dpf/dgl/src/TopLevelWidgetPrivateData.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dgl-opengl.dir/dpf/dgl/src/TopLevelWidgetPrivateData.cpp.o -MF CMakeFiles/dgl-opengl.dir/dpf/dgl/src/TopLevelWidgetPrivateData.cpp.o.d -o CMakeFiles/dgl-opengl.dir/dpf/dgl/src/TopLevelWidgetPrivateData.cpp.o -c /home/jelle/src/VoyeSeqProject/dpf/dgl/src/TopLevelWidgetPrivateData.cpp
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/TopLevelWidgetPrivateData.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/TopLevelWidgetPrivateData.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/TopLevelWidgetPrivateData.cpp > CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/TopLevelWidgetPrivateData.cpp.i
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/TopLevelWidgetPrivateData.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dgl-opengl.dir/dpf/dgl/src/TopLevelWidgetPrivateData.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jelle/src/VoyeSeqProject/dpf/dgl/src/TopLevelWidgetPrivateData.cpp > CMakeFiles/dgl-opengl.dir/dpf/dgl/src/TopLevelWidgetPrivateData.cpp.i
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/TopLevelWidgetPrivateData.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/TopLevelWidgetPrivateData.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/TopLevelWidgetPrivateData.cpp -o CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/TopLevelWidgetPrivateData.cpp.s
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/TopLevelWidgetPrivateData.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dgl-opengl.dir/dpf/dgl/src/TopLevelWidgetPrivateData.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jelle/src/VoyeSeqProject/dpf/dgl/src/TopLevelWidgetPrivateData.cpp -o CMakeFiles/dgl-opengl.dir/dpf/dgl/src/TopLevelWidgetPrivateData.cpp.s
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Widget.cpp.o: CMakeFiles/dgl-opengl.dir/flags.make
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Widget.cpp.o: /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/Widget.cpp
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Widget.cpp.o: CMakeFiles/dgl-opengl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jelle/src/VoyeSeqProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Widget.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Widget.cpp.o -MF CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Widget.cpp.o.d -o CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Widget.cpp.o -c /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/Widget.cpp
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Widget.cpp.o: CMakeFiles/dgl-opengl.dir/flags.make
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Widget.cpp.o: /home/jelle/src/VoyeSeqProject/dpf/dgl/src/Widget.cpp
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Widget.cpp.o: CMakeFiles/dgl-opengl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jelle/src/VoyeSeqProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Widget.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Widget.cpp.o -MF CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Widget.cpp.o.d -o CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Widget.cpp.o -c /home/jelle/src/VoyeSeqProject/dpf/dgl/src/Widget.cpp
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Widget.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Widget.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/Widget.cpp > CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Widget.cpp.i
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Widget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Widget.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jelle/src/VoyeSeqProject/dpf/dgl/src/Widget.cpp > CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Widget.cpp.i
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Widget.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Widget.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/Widget.cpp -o CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Widget.cpp.s
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Widget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Widget.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jelle/src/VoyeSeqProject/dpf/dgl/src/Widget.cpp -o CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Widget.cpp.s
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/WidgetPrivateData.cpp.o: CMakeFiles/dgl-opengl.dir/flags.make
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/WidgetPrivateData.cpp.o: /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/WidgetPrivateData.cpp
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/WidgetPrivateData.cpp.o: CMakeFiles/dgl-opengl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jelle/src/VoyeSeqProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/WidgetPrivateData.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/WidgetPrivateData.cpp.o -MF CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/WidgetPrivateData.cpp.o.d -o CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/WidgetPrivateData.cpp.o -c /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/WidgetPrivateData.cpp
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/WidgetPrivateData.cpp.o: CMakeFiles/dgl-opengl.dir/flags.make
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/WidgetPrivateData.cpp.o: /home/jelle/src/VoyeSeqProject/dpf/dgl/src/WidgetPrivateData.cpp
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/WidgetPrivateData.cpp.o: CMakeFiles/dgl-opengl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jelle/src/VoyeSeqProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/dgl-opengl.dir/dpf/dgl/src/WidgetPrivateData.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dgl-opengl.dir/dpf/dgl/src/WidgetPrivateData.cpp.o -MF CMakeFiles/dgl-opengl.dir/dpf/dgl/src/WidgetPrivateData.cpp.o.d -o CMakeFiles/dgl-opengl.dir/dpf/dgl/src/WidgetPrivateData.cpp.o -c /home/jelle/src/VoyeSeqProject/dpf/dgl/src/WidgetPrivateData.cpp
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/WidgetPrivateData.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/WidgetPrivateData.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/WidgetPrivateData.cpp > CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/WidgetPrivateData.cpp.i
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/WidgetPrivateData.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dgl-opengl.dir/dpf/dgl/src/WidgetPrivateData.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jelle/src/VoyeSeqProject/dpf/dgl/src/WidgetPrivateData.cpp > CMakeFiles/dgl-opengl.dir/dpf/dgl/src/WidgetPrivateData.cpp.i
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/WidgetPrivateData.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/WidgetPrivateData.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/WidgetPrivateData.cpp -o CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/WidgetPrivateData.cpp.s
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/WidgetPrivateData.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dgl-opengl.dir/dpf/dgl/src/WidgetPrivateData.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jelle/src/VoyeSeqProject/dpf/dgl/src/WidgetPrivateData.cpp -o CMakeFiles/dgl-opengl.dir/dpf/dgl/src/WidgetPrivateData.cpp.s
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Window.cpp.o: CMakeFiles/dgl-opengl.dir/flags.make
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Window.cpp.o: /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/Window.cpp
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Window.cpp.o: CMakeFiles/dgl-opengl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jelle/src/VoyeSeqProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Window.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Window.cpp.o -MF CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Window.cpp.o.d -o CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Window.cpp.o -c /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/Window.cpp
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Window.cpp.o: CMakeFiles/dgl-opengl.dir/flags.make
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Window.cpp.o: /home/jelle/src/VoyeSeqProject/dpf/dgl/src/Window.cpp
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Window.cpp.o: CMakeFiles/dgl-opengl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jelle/src/VoyeSeqProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Window.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Window.cpp.o -MF CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Window.cpp.o.d -o CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Window.cpp.o -c /home/jelle/src/VoyeSeqProject/dpf/dgl/src/Window.cpp
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Window.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Window.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/Window.cpp > CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Window.cpp.i
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Window.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Window.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jelle/src/VoyeSeqProject/dpf/dgl/src/Window.cpp > CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Window.cpp.i
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Window.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Window.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/Window.cpp -o CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Window.cpp.s
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Window.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Window.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jelle/src/VoyeSeqProject/dpf/dgl/src/Window.cpp -o CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Window.cpp.s
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/WindowPrivateData.cpp.o: CMakeFiles/dgl-opengl.dir/flags.make
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/WindowPrivateData.cpp.o: /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/WindowPrivateData.cpp
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/WindowPrivateData.cpp.o: CMakeFiles/dgl-opengl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jelle/src/VoyeSeqProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/WindowPrivateData.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/WindowPrivateData.cpp.o -MF CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/WindowPrivateData.cpp.o.d -o CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/WindowPrivateData.cpp.o -c /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/WindowPrivateData.cpp
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/WindowPrivateData.cpp.o: CMakeFiles/dgl-opengl.dir/flags.make
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/WindowPrivateData.cpp.o: /home/jelle/src/VoyeSeqProject/dpf/dgl/src/WindowPrivateData.cpp
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/WindowPrivateData.cpp.o: CMakeFiles/dgl-opengl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jelle/src/VoyeSeqProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/dgl-opengl.dir/dpf/dgl/src/WindowPrivateData.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dgl-opengl.dir/dpf/dgl/src/WindowPrivateData.cpp.o -MF CMakeFiles/dgl-opengl.dir/dpf/dgl/src/WindowPrivateData.cpp.o.d -o CMakeFiles/dgl-opengl.dir/dpf/dgl/src/WindowPrivateData.cpp.o -c /home/jelle/src/VoyeSeqProject/dpf/dgl/src/WindowPrivateData.cpp
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/WindowPrivateData.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/WindowPrivateData.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/WindowPrivateData.cpp > CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/WindowPrivateData.cpp.i
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/WindowPrivateData.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dgl-opengl.dir/dpf/dgl/src/WindowPrivateData.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jelle/src/VoyeSeqProject/dpf/dgl/src/WindowPrivateData.cpp > CMakeFiles/dgl-opengl.dir/dpf/dgl/src/WindowPrivateData.cpp.i
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/WindowPrivateData.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/WindowPrivateData.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/WindowPrivateData.cpp -o CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/WindowPrivateData.cpp.s
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/WindowPrivateData.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dgl-opengl.dir/dpf/dgl/src/WindowPrivateData.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jelle/src/VoyeSeqProject/dpf/dgl/src/WindowPrivateData.cpp -o CMakeFiles/dgl-opengl.dir/dpf/dgl/src/WindowPrivateData.cpp.s
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/OpenGL.cpp.o: CMakeFiles/dgl-opengl.dir/flags.make
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/OpenGL.cpp.o: /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/OpenGL.cpp
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/OpenGL.cpp.o: CMakeFiles/dgl-opengl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jelle/src/VoyeSeqProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/OpenGL.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/OpenGL.cpp.o -MF CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/OpenGL.cpp.o.d -o CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/OpenGL.cpp.o -c /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/OpenGL.cpp
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/OpenGL.cpp.o: CMakeFiles/dgl-opengl.dir/flags.make
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/OpenGL.cpp.o: /home/jelle/src/VoyeSeqProject/dpf/dgl/src/OpenGL.cpp
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/OpenGL.cpp.o: CMakeFiles/dgl-opengl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jelle/src/VoyeSeqProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/dgl-opengl.dir/dpf/dgl/src/OpenGL.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dgl-opengl.dir/dpf/dgl/src/OpenGL.cpp.o -MF CMakeFiles/dgl-opengl.dir/dpf/dgl/src/OpenGL.cpp.o.d -o CMakeFiles/dgl-opengl.dir/dpf/dgl/src/OpenGL.cpp.o -c /home/jelle/src/VoyeSeqProject/dpf/dgl/src/OpenGL.cpp
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/OpenGL.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/OpenGL.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/OpenGL.cpp > CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/OpenGL.cpp.i
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/OpenGL.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dgl-opengl.dir/dpf/dgl/src/OpenGL.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jelle/src/VoyeSeqProject/dpf/dgl/src/OpenGL.cpp > CMakeFiles/dgl-opengl.dir/dpf/dgl/src/OpenGL.cpp.i
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/OpenGL.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/OpenGL.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/OpenGL.cpp -o CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/OpenGL.cpp.s
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/OpenGL.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dgl-opengl.dir/dpf/dgl/src/OpenGL.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jelle/src/VoyeSeqProject/dpf/dgl/src/OpenGL.cpp -o CMakeFiles/dgl-opengl.dir/dpf/dgl/src/OpenGL.cpp.s
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/OpenGL2.cpp.o: CMakeFiles/dgl-opengl.dir/flags.make
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/OpenGL2.cpp.o: /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/OpenGL2.cpp
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/OpenGL2.cpp.o: CMakeFiles/dgl-opengl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jelle/src/VoyeSeqProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/OpenGL2.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/OpenGL2.cpp.o -MF CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/OpenGL2.cpp.o.d -o CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/OpenGL2.cpp.o -c /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/OpenGL2.cpp
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/OpenGL2.cpp.o: CMakeFiles/dgl-opengl.dir/flags.make
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/OpenGL2.cpp.o: /home/jelle/src/VoyeSeqProject/dpf/dgl/src/OpenGL2.cpp
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/OpenGL2.cpp.o: CMakeFiles/dgl-opengl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jelle/src/VoyeSeqProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/dgl-opengl.dir/dpf/dgl/src/OpenGL2.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dgl-opengl.dir/dpf/dgl/src/OpenGL2.cpp.o -MF CMakeFiles/dgl-opengl.dir/dpf/dgl/src/OpenGL2.cpp.o.d -o CMakeFiles/dgl-opengl.dir/dpf/dgl/src/OpenGL2.cpp.o -c /home/jelle/src/VoyeSeqProject/dpf/dgl/src/OpenGL2.cpp
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/OpenGL2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/OpenGL2.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/OpenGL2.cpp > CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/OpenGL2.cpp.i
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/OpenGL2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dgl-opengl.dir/dpf/dgl/src/OpenGL2.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jelle/src/VoyeSeqProject/dpf/dgl/src/OpenGL2.cpp > CMakeFiles/dgl-opengl.dir/dpf/dgl/src/OpenGL2.cpp.i
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/OpenGL2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/OpenGL2.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/OpenGL2.cpp -o CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/OpenGL2.cpp.s
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/OpenGL2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dgl-opengl.dir/dpf/dgl/src/OpenGL2.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jelle/src/VoyeSeqProject/dpf/dgl/src/OpenGL2.cpp -o CMakeFiles/dgl-opengl.dir/dpf/dgl/src/OpenGL2.cpp.s
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/NanoVG.cpp.o: CMakeFiles/dgl-opengl.dir/flags.make
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/NanoVG.cpp.o: /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/NanoVG.cpp
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/NanoVG.cpp.o: CMakeFiles/dgl-opengl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jelle/src/VoyeSeqProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/NanoVG.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/NanoVG.cpp.o -MF CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/NanoVG.cpp.o.d -o CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/NanoVG.cpp.o -c /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/NanoVG.cpp
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/NanoVG.cpp.o: CMakeFiles/dgl-opengl.dir/flags.make
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/NanoVG.cpp.o: /home/jelle/src/VoyeSeqProject/dpf/dgl/src/NanoVG.cpp
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/NanoVG.cpp.o: CMakeFiles/dgl-opengl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jelle/src/VoyeSeqProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/dgl-opengl.dir/dpf/dgl/src/NanoVG.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dgl-opengl.dir/dpf/dgl/src/NanoVG.cpp.o -MF CMakeFiles/dgl-opengl.dir/dpf/dgl/src/NanoVG.cpp.o.d -o CMakeFiles/dgl-opengl.dir/dpf/dgl/src/NanoVG.cpp.o -c /home/jelle/src/VoyeSeqProject/dpf/dgl/src/NanoVG.cpp
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/NanoVG.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/NanoVG.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/NanoVG.cpp > CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/NanoVG.cpp.i
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/NanoVG.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dgl-opengl.dir/dpf/dgl/src/NanoVG.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jelle/src/VoyeSeqProject/dpf/dgl/src/NanoVG.cpp > CMakeFiles/dgl-opengl.dir/dpf/dgl/src/NanoVG.cpp.i
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/NanoVG.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/NanoVG.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/NanoVG.cpp -o CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/NanoVG.cpp.s
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/NanoVG.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dgl-opengl.dir/dpf/dgl/src/NanoVG.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jelle/src/VoyeSeqProject/dpf/dgl/src/NanoVG.cpp -o CMakeFiles/dgl-opengl.dir/dpf/dgl/src/NanoVG.cpp.s
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Resources.cpp.o: CMakeFiles/dgl-opengl.dir/flags.make
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Resources.cpp.o: /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/Resources.cpp
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Resources.cpp.o: CMakeFiles/dgl-opengl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jelle/src/VoyeSeqProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Resources.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Resources.cpp.o -MF CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Resources.cpp.o.d -o CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Resources.cpp.o -c /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/Resources.cpp
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Resources.cpp.o: CMakeFiles/dgl-opengl.dir/flags.make
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Resources.cpp.o: /home/jelle/src/VoyeSeqProject/dpf/dgl/src/Resources.cpp
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Resources.cpp.o: CMakeFiles/dgl-opengl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jelle/src/VoyeSeqProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Resources.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Resources.cpp.o -MF CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Resources.cpp.o.d -o CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Resources.cpp.o -c /home/jelle/src/VoyeSeqProject/dpf/dgl/src/Resources.cpp
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Resources.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Resources.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/Resources.cpp > CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Resources.cpp.i
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Resources.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Resources.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jelle/src/VoyeSeqProject/dpf/dgl/src/Resources.cpp > CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Resources.cpp.i
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Resources.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Resources.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/Resources.cpp -o CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Resources.cpp.s
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Resources.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Resources.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jelle/src/VoyeSeqProject/dpf/dgl/src/Resources.cpp -o CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Resources.cpp.s
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/pugl.cpp.o: CMakeFiles/dgl-opengl.dir/flags.make
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/pugl.cpp.o: /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/pugl.cpp
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/pugl.cpp.o: CMakeFiles/dgl-opengl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jelle/src/VoyeSeqProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/pugl.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/pugl.cpp.o -MF CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/pugl.cpp.o.d -o CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/pugl.cpp.o -c /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/pugl.cpp
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/pugl.cpp.o: CMakeFiles/dgl-opengl.dir/flags.make
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/pugl.cpp.o: /home/jelle/src/VoyeSeqProject/dpf/dgl/src/pugl.cpp
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/pugl.cpp.o: CMakeFiles/dgl-opengl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jelle/src/VoyeSeqProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/dgl-opengl.dir/dpf/dgl/src/pugl.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dgl-opengl.dir/dpf/dgl/src/pugl.cpp.o -MF CMakeFiles/dgl-opengl.dir/dpf/dgl/src/pugl.cpp.o.d -o CMakeFiles/dgl-opengl.dir/dpf/dgl/src/pugl.cpp.o -c /home/jelle/src/VoyeSeqProject/dpf/dgl/src/pugl.cpp
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/pugl.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/pugl.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/pugl.cpp > CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/pugl.cpp.i
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/pugl.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dgl-opengl.dir/dpf/dgl/src/pugl.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jelle/src/VoyeSeqProject/dpf/dgl/src/pugl.cpp > CMakeFiles/dgl-opengl.dir/dpf/dgl/src/pugl.cpp.i
 
-CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/pugl.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/pugl.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jelle/src/VoyeSeqProject/src/dpf/dgl/src/pugl.cpp -o CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/pugl.cpp.s
+CMakeFiles/dgl-opengl.dir/dpf/dgl/src/pugl.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dgl-opengl.dir/dpf/dgl/src/pugl.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jelle/src/VoyeSeqProject/dpf/dgl/src/pugl.cpp -o CMakeFiles/dgl-opengl.dir/dpf/dgl/src/pugl.cpp.s
 
 # Object files for target dgl-opengl
 dgl__opengl_OBJECTS = \
-"CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Application.cpp.o" \
-"CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ApplicationPrivateData.cpp.o" \
-"CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Color.cpp.o" \
-"CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/EventHandlers.cpp.o" \
-"CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Geometry.cpp.o" \
-"CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ImageBase.cpp.o" \
-"CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ImageBaseWidgets.cpp.o" \
-"CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Layout.cpp.o" \
-"CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/SubWidget.cpp.o" \
-"CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/SubWidgetPrivateData.cpp.o" \
-"CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/TopLevelWidget.cpp.o" \
-"CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/TopLevelWidgetPrivateData.cpp.o" \
-"CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Widget.cpp.o" \
-"CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/WidgetPrivateData.cpp.o" \
-"CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Window.cpp.o" \
-"CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/WindowPrivateData.cpp.o" \
-"CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/OpenGL.cpp.o" \
-"CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/OpenGL2.cpp.o" \
-"CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/NanoVG.cpp.o" \
-"CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Resources.cpp.o" \
-"CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/pugl.cpp.o"
+"CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Application.cpp.o" \
+"CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ApplicationPrivateData.cpp.o" \
+"CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Color.cpp.o" \
+"CMakeFiles/dgl-opengl.dir/dpf/dgl/src/EventHandlers.cpp.o" \
+"CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Geometry.cpp.o" \
+"CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ImageBase.cpp.o" \
+"CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ImageBaseWidgets.cpp.o" \
+"CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Layout.cpp.o" \
+"CMakeFiles/dgl-opengl.dir/dpf/dgl/src/SubWidget.cpp.o" \
+"CMakeFiles/dgl-opengl.dir/dpf/dgl/src/SubWidgetPrivateData.cpp.o" \
+"CMakeFiles/dgl-opengl.dir/dpf/dgl/src/TopLevelWidget.cpp.o" \
+"CMakeFiles/dgl-opengl.dir/dpf/dgl/src/TopLevelWidgetPrivateData.cpp.o" \
+"CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Widget.cpp.o" \
+"CMakeFiles/dgl-opengl.dir/dpf/dgl/src/WidgetPrivateData.cpp.o" \
+"CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Window.cpp.o" \
+"CMakeFiles/dgl-opengl.dir/dpf/dgl/src/WindowPrivateData.cpp.o" \
+"CMakeFiles/dgl-opengl.dir/dpf/dgl/src/OpenGL.cpp.o" \
+"CMakeFiles/dgl-opengl.dir/dpf/dgl/src/OpenGL2.cpp.o" \
+"CMakeFiles/dgl-opengl.dir/dpf/dgl/src/NanoVG.cpp.o" \
+"CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Resources.cpp.o" \
+"CMakeFiles/dgl-opengl.dir/dpf/dgl/src/pugl.cpp.o"
 
 # External object files for target dgl-opengl
 dgl__opengl_EXTERNAL_OBJECTS =
 
-libdgl-opengl.a: CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Application.cpp.o
-libdgl-opengl.a: CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ApplicationPrivateData.cpp.o
-libdgl-opengl.a: CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Color.cpp.o
-libdgl-opengl.a: CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/EventHandlers.cpp.o
-libdgl-opengl.a: CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Geometry.cpp.o
-libdgl-opengl.a: CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ImageBase.cpp.o
-libdgl-opengl.a: CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ImageBaseWidgets.cpp.o
-libdgl-opengl.a: CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Layout.cpp.o
-libdgl-opengl.a: CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/SubWidget.cpp.o
-libdgl-opengl.a: CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/SubWidgetPrivateData.cpp.o
-libdgl-opengl.a: CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/TopLevelWidget.cpp.o
-libdgl-opengl.a: CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/TopLevelWidgetPrivateData.cpp.o
-libdgl-opengl.a: CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Widget.cpp.o
-libdgl-opengl.a: CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/WidgetPrivateData.cpp.o
-libdgl-opengl.a: CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Window.cpp.o
-libdgl-opengl.a: CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/WindowPrivateData.cpp.o
-libdgl-opengl.a: CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/OpenGL.cpp.o
-libdgl-opengl.a: CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/OpenGL2.cpp.o
-libdgl-opengl.a: CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/NanoVG.cpp.o
-libdgl-opengl.a: CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Resources.cpp.o
-libdgl-opengl.a: CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/pugl.cpp.o
+libdgl-opengl.a: CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Application.cpp.o
+libdgl-opengl.a: CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ApplicationPrivateData.cpp.o
+libdgl-opengl.a: CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Color.cpp.o
+libdgl-opengl.a: CMakeFiles/dgl-opengl.dir/dpf/dgl/src/EventHandlers.cpp.o
+libdgl-opengl.a: CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Geometry.cpp.o
+libdgl-opengl.a: CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ImageBase.cpp.o
+libdgl-opengl.a: CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ImageBaseWidgets.cpp.o
+libdgl-opengl.a: CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Layout.cpp.o
+libdgl-opengl.a: CMakeFiles/dgl-opengl.dir/dpf/dgl/src/SubWidget.cpp.o
+libdgl-opengl.a: CMakeFiles/dgl-opengl.dir/dpf/dgl/src/SubWidgetPrivateData.cpp.o
+libdgl-opengl.a: CMakeFiles/dgl-opengl.dir/dpf/dgl/src/TopLevelWidget.cpp.o
+libdgl-opengl.a: CMakeFiles/dgl-opengl.dir/dpf/dgl/src/TopLevelWidgetPrivateData.cpp.o
+libdgl-opengl.a: CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Widget.cpp.o
+libdgl-opengl.a: CMakeFiles/dgl-opengl.dir/dpf/dgl/src/WidgetPrivateData.cpp.o
+libdgl-opengl.a: CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Window.cpp.o
+libdgl-opengl.a: CMakeFiles/dgl-opengl.dir/dpf/dgl/src/WindowPrivateData.cpp.o
+libdgl-opengl.a: CMakeFiles/dgl-opengl.dir/dpf/dgl/src/OpenGL.cpp.o
+libdgl-opengl.a: CMakeFiles/dgl-opengl.dir/dpf/dgl/src/OpenGL2.cpp.o
+libdgl-opengl.a: CMakeFiles/dgl-opengl.dir/dpf/dgl/src/NanoVG.cpp.o
+libdgl-opengl.a: CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Resources.cpp.o
+libdgl-opengl.a: CMakeFiles/dgl-opengl.dir/dpf/dgl/src/pugl.cpp.o
 libdgl-opengl.a: CMakeFiles/dgl-opengl.dir/build.make
 libdgl-opengl.a: CMakeFiles/dgl-opengl.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jelle/src/VoyeSeqProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX static library libdgl-opengl.a"

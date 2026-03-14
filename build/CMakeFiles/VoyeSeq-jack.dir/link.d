@@ -2,8 +2,8 @@ bin/VoyeSeq: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o \
-  CMakeFiles/VoyeSeq-jack.dir/src/dpf/distrho/DistrhoPluginMain.cpp.o \
-  CMakeFiles/VoyeSeq-jack.dir/src/dpf/distrho/DistrhoUIMain.cpp.o \
+  CMakeFiles/VoyeSeq-jack.dir/dpf/distrho/DistrhoPluginMain.cpp.o \
+  CMakeFiles/VoyeSeq-jack.dir/dpf/distrho/DistrhoUIMain.cpp.o \
   libVoyeSeq-dsp.a \
   libVoyeSeq-ui.a \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libSDL2.so \
@@ -71,9 +71,9 @@ bin/VoyeSeq: \
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o:
 
-CMakeFiles/VoyeSeq-jack.dir/src/dpf/distrho/DistrhoPluginMain.cpp.o:
+CMakeFiles/VoyeSeq-jack.dir/dpf/distrho/DistrhoPluginMain.cpp.o:
 
-CMakeFiles/VoyeSeq-jack.dir/src/dpf/distrho/DistrhoUIMain.cpp.o:
+CMakeFiles/VoyeSeq-jack.dir/dpf/distrho/DistrhoUIMain.cpp.o:
 
 libVoyeSeq-dsp.a:
 

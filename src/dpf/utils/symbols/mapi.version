@@ -1,4 +1,0 @@
-{
-    global: mapi_create; mapi_process; mapi_set_parameter; mapi_set_state; mapi_destroy;
-    local: *;
-};

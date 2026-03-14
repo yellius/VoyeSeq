@@ -15,17 +15,17 @@
 @prefix ui:    <http://lv2plug.in/ns/extensions/ui#> .
 @prefix unit:  <http://lv2plug.in/ns/extensions/units#> .
 
-<http://plantenberg.nl/voyeseq#pattern_names>
+<https://github.com/yellius/VoyeSeq#pattern_names>
     a lv2:Parameter ;
     rdfs:label "" ;
     rdfs:range atom:String .
 
-<http://plantenberg.nl/voyeseq#pattern_data>
+<https://github.com/yellius/VoyeSeq#pattern_data>
     a lv2:Parameter ;
     rdfs:label "" ;
     rdfs:range atom:String .
 
-<http://plantenberg.nl/voyeseq>
+<https://github.com/yellius/VoyeSeq>
     a lv2:Plugin, doap:Project ;
 
     lv2:extensionData opts:interface ,
@@ -45,10 +45,10 @@
                          <http://lv2plug.in/ns/ext/buf-size#maxBlockLength> ,
                          <http://lv2plug.in/ns/ext/parameters#sampleRate> ;
 
-    patch:writable <http://plantenberg.nl/voyeseq#pattern_names> ;
-    patch:writable <http://plantenberg.nl/voyeseq#pattern_data> ;
+    patch:writable <https://github.com/yellius/VoyeSeq#pattern_names> ;
+    patch:writable <https://github.com/yellius/VoyeSeq#pattern_data> ;
 
-    ui:ui <http://plantenberg.nl/voyeseq#DPF_UI> ;
+    ui:ui <https://github.com/yellius/VoyeSeq#DPF_UI> ;
 
     lv2:port [
         a lv2:InputPort, atom:AtomPort ;

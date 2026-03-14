@@ -2,11 +2,11 @@ CMakeFiles/VoyeSeq-ui.dir/src/VoyeRenderer.cpp.o: \
  /home/jelle/src/VoyeSeqProject/src/VoyeRenderer.cpp \
  /usr/include/stdc-predef.h \
  /home/jelle/src/VoyeSeqProject/src/VoyeRenderer.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/distrho/DistrhoUI.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/distrho/DistrhoDetails.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/distrho/extra/String.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/distrho/extra/../DistrhoUtils.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/distrho/extra/../src/DistrhoDefines.h \
+ /home/jelle/src/VoyeSeqProject/dpf/distrho/DistrhoUI.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/distrho/DistrhoDetails.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/distrho/extra/String.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/distrho/extra/../DistrhoUtils.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/distrho/extra/../src/DistrhoDefines.h \
  /usr/include/c++/15.2.1/cstdarg \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
@@ -90,8 +90,8 @@ CMakeFiles/VoyeSeq-ui.dir/src/VoyeRenderer.cpp.o: \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/wchar.h \
  /usr/include/bits/stdint-uintn.h /usr/include/bits/stdint-least.h \
- /home/jelle/src/VoyeSeqProject/src/dpf/distrho/extra/../extra/ScopedSafeLocale.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/distrho/extra/../extra/../DistrhoUtils.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/distrho/extra/../extra/ScopedSafeLocale.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/distrho/extra/../extra/../DistrhoUtils.hpp \
  /usr/include/c++/15.2.1/clocale /usr/include/locale.h \
  /usr/include/bits/locale.h /usr/include/c++/15.2.1/algorithm \
  /usr/include/c++/15.2.1/bits/stl_algo.h \
@@ -117,19 +117,19 @@ CMakeFiles/VoyeSeq-ui.dir/src/VoyeRenderer.cpp.o: \
  /usr/include/c++/15.2.1/bits/ostream_insert.h \
  /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
  /usr/include/c++/15.2.1/bits/string_view.tcc \
- /home/jelle/src/VoyeSeqProject/src/dpf/distrho/extra/LeakDetector.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/distrho/src/DistrhoPluginChecks.h \
+ /home/jelle/src/VoyeSeqProject/dpf/distrho/extra/LeakDetector.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/distrho/src/DistrhoPluginChecks.h \
  /home/jelle/src/VoyeSeqProject/src/DistrhoPluginInfo.h \
- /home/jelle/src/VoyeSeqProject/src/dpf/dgl/OpenGL.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/dgl/ImageBase.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/dgl/Geometry.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/dgl/Base.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/dgl/../distrho/extra/LeakDetector.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/dgl/../distrho/extra/ScopedPointer.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/dgl/../distrho/extra/../DistrhoUtils.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/dgl/ImageBaseWidgets.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/dgl/EventHandlers.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/dgl/Widget.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/dgl/OpenGL.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/dgl/ImageBase.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/dgl/Geometry.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/dgl/Base.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/dgl/../distrho/extra/LeakDetector.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/dgl/../distrho/extra/ScopedPointer.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/dgl/../distrho/extra/../DistrhoUtils.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/dgl/ImageBaseWidgets.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/dgl/EventHandlers.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/dgl/Widget.hpp \
  /usr/include/c++/15.2.1/list /usr/include/c++/15.2.1/bits/allocator.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
  /usr/include/c++/15.2.1/bits/new_allocator.h \
@@ -144,13 +144,13 @@ CMakeFiles/VoyeSeq-ui.dir/src/VoyeRenderer.cpp.o: \
  /usr/include/c++/15.2.1/bits/uses_allocator.h \
  /usr/include/c++/15.2.1/bits/uses_allocator_args.h \
  /usr/include/c++/15.2.1/tuple /usr/include/c++/15.2.1/bits/invoke.h \
- /home/jelle/src/VoyeSeqProject/src/dpf/dgl/StandaloneWindow.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/dgl/TopLevelWidget.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/dgl/Window.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/dgl/FileBrowserDialog.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/dgl/../distrho/extra/FileBrowserDialogImpl.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/dgl/WebView.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/dgl/../distrho/extra/WebViewImpl.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/dgl/StandaloneWindow.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/dgl/TopLevelWidget.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/dgl/Window.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/dgl/FileBrowserDialog.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/dgl/../distrho/extra/FileBrowserDialogImpl.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/dgl/WebView.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/dgl/../distrho/extra/WebViewImpl.hpp \
  /usr/include/c++/15.2.1/vector \
  /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
  /usr/include/c++/15.2.1/bits/stl_vector.h \
@@ -159,18 +159,18 @@ CMakeFiles/VoyeSeq-ui.dir/src/VoyeRenderer.cpp.o: \
  /usr/include/c++/15.2.1/bits/stl_function.h \
  /usr/include/c++/15.2.1/backward/binders.h \
  /usr/include/c++/15.2.1/bits/vector.tcc \
- /home/jelle/src/VoyeSeqProject/src/dpf/dgl/SubWidget.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/dgl/OpenGL-include.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/dgl/../distrho/src/DistrhoDefines.h \
+ /home/jelle/src/VoyeSeqProject/dpf/dgl/SubWidget.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/dgl/OpenGL-include.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/dgl/../distrho/src/DistrhoDefines.h \
  /usr/include/GL/gl.h /usr/include/GL/glext.h \
  /usr/include/KHR/khrplatform.h \
- /home/jelle/src/VoyeSeqProject/src/dpf/distrho/../dgl/NanoVG.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/distrho/../dgl/Color.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/distrho/../dgl/Base.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/distrho/../dgl/OpenGL.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/distrho/../dgl/SubWidget.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/distrho/../dgl/TopLevelWidget.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/distrho/../dgl/StandaloneWindow.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/distrho/../dgl/NanoVG.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/distrho/../dgl/Color.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/distrho/../dgl/Base.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/distrho/../dgl/OpenGL.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/distrho/../dgl/SubWidget.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/distrho/../dgl/TopLevelWidget.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/distrho/../dgl/StandaloneWindow.hpp \
  /home/jelle/src/VoyeSeqProject/src/Constants.hpp \
  /home/jelle/src/VoyeSeqProject/src/PatternModel.hpp \
  /usr/include/c++/15.2.1/string /usr/include/c++/15.2.1/bits/localefwd.h \

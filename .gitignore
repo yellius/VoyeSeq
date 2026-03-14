@@ -1,0 +1,5 @@
+build/
+.cache/
+.vscode/
+*.tar.gz
+compile_commands.json

@@ -244,6 +244,588 @@ _dpf_empty.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/VoyeSeq.dir/build.make CMakeFiles/VoyeSeq.dir/_dpf_empty.c.s
 .PHONY : _dpf_empty.c.s
 
+dpf/dgl/src/Application.o: dpf/dgl/src/Application.cpp.o
+.PHONY : dpf/dgl/src/Application.o
+
+# target to build an object file
+dpf/dgl/src/Application.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Application.cpp.o
+.PHONY : dpf/dgl/src/Application.cpp.o
+
+dpf/dgl/src/Application.i: dpf/dgl/src/Application.cpp.i
+.PHONY : dpf/dgl/src/Application.i
+
+# target to preprocess a source file
+dpf/dgl/src/Application.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Application.cpp.i
+.PHONY : dpf/dgl/src/Application.cpp.i
+
+dpf/dgl/src/Application.s: dpf/dgl/src/Application.cpp.s
+.PHONY : dpf/dgl/src/Application.s
+
+# target to generate assembly for a file
+dpf/dgl/src/Application.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Application.cpp.s
+.PHONY : dpf/dgl/src/Application.cpp.s
+
+dpf/dgl/src/ApplicationPrivateData.o: dpf/dgl/src/ApplicationPrivateData.cpp.o
+.PHONY : dpf/dgl/src/ApplicationPrivateData.o
+
+# target to build an object file
+dpf/dgl/src/ApplicationPrivateData.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ApplicationPrivateData.cpp.o
+.PHONY : dpf/dgl/src/ApplicationPrivateData.cpp.o
+
+dpf/dgl/src/ApplicationPrivateData.i: dpf/dgl/src/ApplicationPrivateData.cpp.i
+.PHONY : dpf/dgl/src/ApplicationPrivateData.i
+
+# target to preprocess a source file
+dpf/dgl/src/ApplicationPrivateData.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ApplicationPrivateData.cpp.i
+.PHONY : dpf/dgl/src/ApplicationPrivateData.cpp.i
+
+dpf/dgl/src/ApplicationPrivateData.s: dpf/dgl/src/ApplicationPrivateData.cpp.s
+.PHONY : dpf/dgl/src/ApplicationPrivateData.s
+
+# target to generate assembly for a file
+dpf/dgl/src/ApplicationPrivateData.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ApplicationPrivateData.cpp.s
+.PHONY : dpf/dgl/src/ApplicationPrivateData.cpp.s
+
+dpf/dgl/src/Color.o: dpf/dgl/src/Color.cpp.o
+.PHONY : dpf/dgl/src/Color.o
+
+# target to build an object file
+dpf/dgl/src/Color.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Color.cpp.o
+.PHONY : dpf/dgl/src/Color.cpp.o
+
+dpf/dgl/src/Color.i: dpf/dgl/src/Color.cpp.i
+.PHONY : dpf/dgl/src/Color.i
+
+# target to preprocess a source file
+dpf/dgl/src/Color.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Color.cpp.i
+.PHONY : dpf/dgl/src/Color.cpp.i
+
+dpf/dgl/src/Color.s: dpf/dgl/src/Color.cpp.s
+.PHONY : dpf/dgl/src/Color.s
+
+# target to generate assembly for a file
+dpf/dgl/src/Color.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Color.cpp.s
+.PHONY : dpf/dgl/src/Color.cpp.s
+
+dpf/dgl/src/EventHandlers.o: dpf/dgl/src/EventHandlers.cpp.o
+.PHONY : dpf/dgl/src/EventHandlers.o
+
+# target to build an object file
+dpf/dgl/src/EventHandlers.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/EventHandlers.cpp.o
+.PHONY : dpf/dgl/src/EventHandlers.cpp.o
+
+dpf/dgl/src/EventHandlers.i: dpf/dgl/src/EventHandlers.cpp.i
+.PHONY : dpf/dgl/src/EventHandlers.i
+
+# target to preprocess a source file
+dpf/dgl/src/EventHandlers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/EventHandlers.cpp.i
+.PHONY : dpf/dgl/src/EventHandlers.cpp.i
+
+dpf/dgl/src/EventHandlers.s: dpf/dgl/src/EventHandlers.cpp.s
+.PHONY : dpf/dgl/src/EventHandlers.s
+
+# target to generate assembly for a file
+dpf/dgl/src/EventHandlers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/EventHandlers.cpp.s
+.PHONY : dpf/dgl/src/EventHandlers.cpp.s
+
+dpf/dgl/src/Geometry.o: dpf/dgl/src/Geometry.cpp.o
+.PHONY : dpf/dgl/src/Geometry.o
+
+# target to build an object file
+dpf/dgl/src/Geometry.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Geometry.cpp.o
+.PHONY : dpf/dgl/src/Geometry.cpp.o
+
+dpf/dgl/src/Geometry.i: dpf/dgl/src/Geometry.cpp.i
+.PHONY : dpf/dgl/src/Geometry.i
+
+# target to preprocess a source file
+dpf/dgl/src/Geometry.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Geometry.cpp.i
+.PHONY : dpf/dgl/src/Geometry.cpp.i
+
+dpf/dgl/src/Geometry.s: dpf/dgl/src/Geometry.cpp.s
+.PHONY : dpf/dgl/src/Geometry.s
+
+# target to generate assembly for a file
+dpf/dgl/src/Geometry.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Geometry.cpp.s
+.PHONY : dpf/dgl/src/Geometry.cpp.s
+
+dpf/dgl/src/ImageBase.o: dpf/dgl/src/ImageBase.cpp.o
+.PHONY : dpf/dgl/src/ImageBase.o
+
+# target to build an object file
+dpf/dgl/src/ImageBase.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ImageBase.cpp.o
+.PHONY : dpf/dgl/src/ImageBase.cpp.o
+
+dpf/dgl/src/ImageBase.i: dpf/dgl/src/ImageBase.cpp.i
+.PHONY : dpf/dgl/src/ImageBase.i
+
+# target to preprocess a source file
+dpf/dgl/src/ImageBase.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ImageBase.cpp.i
+.PHONY : dpf/dgl/src/ImageBase.cpp.i
+
+dpf/dgl/src/ImageBase.s: dpf/dgl/src/ImageBase.cpp.s
+.PHONY : dpf/dgl/src/ImageBase.s
+
+# target to generate assembly for a file
+dpf/dgl/src/ImageBase.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ImageBase.cpp.s
+.PHONY : dpf/dgl/src/ImageBase.cpp.s
+
+dpf/dgl/src/ImageBaseWidgets.o: dpf/dgl/src/ImageBaseWidgets.cpp.o
+.PHONY : dpf/dgl/src/ImageBaseWidgets.o
+
+# target to build an object file
+dpf/dgl/src/ImageBaseWidgets.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ImageBaseWidgets.cpp.o
+.PHONY : dpf/dgl/src/ImageBaseWidgets.cpp.o
+
+dpf/dgl/src/ImageBaseWidgets.i: dpf/dgl/src/ImageBaseWidgets.cpp.i
+.PHONY : dpf/dgl/src/ImageBaseWidgets.i
+
+# target to preprocess a source file
+dpf/dgl/src/ImageBaseWidgets.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ImageBaseWidgets.cpp.i
+.PHONY : dpf/dgl/src/ImageBaseWidgets.cpp.i
+
+dpf/dgl/src/ImageBaseWidgets.s: dpf/dgl/src/ImageBaseWidgets.cpp.s
+.PHONY : dpf/dgl/src/ImageBaseWidgets.s
+
+# target to generate assembly for a file
+dpf/dgl/src/ImageBaseWidgets.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/ImageBaseWidgets.cpp.s
+.PHONY : dpf/dgl/src/ImageBaseWidgets.cpp.s
+
+dpf/dgl/src/Layout.o: dpf/dgl/src/Layout.cpp.o
+.PHONY : dpf/dgl/src/Layout.o
+
+# target to build an object file
+dpf/dgl/src/Layout.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Layout.cpp.o
+.PHONY : dpf/dgl/src/Layout.cpp.o
+
+dpf/dgl/src/Layout.i: dpf/dgl/src/Layout.cpp.i
+.PHONY : dpf/dgl/src/Layout.i
+
+# target to preprocess a source file
+dpf/dgl/src/Layout.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Layout.cpp.i
+.PHONY : dpf/dgl/src/Layout.cpp.i
+
+dpf/dgl/src/Layout.s: dpf/dgl/src/Layout.cpp.s
+.PHONY : dpf/dgl/src/Layout.s
+
+# target to generate assembly for a file
+dpf/dgl/src/Layout.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Layout.cpp.s
+.PHONY : dpf/dgl/src/Layout.cpp.s
+
+dpf/dgl/src/NanoVG.o: dpf/dgl/src/NanoVG.cpp.o
+.PHONY : dpf/dgl/src/NanoVG.o
+
+# target to build an object file
+dpf/dgl/src/NanoVG.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/NanoVG.cpp.o
+.PHONY : dpf/dgl/src/NanoVG.cpp.o
+
+dpf/dgl/src/NanoVG.i: dpf/dgl/src/NanoVG.cpp.i
+.PHONY : dpf/dgl/src/NanoVG.i
+
+# target to preprocess a source file
+dpf/dgl/src/NanoVG.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/NanoVG.cpp.i
+.PHONY : dpf/dgl/src/NanoVG.cpp.i
+
+dpf/dgl/src/NanoVG.s: dpf/dgl/src/NanoVG.cpp.s
+.PHONY : dpf/dgl/src/NanoVG.s
+
+# target to generate assembly for a file
+dpf/dgl/src/NanoVG.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/NanoVG.cpp.s
+.PHONY : dpf/dgl/src/NanoVG.cpp.s
+
+dpf/dgl/src/OpenGL.o: dpf/dgl/src/OpenGL.cpp.o
+.PHONY : dpf/dgl/src/OpenGL.o
+
+# target to build an object file
+dpf/dgl/src/OpenGL.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/OpenGL.cpp.o
+.PHONY : dpf/dgl/src/OpenGL.cpp.o
+
+dpf/dgl/src/OpenGL.i: dpf/dgl/src/OpenGL.cpp.i
+.PHONY : dpf/dgl/src/OpenGL.i
+
+# target to preprocess a source file
+dpf/dgl/src/OpenGL.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/OpenGL.cpp.i
+.PHONY : dpf/dgl/src/OpenGL.cpp.i
+
+dpf/dgl/src/OpenGL.s: dpf/dgl/src/OpenGL.cpp.s
+.PHONY : dpf/dgl/src/OpenGL.s
+
+# target to generate assembly for a file
+dpf/dgl/src/OpenGL.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/OpenGL.cpp.s
+.PHONY : dpf/dgl/src/OpenGL.cpp.s
+
+dpf/dgl/src/OpenGL2.o: dpf/dgl/src/OpenGL2.cpp.o
+.PHONY : dpf/dgl/src/OpenGL2.o
+
+# target to build an object file
+dpf/dgl/src/OpenGL2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/OpenGL2.cpp.o
+.PHONY : dpf/dgl/src/OpenGL2.cpp.o
+
+dpf/dgl/src/OpenGL2.i: dpf/dgl/src/OpenGL2.cpp.i
+.PHONY : dpf/dgl/src/OpenGL2.i
+
+# target to preprocess a source file
+dpf/dgl/src/OpenGL2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/OpenGL2.cpp.i
+.PHONY : dpf/dgl/src/OpenGL2.cpp.i
+
+dpf/dgl/src/OpenGL2.s: dpf/dgl/src/OpenGL2.cpp.s
+.PHONY : dpf/dgl/src/OpenGL2.s
+
+# target to generate assembly for a file
+dpf/dgl/src/OpenGL2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/OpenGL2.cpp.s
+.PHONY : dpf/dgl/src/OpenGL2.cpp.s
+
+dpf/dgl/src/Resources.o: dpf/dgl/src/Resources.cpp.o
+.PHONY : dpf/dgl/src/Resources.o
+
+# target to build an object file
+dpf/dgl/src/Resources.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Resources.cpp.o
+.PHONY : dpf/dgl/src/Resources.cpp.o
+
+dpf/dgl/src/Resources.i: dpf/dgl/src/Resources.cpp.i
+.PHONY : dpf/dgl/src/Resources.i
+
+# target to preprocess a source file
+dpf/dgl/src/Resources.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Resources.cpp.i
+.PHONY : dpf/dgl/src/Resources.cpp.i
+
+dpf/dgl/src/Resources.s: dpf/dgl/src/Resources.cpp.s
+.PHONY : dpf/dgl/src/Resources.s
+
+# target to generate assembly for a file
+dpf/dgl/src/Resources.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Resources.cpp.s
+.PHONY : dpf/dgl/src/Resources.cpp.s
+
+dpf/dgl/src/SubWidget.o: dpf/dgl/src/SubWidget.cpp.o
+.PHONY : dpf/dgl/src/SubWidget.o
+
+# target to build an object file
+dpf/dgl/src/SubWidget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/SubWidget.cpp.o
+.PHONY : dpf/dgl/src/SubWidget.cpp.o
+
+dpf/dgl/src/SubWidget.i: dpf/dgl/src/SubWidget.cpp.i
+.PHONY : dpf/dgl/src/SubWidget.i
+
+# target to preprocess a source file
+dpf/dgl/src/SubWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/SubWidget.cpp.i
+.PHONY : dpf/dgl/src/SubWidget.cpp.i
+
+dpf/dgl/src/SubWidget.s: dpf/dgl/src/SubWidget.cpp.s
+.PHONY : dpf/dgl/src/SubWidget.s
+
+# target to generate assembly for a file
+dpf/dgl/src/SubWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/SubWidget.cpp.s
+.PHONY : dpf/dgl/src/SubWidget.cpp.s
+
+dpf/dgl/src/SubWidgetPrivateData.o: dpf/dgl/src/SubWidgetPrivateData.cpp.o
+.PHONY : dpf/dgl/src/SubWidgetPrivateData.o
+
+# target to build an object file
+dpf/dgl/src/SubWidgetPrivateData.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/SubWidgetPrivateData.cpp.o
+.PHONY : dpf/dgl/src/SubWidgetPrivateData.cpp.o
+
+dpf/dgl/src/SubWidgetPrivateData.i: dpf/dgl/src/SubWidgetPrivateData.cpp.i
+.PHONY : dpf/dgl/src/SubWidgetPrivateData.i
+
+# target to preprocess a source file
+dpf/dgl/src/SubWidgetPrivateData.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/SubWidgetPrivateData.cpp.i
+.PHONY : dpf/dgl/src/SubWidgetPrivateData.cpp.i
+
+dpf/dgl/src/SubWidgetPrivateData.s: dpf/dgl/src/SubWidgetPrivateData.cpp.s
+.PHONY : dpf/dgl/src/SubWidgetPrivateData.s
+
+# target to generate assembly for a file
+dpf/dgl/src/SubWidgetPrivateData.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/SubWidgetPrivateData.cpp.s
+.PHONY : dpf/dgl/src/SubWidgetPrivateData.cpp.s
+
+dpf/dgl/src/TopLevelWidget.o: dpf/dgl/src/TopLevelWidget.cpp.o
+.PHONY : dpf/dgl/src/TopLevelWidget.o
+
+# target to build an object file
+dpf/dgl/src/TopLevelWidget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/TopLevelWidget.cpp.o
+.PHONY : dpf/dgl/src/TopLevelWidget.cpp.o
+
+dpf/dgl/src/TopLevelWidget.i: dpf/dgl/src/TopLevelWidget.cpp.i
+.PHONY : dpf/dgl/src/TopLevelWidget.i
+
+# target to preprocess a source file
+dpf/dgl/src/TopLevelWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/TopLevelWidget.cpp.i
+.PHONY : dpf/dgl/src/TopLevelWidget.cpp.i
+
+dpf/dgl/src/TopLevelWidget.s: dpf/dgl/src/TopLevelWidget.cpp.s
+.PHONY : dpf/dgl/src/TopLevelWidget.s
+
+# target to generate assembly for a file
+dpf/dgl/src/TopLevelWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/TopLevelWidget.cpp.s
+.PHONY : dpf/dgl/src/TopLevelWidget.cpp.s
+
+dpf/dgl/src/TopLevelWidgetPrivateData.o: dpf/dgl/src/TopLevelWidgetPrivateData.cpp.o
+.PHONY : dpf/dgl/src/TopLevelWidgetPrivateData.o
+
+# target to build an object file
+dpf/dgl/src/TopLevelWidgetPrivateData.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/TopLevelWidgetPrivateData.cpp.o
+.PHONY : dpf/dgl/src/TopLevelWidgetPrivateData.cpp.o
+
+dpf/dgl/src/TopLevelWidgetPrivateData.i: dpf/dgl/src/TopLevelWidgetPrivateData.cpp.i
+.PHONY : dpf/dgl/src/TopLevelWidgetPrivateData.i
+
+# target to preprocess a source file
+dpf/dgl/src/TopLevelWidgetPrivateData.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/TopLevelWidgetPrivateData.cpp.i
+.PHONY : dpf/dgl/src/TopLevelWidgetPrivateData.cpp.i
+
+dpf/dgl/src/TopLevelWidgetPrivateData.s: dpf/dgl/src/TopLevelWidgetPrivateData.cpp.s
+.PHONY : dpf/dgl/src/TopLevelWidgetPrivateData.s
+
+# target to generate assembly for a file
+dpf/dgl/src/TopLevelWidgetPrivateData.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/TopLevelWidgetPrivateData.cpp.s
+.PHONY : dpf/dgl/src/TopLevelWidgetPrivateData.cpp.s
+
+dpf/dgl/src/Widget.o: dpf/dgl/src/Widget.cpp.o
+.PHONY : dpf/dgl/src/Widget.o
+
+# target to build an object file
+dpf/dgl/src/Widget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Widget.cpp.o
+.PHONY : dpf/dgl/src/Widget.cpp.o
+
+dpf/dgl/src/Widget.i: dpf/dgl/src/Widget.cpp.i
+.PHONY : dpf/dgl/src/Widget.i
+
+# target to preprocess a source file
+dpf/dgl/src/Widget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Widget.cpp.i
+.PHONY : dpf/dgl/src/Widget.cpp.i
+
+dpf/dgl/src/Widget.s: dpf/dgl/src/Widget.cpp.s
+.PHONY : dpf/dgl/src/Widget.s
+
+# target to generate assembly for a file
+dpf/dgl/src/Widget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Widget.cpp.s
+.PHONY : dpf/dgl/src/Widget.cpp.s
+
+dpf/dgl/src/WidgetPrivateData.o: dpf/dgl/src/WidgetPrivateData.cpp.o
+.PHONY : dpf/dgl/src/WidgetPrivateData.o
+
+# target to build an object file
+dpf/dgl/src/WidgetPrivateData.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/WidgetPrivateData.cpp.o
+.PHONY : dpf/dgl/src/WidgetPrivateData.cpp.o
+
+dpf/dgl/src/WidgetPrivateData.i: dpf/dgl/src/WidgetPrivateData.cpp.i
+.PHONY : dpf/dgl/src/WidgetPrivateData.i
+
+# target to preprocess a source file
+dpf/dgl/src/WidgetPrivateData.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/WidgetPrivateData.cpp.i
+.PHONY : dpf/dgl/src/WidgetPrivateData.cpp.i
+
+dpf/dgl/src/WidgetPrivateData.s: dpf/dgl/src/WidgetPrivateData.cpp.s
+.PHONY : dpf/dgl/src/WidgetPrivateData.s
+
+# target to generate assembly for a file
+dpf/dgl/src/WidgetPrivateData.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/WidgetPrivateData.cpp.s
+.PHONY : dpf/dgl/src/WidgetPrivateData.cpp.s
+
+dpf/dgl/src/Window.o: dpf/dgl/src/Window.cpp.o
+.PHONY : dpf/dgl/src/Window.o
+
+# target to build an object file
+dpf/dgl/src/Window.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Window.cpp.o
+.PHONY : dpf/dgl/src/Window.cpp.o
+
+dpf/dgl/src/Window.i: dpf/dgl/src/Window.cpp.i
+.PHONY : dpf/dgl/src/Window.i
+
+# target to preprocess a source file
+dpf/dgl/src/Window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Window.cpp.i
+.PHONY : dpf/dgl/src/Window.cpp.i
+
+dpf/dgl/src/Window.s: dpf/dgl/src/Window.cpp.s
+.PHONY : dpf/dgl/src/Window.s
+
+# target to generate assembly for a file
+dpf/dgl/src/Window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/Window.cpp.s
+.PHONY : dpf/dgl/src/Window.cpp.s
+
+dpf/dgl/src/WindowPrivateData.o: dpf/dgl/src/WindowPrivateData.cpp.o
+.PHONY : dpf/dgl/src/WindowPrivateData.o
+
+# target to build an object file
+dpf/dgl/src/WindowPrivateData.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/WindowPrivateData.cpp.o
+.PHONY : dpf/dgl/src/WindowPrivateData.cpp.o
+
+dpf/dgl/src/WindowPrivateData.i: dpf/dgl/src/WindowPrivateData.cpp.i
+.PHONY : dpf/dgl/src/WindowPrivateData.i
+
+# target to preprocess a source file
+dpf/dgl/src/WindowPrivateData.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/WindowPrivateData.cpp.i
+.PHONY : dpf/dgl/src/WindowPrivateData.cpp.i
+
+dpf/dgl/src/WindowPrivateData.s: dpf/dgl/src/WindowPrivateData.cpp.s
+.PHONY : dpf/dgl/src/WindowPrivateData.s
+
+# target to generate assembly for a file
+dpf/dgl/src/WindowPrivateData.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/WindowPrivateData.cpp.s
+.PHONY : dpf/dgl/src/WindowPrivateData.cpp.s
+
+dpf/dgl/src/pugl.o: dpf/dgl/src/pugl.cpp.o
+.PHONY : dpf/dgl/src/pugl.o
+
+# target to build an object file
+dpf/dgl/src/pugl.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/pugl.cpp.o
+.PHONY : dpf/dgl/src/pugl.cpp.o
+
+dpf/dgl/src/pugl.i: dpf/dgl/src/pugl.cpp.i
+.PHONY : dpf/dgl/src/pugl.i
+
+# target to preprocess a source file
+dpf/dgl/src/pugl.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/pugl.cpp.i
+.PHONY : dpf/dgl/src/pugl.cpp.i
+
+dpf/dgl/src/pugl.s: dpf/dgl/src/pugl.cpp.s
+.PHONY : dpf/dgl/src/pugl.s
+
+# target to generate assembly for a file
+dpf/dgl/src/pugl.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/dpf/dgl/src/pugl.cpp.s
+.PHONY : dpf/dgl/src/pugl.cpp.s
+
+dpf/distrho/DistrhoPluginMain.o: dpf/distrho/DistrhoPluginMain.cpp.o
+.PHONY : dpf/distrho/DistrhoPluginMain.o
+
+# target to build an object file
+dpf/distrho/DistrhoPluginMain.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VoyeSeq-jack.dir/build.make CMakeFiles/VoyeSeq-jack.dir/dpf/distrho/DistrhoPluginMain.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VoyeSeq-lv2.dir/build.make CMakeFiles/VoyeSeq-lv2.dir/dpf/distrho/DistrhoPluginMain.cpp.o
+.PHONY : dpf/distrho/DistrhoPluginMain.cpp.o
+
+dpf/distrho/DistrhoPluginMain.i: dpf/distrho/DistrhoPluginMain.cpp.i
+.PHONY : dpf/distrho/DistrhoPluginMain.i
+
+# target to preprocess a source file
+dpf/distrho/DistrhoPluginMain.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VoyeSeq-jack.dir/build.make CMakeFiles/VoyeSeq-jack.dir/dpf/distrho/DistrhoPluginMain.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VoyeSeq-lv2.dir/build.make CMakeFiles/VoyeSeq-lv2.dir/dpf/distrho/DistrhoPluginMain.cpp.i
+.PHONY : dpf/distrho/DistrhoPluginMain.cpp.i
+
+dpf/distrho/DistrhoPluginMain.s: dpf/distrho/DistrhoPluginMain.cpp.s
+.PHONY : dpf/distrho/DistrhoPluginMain.s
+
+# target to generate assembly for a file
+dpf/distrho/DistrhoPluginMain.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VoyeSeq-jack.dir/build.make CMakeFiles/VoyeSeq-jack.dir/dpf/distrho/DistrhoPluginMain.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VoyeSeq-lv2.dir/build.make CMakeFiles/VoyeSeq-lv2.dir/dpf/distrho/DistrhoPluginMain.cpp.s
+.PHONY : dpf/distrho/DistrhoPluginMain.cpp.s
+
+dpf/distrho/DistrhoUIMain.o: dpf/distrho/DistrhoUIMain.cpp.o
+.PHONY : dpf/distrho/DistrhoUIMain.o
+
+# target to build an object file
+dpf/distrho/DistrhoUIMain.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VoyeSeq-jack.dir/build.make CMakeFiles/VoyeSeq-jack.dir/dpf/distrho/DistrhoUIMain.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VoyeSeq-lv2-ui.dir/build.make CMakeFiles/VoyeSeq-lv2-ui.dir/dpf/distrho/DistrhoUIMain.cpp.o
+.PHONY : dpf/distrho/DistrhoUIMain.cpp.o
+
+dpf/distrho/DistrhoUIMain.i: dpf/distrho/DistrhoUIMain.cpp.i
+.PHONY : dpf/distrho/DistrhoUIMain.i
+
+# target to preprocess a source file
+dpf/distrho/DistrhoUIMain.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VoyeSeq-jack.dir/build.make CMakeFiles/VoyeSeq-jack.dir/dpf/distrho/DistrhoUIMain.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VoyeSeq-lv2-ui.dir/build.make CMakeFiles/VoyeSeq-lv2-ui.dir/dpf/distrho/DistrhoUIMain.cpp.i
+.PHONY : dpf/distrho/DistrhoUIMain.cpp.i
+
+dpf/distrho/DistrhoUIMain.s: dpf/distrho/DistrhoUIMain.cpp.s
+.PHONY : dpf/distrho/DistrhoUIMain.s
+
+# target to generate assembly for a file
+dpf/distrho/DistrhoUIMain.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VoyeSeq-jack.dir/build.make CMakeFiles/VoyeSeq-jack.dir/dpf/distrho/DistrhoUIMain.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VoyeSeq-lv2-ui.dir/build.make CMakeFiles/VoyeSeq-lv2-ui.dir/dpf/distrho/DistrhoUIMain.cpp.s
+.PHONY : dpf/distrho/DistrhoUIMain.cpp.s
+
+dpf/utils/lv2-ttl-generator/lv2_ttl_generator.o: dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.o
+.PHONY : dpf/utils/lv2-ttl-generator/lv2_ttl_generator.o
+
+# target to build an object file
+dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lv2_ttl_generator.dir/build.make CMakeFiles/lv2_ttl_generator.dir/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.o
+.PHONY : dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.o
+
+dpf/utils/lv2-ttl-generator/lv2_ttl_generator.i: dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.i
+.PHONY : dpf/utils/lv2-ttl-generator/lv2_ttl_generator.i
+
+# target to preprocess a source file
+dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lv2_ttl_generator.dir/build.make CMakeFiles/lv2_ttl_generator.dir/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.i
+.PHONY : dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.i
+
+dpf/utils/lv2-ttl-generator/lv2_ttl_generator.s: dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.s
+.PHONY : dpf/utils/lv2-ttl-generator/lv2_ttl_generator.s
+
+# target to generate assembly for a file
+dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lv2_ttl_generator.dir/build.make CMakeFiles/lv2_ttl_generator.dir/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.s
+.PHONY : dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.s
+
 src/VoyeRenderer.o: src/VoyeRenderer.cpp.o
 .PHONY : src/VoyeRenderer.o
 
@@ -316,588 +898,6 @@ src/VoyeSeqUI.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/VoyeSeq-ui.dir/build.make CMakeFiles/VoyeSeq-ui.dir/src/VoyeSeqUI.cpp.s
 .PHONY : src/VoyeSeqUI.cpp.s
 
-src/dpf/dgl/src/Application.o: src/dpf/dgl/src/Application.cpp.o
-.PHONY : src/dpf/dgl/src/Application.o
-
-# target to build an object file
-src/dpf/dgl/src/Application.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Application.cpp.o
-.PHONY : src/dpf/dgl/src/Application.cpp.o
-
-src/dpf/dgl/src/Application.i: src/dpf/dgl/src/Application.cpp.i
-.PHONY : src/dpf/dgl/src/Application.i
-
-# target to preprocess a source file
-src/dpf/dgl/src/Application.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Application.cpp.i
-.PHONY : src/dpf/dgl/src/Application.cpp.i
-
-src/dpf/dgl/src/Application.s: src/dpf/dgl/src/Application.cpp.s
-.PHONY : src/dpf/dgl/src/Application.s
-
-# target to generate assembly for a file
-src/dpf/dgl/src/Application.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Application.cpp.s
-.PHONY : src/dpf/dgl/src/Application.cpp.s
-
-src/dpf/dgl/src/ApplicationPrivateData.o: src/dpf/dgl/src/ApplicationPrivateData.cpp.o
-.PHONY : src/dpf/dgl/src/ApplicationPrivateData.o
-
-# target to build an object file
-src/dpf/dgl/src/ApplicationPrivateData.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ApplicationPrivateData.cpp.o
-.PHONY : src/dpf/dgl/src/ApplicationPrivateData.cpp.o
-
-src/dpf/dgl/src/ApplicationPrivateData.i: src/dpf/dgl/src/ApplicationPrivateData.cpp.i
-.PHONY : src/dpf/dgl/src/ApplicationPrivateData.i
-
-# target to preprocess a source file
-src/dpf/dgl/src/ApplicationPrivateData.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ApplicationPrivateData.cpp.i
-.PHONY : src/dpf/dgl/src/ApplicationPrivateData.cpp.i
-
-src/dpf/dgl/src/ApplicationPrivateData.s: src/dpf/dgl/src/ApplicationPrivateData.cpp.s
-.PHONY : src/dpf/dgl/src/ApplicationPrivateData.s
-
-# target to generate assembly for a file
-src/dpf/dgl/src/ApplicationPrivateData.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ApplicationPrivateData.cpp.s
-.PHONY : src/dpf/dgl/src/ApplicationPrivateData.cpp.s
-
-src/dpf/dgl/src/Color.o: src/dpf/dgl/src/Color.cpp.o
-.PHONY : src/dpf/dgl/src/Color.o
-
-# target to build an object file
-src/dpf/dgl/src/Color.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Color.cpp.o
-.PHONY : src/dpf/dgl/src/Color.cpp.o
-
-src/dpf/dgl/src/Color.i: src/dpf/dgl/src/Color.cpp.i
-.PHONY : src/dpf/dgl/src/Color.i
-
-# target to preprocess a source file
-src/dpf/dgl/src/Color.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Color.cpp.i
-.PHONY : src/dpf/dgl/src/Color.cpp.i
-
-src/dpf/dgl/src/Color.s: src/dpf/dgl/src/Color.cpp.s
-.PHONY : src/dpf/dgl/src/Color.s
-
-# target to generate assembly for a file
-src/dpf/dgl/src/Color.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Color.cpp.s
-.PHONY : src/dpf/dgl/src/Color.cpp.s
-
-src/dpf/dgl/src/EventHandlers.o: src/dpf/dgl/src/EventHandlers.cpp.o
-.PHONY : src/dpf/dgl/src/EventHandlers.o
-
-# target to build an object file
-src/dpf/dgl/src/EventHandlers.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/EventHandlers.cpp.o
-.PHONY : src/dpf/dgl/src/EventHandlers.cpp.o
-
-src/dpf/dgl/src/EventHandlers.i: src/dpf/dgl/src/EventHandlers.cpp.i
-.PHONY : src/dpf/dgl/src/EventHandlers.i
-
-# target to preprocess a source file
-src/dpf/dgl/src/EventHandlers.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/EventHandlers.cpp.i
-.PHONY : src/dpf/dgl/src/EventHandlers.cpp.i
-
-src/dpf/dgl/src/EventHandlers.s: src/dpf/dgl/src/EventHandlers.cpp.s
-.PHONY : src/dpf/dgl/src/EventHandlers.s
-
-# target to generate assembly for a file
-src/dpf/dgl/src/EventHandlers.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/EventHandlers.cpp.s
-.PHONY : src/dpf/dgl/src/EventHandlers.cpp.s
-
-src/dpf/dgl/src/Geometry.o: src/dpf/dgl/src/Geometry.cpp.o
-.PHONY : src/dpf/dgl/src/Geometry.o
-
-# target to build an object file
-src/dpf/dgl/src/Geometry.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Geometry.cpp.o
-.PHONY : src/dpf/dgl/src/Geometry.cpp.o
-
-src/dpf/dgl/src/Geometry.i: src/dpf/dgl/src/Geometry.cpp.i
-.PHONY : src/dpf/dgl/src/Geometry.i
-
-# target to preprocess a source file
-src/dpf/dgl/src/Geometry.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Geometry.cpp.i
-.PHONY : src/dpf/dgl/src/Geometry.cpp.i
-
-src/dpf/dgl/src/Geometry.s: src/dpf/dgl/src/Geometry.cpp.s
-.PHONY : src/dpf/dgl/src/Geometry.s
-
-# target to generate assembly for a file
-src/dpf/dgl/src/Geometry.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Geometry.cpp.s
-.PHONY : src/dpf/dgl/src/Geometry.cpp.s
-
-src/dpf/dgl/src/ImageBase.o: src/dpf/dgl/src/ImageBase.cpp.o
-.PHONY : src/dpf/dgl/src/ImageBase.o
-
-# target to build an object file
-src/dpf/dgl/src/ImageBase.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ImageBase.cpp.o
-.PHONY : src/dpf/dgl/src/ImageBase.cpp.o
-
-src/dpf/dgl/src/ImageBase.i: src/dpf/dgl/src/ImageBase.cpp.i
-.PHONY : src/dpf/dgl/src/ImageBase.i
-
-# target to preprocess a source file
-src/dpf/dgl/src/ImageBase.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ImageBase.cpp.i
-.PHONY : src/dpf/dgl/src/ImageBase.cpp.i
-
-src/dpf/dgl/src/ImageBase.s: src/dpf/dgl/src/ImageBase.cpp.s
-.PHONY : src/dpf/dgl/src/ImageBase.s
-
-# target to generate assembly for a file
-src/dpf/dgl/src/ImageBase.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ImageBase.cpp.s
-.PHONY : src/dpf/dgl/src/ImageBase.cpp.s
-
-src/dpf/dgl/src/ImageBaseWidgets.o: src/dpf/dgl/src/ImageBaseWidgets.cpp.o
-.PHONY : src/dpf/dgl/src/ImageBaseWidgets.o
-
-# target to build an object file
-src/dpf/dgl/src/ImageBaseWidgets.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ImageBaseWidgets.cpp.o
-.PHONY : src/dpf/dgl/src/ImageBaseWidgets.cpp.o
-
-src/dpf/dgl/src/ImageBaseWidgets.i: src/dpf/dgl/src/ImageBaseWidgets.cpp.i
-.PHONY : src/dpf/dgl/src/ImageBaseWidgets.i
-
-# target to preprocess a source file
-src/dpf/dgl/src/ImageBaseWidgets.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ImageBaseWidgets.cpp.i
-.PHONY : src/dpf/dgl/src/ImageBaseWidgets.cpp.i
-
-src/dpf/dgl/src/ImageBaseWidgets.s: src/dpf/dgl/src/ImageBaseWidgets.cpp.s
-.PHONY : src/dpf/dgl/src/ImageBaseWidgets.s
-
-# target to generate assembly for a file
-src/dpf/dgl/src/ImageBaseWidgets.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/ImageBaseWidgets.cpp.s
-.PHONY : src/dpf/dgl/src/ImageBaseWidgets.cpp.s
-
-src/dpf/dgl/src/Layout.o: src/dpf/dgl/src/Layout.cpp.o
-.PHONY : src/dpf/dgl/src/Layout.o
-
-# target to build an object file
-src/dpf/dgl/src/Layout.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Layout.cpp.o
-.PHONY : src/dpf/dgl/src/Layout.cpp.o
-
-src/dpf/dgl/src/Layout.i: src/dpf/dgl/src/Layout.cpp.i
-.PHONY : src/dpf/dgl/src/Layout.i
-
-# target to preprocess a source file
-src/dpf/dgl/src/Layout.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Layout.cpp.i
-.PHONY : src/dpf/dgl/src/Layout.cpp.i
-
-src/dpf/dgl/src/Layout.s: src/dpf/dgl/src/Layout.cpp.s
-.PHONY : src/dpf/dgl/src/Layout.s
-
-# target to generate assembly for a file
-src/dpf/dgl/src/Layout.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Layout.cpp.s
-.PHONY : src/dpf/dgl/src/Layout.cpp.s
-
-src/dpf/dgl/src/NanoVG.o: src/dpf/dgl/src/NanoVG.cpp.o
-.PHONY : src/dpf/dgl/src/NanoVG.o
-
-# target to build an object file
-src/dpf/dgl/src/NanoVG.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/NanoVG.cpp.o
-.PHONY : src/dpf/dgl/src/NanoVG.cpp.o
-
-src/dpf/dgl/src/NanoVG.i: src/dpf/dgl/src/NanoVG.cpp.i
-.PHONY : src/dpf/dgl/src/NanoVG.i
-
-# target to preprocess a source file
-src/dpf/dgl/src/NanoVG.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/NanoVG.cpp.i
-.PHONY : src/dpf/dgl/src/NanoVG.cpp.i
-
-src/dpf/dgl/src/NanoVG.s: src/dpf/dgl/src/NanoVG.cpp.s
-.PHONY : src/dpf/dgl/src/NanoVG.s
-
-# target to generate assembly for a file
-src/dpf/dgl/src/NanoVG.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/NanoVG.cpp.s
-.PHONY : src/dpf/dgl/src/NanoVG.cpp.s
-
-src/dpf/dgl/src/OpenGL.o: src/dpf/dgl/src/OpenGL.cpp.o
-.PHONY : src/dpf/dgl/src/OpenGL.o
-
-# target to build an object file
-src/dpf/dgl/src/OpenGL.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/OpenGL.cpp.o
-.PHONY : src/dpf/dgl/src/OpenGL.cpp.o
-
-src/dpf/dgl/src/OpenGL.i: src/dpf/dgl/src/OpenGL.cpp.i
-.PHONY : src/dpf/dgl/src/OpenGL.i
-
-# target to preprocess a source file
-src/dpf/dgl/src/OpenGL.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/OpenGL.cpp.i
-.PHONY : src/dpf/dgl/src/OpenGL.cpp.i
-
-src/dpf/dgl/src/OpenGL.s: src/dpf/dgl/src/OpenGL.cpp.s
-.PHONY : src/dpf/dgl/src/OpenGL.s
-
-# target to generate assembly for a file
-src/dpf/dgl/src/OpenGL.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/OpenGL.cpp.s
-.PHONY : src/dpf/dgl/src/OpenGL.cpp.s
-
-src/dpf/dgl/src/OpenGL2.o: src/dpf/dgl/src/OpenGL2.cpp.o
-.PHONY : src/dpf/dgl/src/OpenGL2.o
-
-# target to build an object file
-src/dpf/dgl/src/OpenGL2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/OpenGL2.cpp.o
-.PHONY : src/dpf/dgl/src/OpenGL2.cpp.o
-
-src/dpf/dgl/src/OpenGL2.i: src/dpf/dgl/src/OpenGL2.cpp.i
-.PHONY : src/dpf/dgl/src/OpenGL2.i
-
-# target to preprocess a source file
-src/dpf/dgl/src/OpenGL2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/OpenGL2.cpp.i
-.PHONY : src/dpf/dgl/src/OpenGL2.cpp.i
-
-src/dpf/dgl/src/OpenGL2.s: src/dpf/dgl/src/OpenGL2.cpp.s
-.PHONY : src/dpf/dgl/src/OpenGL2.s
-
-# target to generate assembly for a file
-src/dpf/dgl/src/OpenGL2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/OpenGL2.cpp.s
-.PHONY : src/dpf/dgl/src/OpenGL2.cpp.s
-
-src/dpf/dgl/src/Resources.o: src/dpf/dgl/src/Resources.cpp.o
-.PHONY : src/dpf/dgl/src/Resources.o
-
-# target to build an object file
-src/dpf/dgl/src/Resources.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Resources.cpp.o
-.PHONY : src/dpf/dgl/src/Resources.cpp.o
-
-src/dpf/dgl/src/Resources.i: src/dpf/dgl/src/Resources.cpp.i
-.PHONY : src/dpf/dgl/src/Resources.i
-
-# target to preprocess a source file
-src/dpf/dgl/src/Resources.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Resources.cpp.i
-.PHONY : src/dpf/dgl/src/Resources.cpp.i
-
-src/dpf/dgl/src/Resources.s: src/dpf/dgl/src/Resources.cpp.s
-.PHONY : src/dpf/dgl/src/Resources.s
-
-# target to generate assembly for a file
-src/dpf/dgl/src/Resources.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Resources.cpp.s
-.PHONY : src/dpf/dgl/src/Resources.cpp.s
-
-src/dpf/dgl/src/SubWidget.o: src/dpf/dgl/src/SubWidget.cpp.o
-.PHONY : src/dpf/dgl/src/SubWidget.o
-
-# target to build an object file
-src/dpf/dgl/src/SubWidget.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/SubWidget.cpp.o
-.PHONY : src/dpf/dgl/src/SubWidget.cpp.o
-
-src/dpf/dgl/src/SubWidget.i: src/dpf/dgl/src/SubWidget.cpp.i
-.PHONY : src/dpf/dgl/src/SubWidget.i
-
-# target to preprocess a source file
-src/dpf/dgl/src/SubWidget.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/SubWidget.cpp.i
-.PHONY : src/dpf/dgl/src/SubWidget.cpp.i
-
-src/dpf/dgl/src/SubWidget.s: src/dpf/dgl/src/SubWidget.cpp.s
-.PHONY : src/dpf/dgl/src/SubWidget.s
-
-# target to generate assembly for a file
-src/dpf/dgl/src/SubWidget.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/SubWidget.cpp.s
-.PHONY : src/dpf/dgl/src/SubWidget.cpp.s
-
-src/dpf/dgl/src/SubWidgetPrivateData.o: src/dpf/dgl/src/SubWidgetPrivateData.cpp.o
-.PHONY : src/dpf/dgl/src/SubWidgetPrivateData.o
-
-# target to build an object file
-src/dpf/dgl/src/SubWidgetPrivateData.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/SubWidgetPrivateData.cpp.o
-.PHONY : src/dpf/dgl/src/SubWidgetPrivateData.cpp.o
-
-src/dpf/dgl/src/SubWidgetPrivateData.i: src/dpf/dgl/src/SubWidgetPrivateData.cpp.i
-.PHONY : src/dpf/dgl/src/SubWidgetPrivateData.i
-
-# target to preprocess a source file
-src/dpf/dgl/src/SubWidgetPrivateData.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/SubWidgetPrivateData.cpp.i
-.PHONY : src/dpf/dgl/src/SubWidgetPrivateData.cpp.i
-
-src/dpf/dgl/src/SubWidgetPrivateData.s: src/dpf/dgl/src/SubWidgetPrivateData.cpp.s
-.PHONY : src/dpf/dgl/src/SubWidgetPrivateData.s
-
-# target to generate assembly for a file
-src/dpf/dgl/src/SubWidgetPrivateData.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/SubWidgetPrivateData.cpp.s
-.PHONY : src/dpf/dgl/src/SubWidgetPrivateData.cpp.s
-
-src/dpf/dgl/src/TopLevelWidget.o: src/dpf/dgl/src/TopLevelWidget.cpp.o
-.PHONY : src/dpf/dgl/src/TopLevelWidget.o
-
-# target to build an object file
-src/dpf/dgl/src/TopLevelWidget.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/TopLevelWidget.cpp.o
-.PHONY : src/dpf/dgl/src/TopLevelWidget.cpp.o
-
-src/dpf/dgl/src/TopLevelWidget.i: src/dpf/dgl/src/TopLevelWidget.cpp.i
-.PHONY : src/dpf/dgl/src/TopLevelWidget.i
-
-# target to preprocess a source file
-src/dpf/dgl/src/TopLevelWidget.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/TopLevelWidget.cpp.i
-.PHONY : src/dpf/dgl/src/TopLevelWidget.cpp.i
-
-src/dpf/dgl/src/TopLevelWidget.s: src/dpf/dgl/src/TopLevelWidget.cpp.s
-.PHONY : src/dpf/dgl/src/TopLevelWidget.s
-
-# target to generate assembly for a file
-src/dpf/dgl/src/TopLevelWidget.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/TopLevelWidget.cpp.s
-.PHONY : src/dpf/dgl/src/TopLevelWidget.cpp.s
-
-src/dpf/dgl/src/TopLevelWidgetPrivateData.o: src/dpf/dgl/src/TopLevelWidgetPrivateData.cpp.o
-.PHONY : src/dpf/dgl/src/TopLevelWidgetPrivateData.o
-
-# target to build an object file
-src/dpf/dgl/src/TopLevelWidgetPrivateData.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/TopLevelWidgetPrivateData.cpp.o
-.PHONY : src/dpf/dgl/src/TopLevelWidgetPrivateData.cpp.o
-
-src/dpf/dgl/src/TopLevelWidgetPrivateData.i: src/dpf/dgl/src/TopLevelWidgetPrivateData.cpp.i
-.PHONY : src/dpf/dgl/src/TopLevelWidgetPrivateData.i
-
-# target to preprocess a source file
-src/dpf/dgl/src/TopLevelWidgetPrivateData.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/TopLevelWidgetPrivateData.cpp.i
-.PHONY : src/dpf/dgl/src/TopLevelWidgetPrivateData.cpp.i
-
-src/dpf/dgl/src/TopLevelWidgetPrivateData.s: src/dpf/dgl/src/TopLevelWidgetPrivateData.cpp.s
-.PHONY : src/dpf/dgl/src/TopLevelWidgetPrivateData.s
-
-# target to generate assembly for a file
-src/dpf/dgl/src/TopLevelWidgetPrivateData.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/TopLevelWidgetPrivateData.cpp.s
-.PHONY : src/dpf/dgl/src/TopLevelWidgetPrivateData.cpp.s
-
-src/dpf/dgl/src/Widget.o: src/dpf/dgl/src/Widget.cpp.o
-.PHONY : src/dpf/dgl/src/Widget.o
-
-# target to build an object file
-src/dpf/dgl/src/Widget.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Widget.cpp.o
-.PHONY : src/dpf/dgl/src/Widget.cpp.o
-
-src/dpf/dgl/src/Widget.i: src/dpf/dgl/src/Widget.cpp.i
-.PHONY : src/dpf/dgl/src/Widget.i
-
-# target to preprocess a source file
-src/dpf/dgl/src/Widget.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Widget.cpp.i
-.PHONY : src/dpf/dgl/src/Widget.cpp.i
-
-src/dpf/dgl/src/Widget.s: src/dpf/dgl/src/Widget.cpp.s
-.PHONY : src/dpf/dgl/src/Widget.s
-
-# target to generate assembly for a file
-src/dpf/dgl/src/Widget.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Widget.cpp.s
-.PHONY : src/dpf/dgl/src/Widget.cpp.s
-
-src/dpf/dgl/src/WidgetPrivateData.o: src/dpf/dgl/src/WidgetPrivateData.cpp.o
-.PHONY : src/dpf/dgl/src/WidgetPrivateData.o
-
-# target to build an object file
-src/dpf/dgl/src/WidgetPrivateData.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/WidgetPrivateData.cpp.o
-.PHONY : src/dpf/dgl/src/WidgetPrivateData.cpp.o
-
-src/dpf/dgl/src/WidgetPrivateData.i: src/dpf/dgl/src/WidgetPrivateData.cpp.i
-.PHONY : src/dpf/dgl/src/WidgetPrivateData.i
-
-# target to preprocess a source file
-src/dpf/dgl/src/WidgetPrivateData.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/WidgetPrivateData.cpp.i
-.PHONY : src/dpf/dgl/src/WidgetPrivateData.cpp.i
-
-src/dpf/dgl/src/WidgetPrivateData.s: src/dpf/dgl/src/WidgetPrivateData.cpp.s
-.PHONY : src/dpf/dgl/src/WidgetPrivateData.s
-
-# target to generate assembly for a file
-src/dpf/dgl/src/WidgetPrivateData.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/WidgetPrivateData.cpp.s
-.PHONY : src/dpf/dgl/src/WidgetPrivateData.cpp.s
-
-src/dpf/dgl/src/Window.o: src/dpf/dgl/src/Window.cpp.o
-.PHONY : src/dpf/dgl/src/Window.o
-
-# target to build an object file
-src/dpf/dgl/src/Window.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Window.cpp.o
-.PHONY : src/dpf/dgl/src/Window.cpp.o
-
-src/dpf/dgl/src/Window.i: src/dpf/dgl/src/Window.cpp.i
-.PHONY : src/dpf/dgl/src/Window.i
-
-# target to preprocess a source file
-src/dpf/dgl/src/Window.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Window.cpp.i
-.PHONY : src/dpf/dgl/src/Window.cpp.i
-
-src/dpf/dgl/src/Window.s: src/dpf/dgl/src/Window.cpp.s
-.PHONY : src/dpf/dgl/src/Window.s
-
-# target to generate assembly for a file
-src/dpf/dgl/src/Window.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/Window.cpp.s
-.PHONY : src/dpf/dgl/src/Window.cpp.s
-
-src/dpf/dgl/src/WindowPrivateData.o: src/dpf/dgl/src/WindowPrivateData.cpp.o
-.PHONY : src/dpf/dgl/src/WindowPrivateData.o
-
-# target to build an object file
-src/dpf/dgl/src/WindowPrivateData.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/WindowPrivateData.cpp.o
-.PHONY : src/dpf/dgl/src/WindowPrivateData.cpp.o
-
-src/dpf/dgl/src/WindowPrivateData.i: src/dpf/dgl/src/WindowPrivateData.cpp.i
-.PHONY : src/dpf/dgl/src/WindowPrivateData.i
-
-# target to preprocess a source file
-src/dpf/dgl/src/WindowPrivateData.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/WindowPrivateData.cpp.i
-.PHONY : src/dpf/dgl/src/WindowPrivateData.cpp.i
-
-src/dpf/dgl/src/WindowPrivateData.s: src/dpf/dgl/src/WindowPrivateData.cpp.s
-.PHONY : src/dpf/dgl/src/WindowPrivateData.s
-
-# target to generate assembly for a file
-src/dpf/dgl/src/WindowPrivateData.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/WindowPrivateData.cpp.s
-.PHONY : src/dpf/dgl/src/WindowPrivateData.cpp.s
-
-src/dpf/dgl/src/pugl.o: src/dpf/dgl/src/pugl.cpp.o
-.PHONY : src/dpf/dgl/src/pugl.o
-
-# target to build an object file
-src/dpf/dgl/src/pugl.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/pugl.cpp.o
-.PHONY : src/dpf/dgl/src/pugl.cpp.o
-
-src/dpf/dgl/src/pugl.i: src/dpf/dgl/src/pugl.cpp.i
-.PHONY : src/dpf/dgl/src/pugl.i
-
-# target to preprocess a source file
-src/dpf/dgl/src/pugl.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/pugl.cpp.i
-.PHONY : src/dpf/dgl/src/pugl.cpp.i
-
-src/dpf/dgl/src/pugl.s: src/dpf/dgl/src/pugl.cpp.s
-.PHONY : src/dpf/dgl/src/pugl.s
-
-# target to generate assembly for a file
-src/dpf/dgl/src/pugl.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dgl-opengl.dir/build.make CMakeFiles/dgl-opengl.dir/src/dpf/dgl/src/pugl.cpp.s
-.PHONY : src/dpf/dgl/src/pugl.cpp.s
-
-src/dpf/distrho/DistrhoPluginMain.o: src/dpf/distrho/DistrhoPluginMain.cpp.o
-.PHONY : src/dpf/distrho/DistrhoPluginMain.o
-
-# target to build an object file
-src/dpf/distrho/DistrhoPluginMain.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/VoyeSeq-jack.dir/build.make CMakeFiles/VoyeSeq-jack.dir/src/dpf/distrho/DistrhoPluginMain.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/VoyeSeq-lv2.dir/build.make CMakeFiles/VoyeSeq-lv2.dir/src/dpf/distrho/DistrhoPluginMain.cpp.o
-.PHONY : src/dpf/distrho/DistrhoPluginMain.cpp.o
-
-src/dpf/distrho/DistrhoPluginMain.i: src/dpf/distrho/DistrhoPluginMain.cpp.i
-.PHONY : src/dpf/distrho/DistrhoPluginMain.i
-
-# target to preprocess a source file
-src/dpf/distrho/DistrhoPluginMain.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/VoyeSeq-jack.dir/build.make CMakeFiles/VoyeSeq-jack.dir/src/dpf/distrho/DistrhoPluginMain.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/VoyeSeq-lv2.dir/build.make CMakeFiles/VoyeSeq-lv2.dir/src/dpf/distrho/DistrhoPluginMain.cpp.i
-.PHONY : src/dpf/distrho/DistrhoPluginMain.cpp.i
-
-src/dpf/distrho/DistrhoPluginMain.s: src/dpf/distrho/DistrhoPluginMain.cpp.s
-.PHONY : src/dpf/distrho/DistrhoPluginMain.s
-
-# target to generate assembly for a file
-src/dpf/distrho/DistrhoPluginMain.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/VoyeSeq-jack.dir/build.make CMakeFiles/VoyeSeq-jack.dir/src/dpf/distrho/DistrhoPluginMain.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/VoyeSeq-lv2.dir/build.make CMakeFiles/VoyeSeq-lv2.dir/src/dpf/distrho/DistrhoPluginMain.cpp.s
-.PHONY : src/dpf/distrho/DistrhoPluginMain.cpp.s
-
-src/dpf/distrho/DistrhoUIMain.o: src/dpf/distrho/DistrhoUIMain.cpp.o
-.PHONY : src/dpf/distrho/DistrhoUIMain.o
-
-# target to build an object file
-src/dpf/distrho/DistrhoUIMain.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/VoyeSeq-jack.dir/build.make CMakeFiles/VoyeSeq-jack.dir/src/dpf/distrho/DistrhoUIMain.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/VoyeSeq-lv2-ui.dir/build.make CMakeFiles/VoyeSeq-lv2-ui.dir/src/dpf/distrho/DistrhoUIMain.cpp.o
-.PHONY : src/dpf/distrho/DistrhoUIMain.cpp.o
-
-src/dpf/distrho/DistrhoUIMain.i: src/dpf/distrho/DistrhoUIMain.cpp.i
-.PHONY : src/dpf/distrho/DistrhoUIMain.i
-
-# target to preprocess a source file
-src/dpf/distrho/DistrhoUIMain.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/VoyeSeq-jack.dir/build.make CMakeFiles/VoyeSeq-jack.dir/src/dpf/distrho/DistrhoUIMain.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/VoyeSeq-lv2-ui.dir/build.make CMakeFiles/VoyeSeq-lv2-ui.dir/src/dpf/distrho/DistrhoUIMain.cpp.i
-.PHONY : src/dpf/distrho/DistrhoUIMain.cpp.i
-
-src/dpf/distrho/DistrhoUIMain.s: src/dpf/distrho/DistrhoUIMain.cpp.s
-.PHONY : src/dpf/distrho/DistrhoUIMain.s
-
-# target to generate assembly for a file
-src/dpf/distrho/DistrhoUIMain.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/VoyeSeq-jack.dir/build.make CMakeFiles/VoyeSeq-jack.dir/src/dpf/distrho/DistrhoUIMain.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/VoyeSeq-lv2-ui.dir/build.make CMakeFiles/VoyeSeq-lv2-ui.dir/src/dpf/distrho/DistrhoUIMain.cpp.s
-.PHONY : src/dpf/distrho/DistrhoUIMain.cpp.s
-
-src/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.o: src/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.o
-.PHONY : src/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.o
-
-# target to build an object file
-src/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lv2_ttl_generator.dir/build.make CMakeFiles/lv2_ttl_generator.dir/src/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.o
-.PHONY : src/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.o
-
-src/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.i: src/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.i
-.PHONY : src/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.i
-
-# target to preprocess a source file
-src/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lv2_ttl_generator.dir/build.make CMakeFiles/lv2_ttl_generator.dir/src/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.i
-.PHONY : src/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.i
-
-src/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.s: src/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.s
-.PHONY : src/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.s
-
-# target to generate assembly for a file
-src/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lv2_ttl_generator.dir/build.make CMakeFiles/lv2_ttl_generator.dir/src/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.s
-.PHONY : src/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -917,6 +917,78 @@ help:
 	@echo "... _dpf_empty.o"
 	@echo "... _dpf_empty.i"
 	@echo "... _dpf_empty.s"
+	@echo "... dpf/dgl/src/Application.o"
+	@echo "... dpf/dgl/src/Application.i"
+	@echo "... dpf/dgl/src/Application.s"
+	@echo "... dpf/dgl/src/ApplicationPrivateData.o"
+	@echo "... dpf/dgl/src/ApplicationPrivateData.i"
+	@echo "... dpf/dgl/src/ApplicationPrivateData.s"
+	@echo "... dpf/dgl/src/Color.o"
+	@echo "... dpf/dgl/src/Color.i"
+	@echo "... dpf/dgl/src/Color.s"
+	@echo "... dpf/dgl/src/EventHandlers.o"
+	@echo "... dpf/dgl/src/EventHandlers.i"
+	@echo "... dpf/dgl/src/EventHandlers.s"
+	@echo "... dpf/dgl/src/Geometry.o"
+	@echo "... dpf/dgl/src/Geometry.i"
+	@echo "... dpf/dgl/src/Geometry.s"
+	@echo "... dpf/dgl/src/ImageBase.o"
+	@echo "... dpf/dgl/src/ImageBase.i"
+	@echo "... dpf/dgl/src/ImageBase.s"
+	@echo "... dpf/dgl/src/ImageBaseWidgets.o"
+	@echo "... dpf/dgl/src/ImageBaseWidgets.i"
+	@echo "... dpf/dgl/src/ImageBaseWidgets.s"
+	@echo "... dpf/dgl/src/Layout.o"
+	@echo "... dpf/dgl/src/Layout.i"
+	@echo "... dpf/dgl/src/Layout.s"
+	@echo "... dpf/dgl/src/NanoVG.o"
+	@echo "... dpf/dgl/src/NanoVG.i"
+	@echo "... dpf/dgl/src/NanoVG.s"
+	@echo "... dpf/dgl/src/OpenGL.o"
+	@echo "... dpf/dgl/src/OpenGL.i"
+	@echo "... dpf/dgl/src/OpenGL.s"
+	@echo "... dpf/dgl/src/OpenGL2.o"
+	@echo "... dpf/dgl/src/OpenGL2.i"
+	@echo "... dpf/dgl/src/OpenGL2.s"
+	@echo "... dpf/dgl/src/Resources.o"
+	@echo "... dpf/dgl/src/Resources.i"
+	@echo "... dpf/dgl/src/Resources.s"
+	@echo "... dpf/dgl/src/SubWidget.o"
+	@echo "... dpf/dgl/src/SubWidget.i"
+	@echo "... dpf/dgl/src/SubWidget.s"
+	@echo "... dpf/dgl/src/SubWidgetPrivateData.o"
+	@echo "... dpf/dgl/src/SubWidgetPrivateData.i"
+	@echo "... dpf/dgl/src/SubWidgetPrivateData.s"
+	@echo "... dpf/dgl/src/TopLevelWidget.o"
+	@echo "... dpf/dgl/src/TopLevelWidget.i"
+	@echo "... dpf/dgl/src/TopLevelWidget.s"
+	@echo "... dpf/dgl/src/TopLevelWidgetPrivateData.o"
+	@echo "... dpf/dgl/src/TopLevelWidgetPrivateData.i"
+	@echo "... dpf/dgl/src/TopLevelWidgetPrivateData.s"
+	@echo "... dpf/dgl/src/Widget.o"
+	@echo "... dpf/dgl/src/Widget.i"
+	@echo "... dpf/dgl/src/Widget.s"
+	@echo "... dpf/dgl/src/WidgetPrivateData.o"
+	@echo "... dpf/dgl/src/WidgetPrivateData.i"
+	@echo "... dpf/dgl/src/WidgetPrivateData.s"
+	@echo "... dpf/dgl/src/Window.o"
+	@echo "... dpf/dgl/src/Window.i"
+	@echo "... dpf/dgl/src/Window.s"
+	@echo "... dpf/dgl/src/WindowPrivateData.o"
+	@echo "... dpf/dgl/src/WindowPrivateData.i"
+	@echo "... dpf/dgl/src/WindowPrivateData.s"
+	@echo "... dpf/dgl/src/pugl.o"
+	@echo "... dpf/dgl/src/pugl.i"
+	@echo "... dpf/dgl/src/pugl.s"
+	@echo "... dpf/distrho/DistrhoPluginMain.o"
+	@echo "... dpf/distrho/DistrhoPluginMain.i"
+	@echo "... dpf/distrho/DistrhoPluginMain.s"
+	@echo "... dpf/distrho/DistrhoUIMain.o"
+	@echo "... dpf/distrho/DistrhoUIMain.i"
+	@echo "... dpf/distrho/DistrhoUIMain.s"
+	@echo "... dpf/utils/lv2-ttl-generator/lv2_ttl_generator.o"
+	@echo "... dpf/utils/lv2-ttl-generator/lv2_ttl_generator.i"
+	@echo "... dpf/utils/lv2-ttl-generator/lv2_ttl_generator.s"
 	@echo "... src/VoyeRenderer.o"
 	@echo "... src/VoyeRenderer.i"
 	@echo "... src/VoyeRenderer.s"
@@ -926,78 +998,6 @@ help:
 	@echo "... src/VoyeSeqUI.o"
 	@echo "... src/VoyeSeqUI.i"
 	@echo "... src/VoyeSeqUI.s"
-	@echo "... src/dpf/dgl/src/Application.o"
-	@echo "... src/dpf/dgl/src/Application.i"
-	@echo "... src/dpf/dgl/src/Application.s"
-	@echo "... src/dpf/dgl/src/ApplicationPrivateData.o"
-	@echo "... src/dpf/dgl/src/ApplicationPrivateData.i"
-	@echo "... src/dpf/dgl/src/ApplicationPrivateData.s"
-	@echo "... src/dpf/dgl/src/Color.o"
-	@echo "... src/dpf/dgl/src/Color.i"
-	@echo "... src/dpf/dgl/src/Color.s"
-	@echo "... src/dpf/dgl/src/EventHandlers.o"
-	@echo "... src/dpf/dgl/src/EventHandlers.i"
-	@echo "... src/dpf/dgl/src/EventHandlers.s"
-	@echo "... src/dpf/dgl/src/Geometry.o"
-	@echo "... src/dpf/dgl/src/Geometry.i"
-	@echo "... src/dpf/dgl/src/Geometry.s"
-	@echo "... src/dpf/dgl/src/ImageBase.o"
-	@echo "... src/dpf/dgl/src/ImageBase.i"
-	@echo "... src/dpf/dgl/src/ImageBase.s"
-	@echo "... src/dpf/dgl/src/ImageBaseWidgets.o"
-	@echo "... src/dpf/dgl/src/ImageBaseWidgets.i"
-	@echo "... src/dpf/dgl/src/ImageBaseWidgets.s"
-	@echo "... src/dpf/dgl/src/Layout.o"
-	@echo "... src/dpf/dgl/src/Layout.i"
-	@echo "... src/dpf/dgl/src/Layout.s"
-	@echo "... src/dpf/dgl/src/NanoVG.o"
-	@echo "... src/dpf/dgl/src/NanoVG.i"
-	@echo "... src/dpf/dgl/src/NanoVG.s"
-	@echo "... src/dpf/dgl/src/OpenGL.o"
-	@echo "... src/dpf/dgl/src/OpenGL.i"
-	@echo "... src/dpf/dgl/src/OpenGL.s"
-	@echo "... src/dpf/dgl/src/OpenGL2.o"
-	@echo "... src/dpf/dgl/src/OpenGL2.i"
-	@echo "... src/dpf/dgl/src/OpenGL2.s"
-	@echo "... src/dpf/dgl/src/Resources.o"
-	@echo "... src/dpf/dgl/src/Resources.i"
-	@echo "... src/dpf/dgl/src/Resources.s"
-	@echo "... src/dpf/dgl/src/SubWidget.o"
-	@echo "... src/dpf/dgl/src/SubWidget.i"
-	@echo "... src/dpf/dgl/src/SubWidget.s"
-	@echo "... src/dpf/dgl/src/SubWidgetPrivateData.o"
-	@echo "... src/dpf/dgl/src/SubWidgetPrivateData.i"
-	@echo "... src/dpf/dgl/src/SubWidgetPrivateData.s"
-	@echo "... src/dpf/dgl/src/TopLevelWidget.o"
-	@echo "... src/dpf/dgl/src/TopLevelWidget.i"
-	@echo "... src/dpf/dgl/src/TopLevelWidget.s"
-	@echo "... src/dpf/dgl/src/TopLevelWidgetPrivateData.o"
-	@echo "... src/dpf/dgl/src/TopLevelWidgetPrivateData.i"
-	@echo "... src/dpf/dgl/src/TopLevelWidgetPrivateData.s"
-	@echo "... src/dpf/dgl/src/Widget.o"
-	@echo "... src/dpf/dgl/src/Widget.i"
-	@echo "... src/dpf/dgl/src/Widget.s"
-	@echo "... src/dpf/dgl/src/WidgetPrivateData.o"
-	@echo "... src/dpf/dgl/src/WidgetPrivateData.i"
-	@echo "... src/dpf/dgl/src/WidgetPrivateData.s"
-	@echo "... src/dpf/dgl/src/Window.o"
-	@echo "... src/dpf/dgl/src/Window.i"
-	@echo "... src/dpf/dgl/src/Window.s"
-	@echo "... src/dpf/dgl/src/WindowPrivateData.o"
-	@echo "... src/dpf/dgl/src/WindowPrivateData.i"
-	@echo "... src/dpf/dgl/src/WindowPrivateData.s"
-	@echo "... src/dpf/dgl/src/pugl.o"
-	@echo "... src/dpf/dgl/src/pugl.i"
-	@echo "... src/dpf/dgl/src/pugl.s"
-	@echo "... src/dpf/distrho/DistrhoPluginMain.o"
-	@echo "... src/dpf/distrho/DistrhoPluginMain.i"
-	@echo "... src/dpf/distrho/DistrhoPluginMain.s"
-	@echo "... src/dpf/distrho/DistrhoUIMain.o"
-	@echo "... src/dpf/distrho/DistrhoUIMain.i"
-	@echo "... src/dpf/distrho/DistrhoUIMain.s"
-	@echo "... src/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.o"
-	@echo "... src/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.i"
-	@echo "... src/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.s"
 .PHONY : help
 
 

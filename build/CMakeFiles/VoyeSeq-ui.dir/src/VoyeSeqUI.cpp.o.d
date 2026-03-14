@@ -1,28 +1,51 @@
 CMakeFiles/VoyeSeq-ui.dir/src/VoyeSeqUI.cpp.o: \
  /home/jelle/src/VoyeSeqProject/src/VoyeSeqUI.cpp \
- /usr/include/stdc-predef.h \
- /home/jelle/src/VoyeSeqProject/src/VoyeSeqUI.hpp \
- /home/jelle/src/VoyeSeqProject/src/DistrhoPluginInfo.h \
- /home/jelle/src/VoyeSeqProject/src/dpf/distrho/DistrhoUI.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/distrho/DistrhoDetails.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/distrho/extra/String.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/distrho/extra/../DistrhoUtils.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/distrho/extra/../src/DistrhoDefines.h \
- /usr/include/c++/15.2.1/cstdarg \
- /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
- /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+ /usr/include/stdc-predef.h /usr/include/pthread.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/bits/wordsize.h /usr/include/bits/timesize.h \
  /usr/include/sys/cdefs.h /usr/include/bits/long-double.h \
  /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
+ /usr/include/sched.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/bits/time64.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
+ /usr/include/bits/types/time_t.h \
+ /usr/include/bits/types/struct_timespec.h /usr/include/bits/endian.h \
+ /usr/include/bits/endianness.h /usr/include/bits/sched.h \
+ /usr/include/linux/sched/types.h /usr/include/linux/types.h \
+ /usr/include/asm/types.h /usr/include/asm-generic/types.h \
+ /usr/include/asm-generic/int-ll64.h /usr/include/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h /usr/include/linux/posix_types.h \
+ /usr/include/linux/stddef.h /usr/include/asm/posix_types.h \
+ /usr/include/asm/posix_types_64.h /usr/include/asm-generic/posix_types.h \
+ /usr/include/bits/types/struct_sched_param.h /usr/include/bits/cpu-set.h \
+ /usr/include/time.h /usr/include/bits/time.h /usr/include/bits/timex.h \
+ /usr/include/bits/types/struct_timeval.h \
+ /usr/include/bits/types/clock_t.h /usr/include/bits/types/struct_tm.h \
+ /usr/include/bits/types/clockid_t.h /usr/include/bits/types/timer_t.h \
+ /usr/include/bits/types/struct_itimerspec.h \
+ /usr/include/bits/types/locale_t.h /usr/include/bits/types/__locale_t.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/bits/thread-shared-types.h \
+ /usr/include/bits/pthreadtypes-arch.h \
+ /usr/include/bits/atomic_wide_counter.h /usr/include/bits/struct_mutex.h \
+ /usr/include/bits/struct_rwlock.h /usr/include/bits/setjmp.h \
+ /usr/include/bits/types/__sigset_t.h \
+ /usr/include/bits/types/struct___jmp_buf_tag.h \
+ /usr/include/bits/pthread_stack_min-dynamic.h \
+ /home/jelle/src/VoyeSeqProject/src/VoyeSeqUI.hpp \
+ /home/jelle/src/VoyeSeqProject/src/DistrhoPluginInfo.h \
+ /home/jelle/src/VoyeSeqProject/dpf/distrho/DistrhoUI.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/distrho/DistrhoDetails.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/distrho/extra/String.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/distrho/extra/../DistrhoUtils.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/distrho/extra/../src/DistrhoDefines.h \
+ /usr/include/c++/15.2.1/cstdarg \
+ /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
+ /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
  /usr/include/c++/15.2.1/pstl/pstl_config.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
  /usr/include/c++/15.2.1/cstdio /usr/include/stdio.h \
- /usr/include/bits/libc-header-start.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
- /usr/include/bits/types.h /usr/include/bits/typesizes.h \
- /usr/include/bits/time64.h /usr/include/bits/types/__fpos_t.h \
+ /usr/include/bits/libc-header-start.h /usr/include/bits/types/__fpos_t.h \
  /usr/include/bits/types/__mbstate_t.h \
  /usr/include/bits/types/__fpos64_t.h /usr/include/bits/types/__FILE.h \
  /usr/include/bits/types/FILE.h /usr/include/bits/types/struct_FILE.h \
@@ -30,21 +53,11 @@ CMakeFiles/VoyeSeq-ui.dir/src/VoyeSeqUI.cpp.o: \
  /usr/include/bits/stdio_lim.h /usr/include/bits/floatn.h \
  /usr/include/bits/floatn-common.h /usr/include/c++/15.2.1/cstdlib \
  /usr/include/stdlib.h /usr/include/bits/waitflags.h \
- /usr/include/bits/waitstatus.h /usr/include/bits/types/locale_t.h \
- /usr/include/bits/types/__locale_t.h /usr/include/sys/types.h \
- /usr/include/bits/types/clock_t.h /usr/include/bits/types/clockid_t.h \
- /usr/include/bits/types/time_t.h /usr/include/bits/types/timer_t.h \
+ /usr/include/bits/waitstatus.h /usr/include/sys/types.h \
  /usr/include/bits/stdint-intn.h /usr/include/endian.h \
- /usr/include/bits/endian.h /usr/include/bits/endianness.h \
  /usr/include/bits/byteswap.h /usr/include/bits/uintn-identity.h \
  /usr/include/sys/select.h /usr/include/bits/select.h \
- /usr/include/bits/types/sigset_t.h /usr/include/bits/types/__sigset_t.h \
- /usr/include/bits/types/struct_timeval.h \
- /usr/include/bits/types/struct_timespec.h \
- /usr/include/bits/pthreadtypes.h /usr/include/bits/thread-shared-types.h \
- /usr/include/bits/pthreadtypes-arch.h \
- /usr/include/bits/atomic_wide_counter.h /usr/include/bits/struct_mutex.h \
- /usr/include/bits/struct_rwlock.h /usr/include/alloca.h \
+ /usr/include/bits/types/sigset_t.h /usr/include/alloca.h \
  /usr/include/bits/stdlib-float.h /usr/include/c++/15.2.1/bits/std_abs.h \
  /usr/include/c++/15.2.1/cstring /usr/include/c++/15.2.1/bits/version.h \
  /usr/include/string.h /usr/include/strings.h \
@@ -91,8 +104,8 @@ CMakeFiles/VoyeSeq-ui.dir/src/VoyeSeqUI.cpp.o: \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/wchar.h \
  /usr/include/bits/stdint-uintn.h /usr/include/bits/stdint-least.h \
- /home/jelle/src/VoyeSeqProject/src/dpf/distrho/extra/../extra/ScopedSafeLocale.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/distrho/extra/../extra/../DistrhoUtils.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/distrho/extra/../extra/ScopedSafeLocale.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/distrho/extra/../extra/../DistrhoUtils.hpp \
  /usr/include/c++/15.2.1/clocale /usr/include/locale.h \
  /usr/include/bits/locale.h /usr/include/c++/15.2.1/algorithm \
  /usr/include/c++/15.2.1/bits/stl_algo.h \
@@ -118,19 +131,19 @@ CMakeFiles/VoyeSeq-ui.dir/src/VoyeSeqUI.cpp.o: \
  /usr/include/c++/15.2.1/bits/ostream_insert.h \
  /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
  /usr/include/c++/15.2.1/bits/string_view.tcc \
- /home/jelle/src/VoyeSeqProject/src/dpf/distrho/extra/LeakDetector.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/distrho/src/DistrhoPluginChecks.h \
+ /home/jelle/src/VoyeSeqProject/dpf/distrho/extra/LeakDetector.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/distrho/src/DistrhoPluginChecks.h \
  /home/jelle/src/VoyeSeqProject/src/DistrhoPluginInfo.h \
- /home/jelle/src/VoyeSeqProject/src/dpf/dgl/OpenGL.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/dgl/ImageBase.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/dgl/Geometry.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/dgl/Base.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/dgl/../distrho/extra/LeakDetector.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/dgl/../distrho/extra/ScopedPointer.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/dgl/../distrho/extra/../DistrhoUtils.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/dgl/ImageBaseWidgets.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/dgl/EventHandlers.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/dgl/Widget.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/dgl/OpenGL.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/dgl/ImageBase.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/dgl/Geometry.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/dgl/Base.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/dgl/../distrho/extra/LeakDetector.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/dgl/../distrho/extra/ScopedPointer.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/dgl/../distrho/extra/../DistrhoUtils.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/dgl/ImageBaseWidgets.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/dgl/EventHandlers.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/dgl/Widget.hpp \
  /usr/include/c++/15.2.1/list /usr/include/c++/15.2.1/bits/allocator.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
  /usr/include/c++/15.2.1/bits/new_allocator.h \
@@ -145,13 +158,13 @@ CMakeFiles/VoyeSeq-ui.dir/src/VoyeSeqUI.cpp.o: \
  /usr/include/c++/15.2.1/bits/uses_allocator.h \
  /usr/include/c++/15.2.1/bits/uses_allocator_args.h \
  /usr/include/c++/15.2.1/tuple /usr/include/c++/15.2.1/bits/invoke.h \
- /home/jelle/src/VoyeSeqProject/src/dpf/dgl/StandaloneWindow.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/dgl/TopLevelWidget.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/dgl/Window.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/dgl/FileBrowserDialog.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/dgl/../distrho/extra/FileBrowserDialogImpl.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/dgl/WebView.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/dgl/../distrho/extra/WebViewImpl.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/dgl/StandaloneWindow.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/dgl/TopLevelWidget.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/dgl/Window.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/dgl/FileBrowserDialog.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/dgl/../distrho/extra/FileBrowserDialogImpl.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/dgl/WebView.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/dgl/../distrho/extra/WebViewImpl.hpp \
  /usr/include/c++/15.2.1/vector \
  /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
  /usr/include/c++/15.2.1/bits/stl_vector.h \
@@ -160,18 +173,18 @@ CMakeFiles/VoyeSeq-ui.dir/src/VoyeSeqUI.cpp.o: \
  /usr/include/c++/15.2.1/bits/stl_function.h \
  /usr/include/c++/15.2.1/backward/binders.h \
  /usr/include/c++/15.2.1/bits/vector.tcc \
- /home/jelle/src/VoyeSeqProject/src/dpf/dgl/SubWidget.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/dgl/OpenGL-include.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/dgl/../distrho/src/DistrhoDefines.h \
+ /home/jelle/src/VoyeSeqProject/dpf/dgl/SubWidget.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/dgl/OpenGL-include.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/dgl/../distrho/src/DistrhoDefines.h \
  /usr/include/GL/gl.h /usr/include/GL/glext.h \
  /usr/include/KHR/khrplatform.h \
- /home/jelle/src/VoyeSeqProject/src/dpf/distrho/../dgl/NanoVG.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/distrho/../dgl/Color.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/distrho/../dgl/Base.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/distrho/../dgl/OpenGL.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/distrho/../dgl/SubWidget.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/distrho/../dgl/TopLevelWidget.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/distrho/../dgl/StandaloneWindow.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/distrho/../dgl/NanoVG.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/distrho/../dgl/Color.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/distrho/../dgl/Base.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/distrho/../dgl/OpenGL.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/distrho/../dgl/SubWidget.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/distrho/../dgl/TopLevelWidget.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/distrho/../dgl/StandaloneWindow.hpp \
  /home/jelle/src/VoyeSeqProject/src/Constants.hpp \
  /home/jelle/src/VoyeSeqProject/src/PatternModel.hpp \
  /usr/include/c++/15.2.1/string /usr/include/c++/15.2.1/bits/localefwd.h \
@@ -195,19 +208,6 @@ CMakeFiles/VoyeSeq-ui.dir/src/VoyeSeqUI.cpp.o: \
  /usr/include/c++/15.2.1/ext/atomicity.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
- /usr/include/pthread.h /usr/include/sched.h /usr/include/bits/sched.h \
- /usr/include/linux/sched/types.h /usr/include/linux/types.h \
- /usr/include/asm/types.h /usr/include/asm-generic/types.h \
- /usr/include/asm-generic/int-ll64.h /usr/include/asm/bitsperlong.h \
- /usr/include/asm-generic/bitsperlong.h /usr/include/linux/posix_types.h \
- /usr/include/linux/stddef.h /usr/include/asm/posix_types.h \
- /usr/include/asm/posix_types_64.h /usr/include/asm-generic/posix_types.h \
- /usr/include/bits/types/struct_sched_param.h /usr/include/bits/cpu-set.h \
- /usr/include/time.h /usr/include/bits/time.h /usr/include/bits/timex.h \
- /usr/include/bits/types/struct_tm.h \
- /usr/include/bits/types/struct_itimerspec.h /usr/include/bits/setjmp.h \
- /usr/include/bits/types/struct___jmp_buf_tag.h \
- /usr/include/bits/pthread_stack_min-dynamic.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
  /usr/include/sys/single_threaded.h \
  /usr/include/c++/15.2.1/bits/locale_classes.h \
@@ -258,7 +258,7 @@ CMakeFiles/VoyeSeq-ui.dir/src/VoyeSeqUI.cpp.o: \
  /home/jelle/src/VoyeSeqProject/src/VoyeUIUtils.hpp \
  /home/jelle/src/VoyeSeqProject/src/VoyeRenderer.hpp \
  /home/jelle/src/VoyeSeqProject/src/VoyeSeqPlugin.hpp \
- /home/jelle/src/VoyeSeqProject/src/dpf/distrho/DistrhoPlugin.hpp \
+ /home/jelle/src/VoyeSeqProject/dpf/distrho/DistrhoPlugin.hpp \
  /home/jelle/src/VoyeSeqProject/src/SequencerEngine.hpp \
  /home/jelle/src/VoyeSeqProject/src/FiraMono.h \
  /usr/include/c++/15.2.1/chrono /usr/include/c++/15.2.1/bits/chrono.h \

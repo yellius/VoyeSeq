@@ -2,12 +2,12 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix ui:   <http://lv2plug.in/ns/extensions/ui#> .
 
-<http://plantenberg.nl/voyeseq>
+<https://github.com/yellius/VoyeSeq>
     a lv2:Plugin ;
     lv2:binary <VoyeSeq_dsp.so> ;
     rdfs:seeAlso <VoyeSeq_dsp.ttl> .
 
-<http://plantenberg.nl/voyeseq#DPF_UI>
+<https://github.com/yellius/VoyeSeq#DPF_UI>
     a ui:X11UI ;
     ui:binary <VoyeSeq_ui.so> ;
     rdfs:seeAlso <VoyeSeq_ui.ttl> .

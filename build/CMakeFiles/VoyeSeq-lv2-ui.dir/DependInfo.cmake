@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/jelle/src/VoyeSeqProject/src/dpf/distrho/DistrhoUIMain.cpp" "CMakeFiles/VoyeSeq-lv2-ui.dir/src/dpf/distrho/DistrhoUIMain.cpp.o" "gcc" "CMakeFiles/VoyeSeq-lv2-ui.dir/src/dpf/distrho/DistrhoUIMain.cpp.o.d"
+  "/home/jelle/src/VoyeSeqProject/dpf/distrho/DistrhoUIMain.cpp" "CMakeFiles/VoyeSeq-lv2-ui.dir/dpf/distrho/DistrhoUIMain.cpp.o" "gcc" "CMakeFiles/VoyeSeq-lv2-ui.dir/dpf/distrho/DistrhoUIMain.cpp.o.d"
   "" "bin/VoyeSeq.lv2/VoyeSeq_ui.so" "gcc" "CMakeFiles/VoyeSeq-lv2-ui.dir/link.d"
   )
 

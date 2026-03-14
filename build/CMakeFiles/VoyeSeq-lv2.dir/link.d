@@ -1,8 +1,8 @@
 bin/VoyeSeq.lv2/VoyeSeq_dsp.so: \
-  /home/jelle/src/VoyeSeqProject/src/dpf/utils/symbols/lv2-dsp.version \
+  /home/jelle/src/VoyeSeqProject/dpf/utils/symbols/lv2-dsp.version \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o \
-  CMakeFiles/VoyeSeq-lv2.dir/src/dpf/distrho/DistrhoPluginMain.cpp.o \
+  CMakeFiles/VoyeSeq-lv2.dir/dpf/distrho/DistrhoPluginMain.cpp.o \
   libVoyeSeq-dsp.a \
   libVoyeSeq.a \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libdl.a \
@@ -36,13 +36,13 @@ bin/VoyeSeq.lv2/VoyeSeq_dsp.so: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
 
-/home/jelle/src/VoyeSeqProject/src/dpf/utils/symbols/lv2-dsp.version:
+/home/jelle/src/VoyeSeqProject/dpf/utils/symbols/lv2-dsp.version:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o:
 
-CMakeFiles/VoyeSeq-lv2.dir/src/dpf/distrho/DistrhoPluginMain.cpp.o:
+CMakeFiles/VoyeSeq-lv2.dir/dpf/distrho/DistrhoPluginMain.cpp.o:
 
 libVoyeSeq-dsp.a:
 

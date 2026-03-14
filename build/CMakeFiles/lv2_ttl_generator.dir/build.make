@@ -72,28 +72,28 @@ include CMakeFiles/lv2_ttl_generator.dir/flags.make
 CMakeFiles/lv2_ttl_generator.dir/codegen:
 .PHONY : CMakeFiles/lv2_ttl_generator.dir/codegen
 
-CMakeFiles/lv2_ttl_generator.dir/src/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.o: CMakeFiles/lv2_ttl_generator.dir/flags.make
-CMakeFiles/lv2_ttl_generator.dir/src/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.o: /home/jelle/src/VoyeSeqProject/src/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c
-CMakeFiles/lv2_ttl_generator.dir/src/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.o: CMakeFiles/lv2_ttl_generator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jelle/src/VoyeSeqProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/lv2_ttl_generator.dir/src/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lv2_ttl_generator.dir/src/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.o -MF CMakeFiles/lv2_ttl_generator.dir/src/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.o.d -o CMakeFiles/lv2_ttl_generator.dir/src/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.o -c /home/jelle/src/VoyeSeqProject/src/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c
+CMakeFiles/lv2_ttl_generator.dir/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.o: CMakeFiles/lv2_ttl_generator.dir/flags.make
+CMakeFiles/lv2_ttl_generator.dir/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.o: /home/jelle/src/VoyeSeqProject/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c
+CMakeFiles/lv2_ttl_generator.dir/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.o: CMakeFiles/lv2_ttl_generator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jelle/src/VoyeSeqProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/lv2_ttl_generator.dir/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lv2_ttl_generator.dir/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.o -MF CMakeFiles/lv2_ttl_generator.dir/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.o.d -o CMakeFiles/lv2_ttl_generator.dir/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.o -c /home/jelle/src/VoyeSeqProject/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c
 
-CMakeFiles/lv2_ttl_generator.dir/src/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/lv2_ttl_generator.dir/src/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jelle/src/VoyeSeqProject/src/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c > CMakeFiles/lv2_ttl_generator.dir/src/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.i
+CMakeFiles/lv2_ttl_generator.dir/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/lv2_ttl_generator.dir/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jelle/src/VoyeSeqProject/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c > CMakeFiles/lv2_ttl_generator.dir/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.i
 
-CMakeFiles/lv2_ttl_generator.dir/src/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/lv2_ttl_generator.dir/src/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jelle/src/VoyeSeqProject/src/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c -o CMakeFiles/lv2_ttl_generator.dir/src/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.s
+CMakeFiles/lv2_ttl_generator.dir/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/lv2_ttl_generator.dir/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jelle/src/VoyeSeqProject/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c -o CMakeFiles/lv2_ttl_generator.dir/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.s
 
 # Object files for target lv2_ttl_generator
 lv2_ttl_generator_OBJECTS = \
-"CMakeFiles/lv2_ttl_generator.dir/src/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.o"
+"CMakeFiles/lv2_ttl_generator.dir/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.o"
 
 # External object files for target lv2_ttl_generator
 lv2_ttl_generator_EXTERNAL_OBJECTS =
 
-lv2_ttl_generator: CMakeFiles/lv2_ttl_generator.dir/src/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.o
+lv2_ttl_generator: CMakeFiles/lv2_ttl_generator.dir/dpf/utils/lv2-ttl-generator/lv2_ttl_generator.c.o
 lv2_ttl_generator: CMakeFiles/lv2_ttl_generator.dir/build.make
 lv2_ttl_generator: CMakeFiles/lv2_ttl_generator.dir/compiler_depend.ts
 lv2_ttl_generator: CMakeFiles/lv2_ttl_generator.dir/link.txt

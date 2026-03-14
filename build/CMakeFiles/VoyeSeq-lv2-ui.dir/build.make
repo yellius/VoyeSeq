@@ -72,28 +72,28 @@ include CMakeFiles/VoyeSeq-lv2-ui.dir/flags.make
 CMakeFiles/VoyeSeq-lv2-ui.dir/codegen:
 .PHONY : CMakeFiles/VoyeSeq-lv2-ui.dir/codegen
 
-CMakeFiles/VoyeSeq-lv2-ui.dir/src/dpf/distrho/DistrhoUIMain.cpp.o: CMakeFiles/VoyeSeq-lv2-ui.dir/flags.make
-CMakeFiles/VoyeSeq-lv2-ui.dir/src/dpf/distrho/DistrhoUIMain.cpp.o: /home/jelle/src/VoyeSeqProject/src/dpf/distrho/DistrhoUIMain.cpp
-CMakeFiles/VoyeSeq-lv2-ui.dir/src/dpf/distrho/DistrhoUIMain.cpp.o: CMakeFiles/VoyeSeq-lv2-ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jelle/src/VoyeSeqProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/VoyeSeq-lv2-ui.dir/src/dpf/distrho/DistrhoUIMain.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VoyeSeq-lv2-ui.dir/src/dpf/distrho/DistrhoUIMain.cpp.o -MF CMakeFiles/VoyeSeq-lv2-ui.dir/src/dpf/distrho/DistrhoUIMain.cpp.o.d -o CMakeFiles/VoyeSeq-lv2-ui.dir/src/dpf/distrho/DistrhoUIMain.cpp.o -c /home/jelle/src/VoyeSeqProject/src/dpf/distrho/DistrhoUIMain.cpp
+CMakeFiles/VoyeSeq-lv2-ui.dir/dpf/distrho/DistrhoUIMain.cpp.o: CMakeFiles/VoyeSeq-lv2-ui.dir/flags.make
+CMakeFiles/VoyeSeq-lv2-ui.dir/dpf/distrho/DistrhoUIMain.cpp.o: /home/jelle/src/VoyeSeqProject/dpf/distrho/DistrhoUIMain.cpp
+CMakeFiles/VoyeSeq-lv2-ui.dir/dpf/distrho/DistrhoUIMain.cpp.o: CMakeFiles/VoyeSeq-lv2-ui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jelle/src/VoyeSeqProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/VoyeSeq-lv2-ui.dir/dpf/distrho/DistrhoUIMain.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VoyeSeq-lv2-ui.dir/dpf/distrho/DistrhoUIMain.cpp.o -MF CMakeFiles/VoyeSeq-lv2-ui.dir/dpf/distrho/DistrhoUIMain.cpp.o.d -o CMakeFiles/VoyeSeq-lv2-ui.dir/dpf/distrho/DistrhoUIMain.cpp.o -c /home/jelle/src/VoyeSeqProject/dpf/distrho/DistrhoUIMain.cpp
 
-CMakeFiles/VoyeSeq-lv2-ui.dir/src/dpf/distrho/DistrhoUIMain.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VoyeSeq-lv2-ui.dir/src/dpf/distrho/DistrhoUIMain.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jelle/src/VoyeSeqProject/src/dpf/distrho/DistrhoUIMain.cpp > CMakeFiles/VoyeSeq-lv2-ui.dir/src/dpf/distrho/DistrhoUIMain.cpp.i
+CMakeFiles/VoyeSeq-lv2-ui.dir/dpf/distrho/DistrhoUIMain.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VoyeSeq-lv2-ui.dir/dpf/distrho/DistrhoUIMain.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jelle/src/VoyeSeqProject/dpf/distrho/DistrhoUIMain.cpp > CMakeFiles/VoyeSeq-lv2-ui.dir/dpf/distrho/DistrhoUIMain.cpp.i
 
-CMakeFiles/VoyeSeq-lv2-ui.dir/src/dpf/distrho/DistrhoUIMain.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VoyeSeq-lv2-ui.dir/src/dpf/distrho/DistrhoUIMain.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jelle/src/VoyeSeqProject/src/dpf/distrho/DistrhoUIMain.cpp -o CMakeFiles/VoyeSeq-lv2-ui.dir/src/dpf/distrho/DistrhoUIMain.cpp.s
+CMakeFiles/VoyeSeq-lv2-ui.dir/dpf/distrho/DistrhoUIMain.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VoyeSeq-lv2-ui.dir/dpf/distrho/DistrhoUIMain.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jelle/src/VoyeSeqProject/dpf/distrho/DistrhoUIMain.cpp -o CMakeFiles/VoyeSeq-lv2-ui.dir/dpf/distrho/DistrhoUIMain.cpp.s
 
 # Object files for target VoyeSeq-lv2-ui
 VoyeSeq__lv2__ui_OBJECTS = \
-"CMakeFiles/VoyeSeq-lv2-ui.dir/src/dpf/distrho/DistrhoUIMain.cpp.o"
+"CMakeFiles/VoyeSeq-lv2-ui.dir/dpf/distrho/DistrhoUIMain.cpp.o"
 
 # External object files for target VoyeSeq-lv2-ui
 VoyeSeq__lv2__ui_EXTERNAL_OBJECTS =
 
-bin/VoyeSeq.lv2/VoyeSeq_ui.so: CMakeFiles/VoyeSeq-lv2-ui.dir/src/dpf/distrho/DistrhoUIMain.cpp.o
+bin/VoyeSeq.lv2/VoyeSeq_ui.so: CMakeFiles/VoyeSeq-lv2-ui.dir/dpf/distrho/DistrhoUIMain.cpp.o
 bin/VoyeSeq.lv2/VoyeSeq_ui.so: CMakeFiles/VoyeSeq-lv2-ui.dir/build.make
 bin/VoyeSeq.lv2/VoyeSeq_ui.so: CMakeFiles/VoyeSeq-lv2-ui.dir/compiler_depend.ts
 bin/VoyeSeq.lv2/VoyeSeq_ui.so: libVoyeSeq-ui.a

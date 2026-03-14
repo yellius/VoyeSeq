@@ -28,7 +28,7 @@ CMAKE_BUILD_TYPE:STRING=
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
 //CXX compiler
-CMAKE_CXX_COMPILER:STRING=/usr/bin/c++
+CMAKE_CXX_COMPILER:FILEPATH=/usr/bin/c++
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -54,7 +54,7 @@ CMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
 //C compiler
-CMAKE_C_COMPILER:STRING=/usr/bin/cc
+CMAKE_C_COMPILER:FILEPATH=/usr/bin/cc
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -234,7 +234,7 @@ DPF_IS_TOP_LEVEL:STATIC=OFF
 DPF_LIBRARIES:BOOL=OFF
 
 //Value Computed by CMake
-DPF_SOURCE_DIR:STATIC=/home/jelle/src/VoyeSeqProject/src/dpf
+DPF_SOURCE_DIR:STATIC=/home/jelle/src/VoyeSeqProject/dpf
 
 //Path to a file.
 FREETYPE_INCLUDE_DIR_freetype2:PATH=/usr/include/freetype2
@@ -775,7 +775,7 @@ ALSA_STATIC_LIBS:INTERNAL=
 ALSA_STATIC_LIBS_L:INTERNAL=
 ALSA_STATIC_LIBS_OTHER:INTERNAL=
 ALSA_STATIC_LIBS_PATHS:INTERNAL=
-ALSA_VERSION:INTERNAL=1.2.15.1
+ALSA_VERSION:INTERNAL=1.2.15.3
 ALSA_alsa_INCLUDEDIR:INTERNAL=
 ALSA_alsa_LIBDIR:INTERNAL=
 ALSA_alsa_PREFIX:INTERNAL=
@@ -977,7 +977,7 @@ DBUS_dbus-1_LIBDIR:INTERNAL=
 DBUS_dbus-1_PREFIX:INTERNAL=
 DBUS_dbus-1_VERSION:INTERNAL=
 //Root directory of the DISTRHO Plugin Framework.
-DPF_ROOT_DIR:INTERNAL=/home/jelle/src/VoyeSeqProject/src/dpf
+DPF_ROOT_DIR:INTERNAL=/home/jelle/src/VoyeSeqProject/dpf
 //Details about finding OpenGL
 FIND_PACKAGE_MESSAGE_DETAILS_OpenGL:INTERNAL=[/usr/lib/libOpenGL.so][/usr/lib/libGLX.so][/usr/include][ ][v()]
 //Details about finding PkgConfig
@@ -1130,7 +1130,7 @@ SDL2_STATIC_LIBS:INTERNAL=
 SDL2_STATIC_LIBS_L:INTERNAL=
 SDL2_STATIC_LIBS_OTHER:INTERNAL=
 SDL2_STATIC_LIBS_PATHS:INTERNAL=
-SDL2_VERSION:INTERNAL=2.32.60
+SDL2_VERSION:INTERNAL=2.32.64
 SDL2_sdl2_INCLUDEDIR:INTERNAL=
 SDL2_sdl2_LIBDIR:INTERNAL=
 SDL2_sdl2_PREFIX:INTERNAL=

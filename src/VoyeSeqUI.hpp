@@ -26,7 +26,6 @@ public:
     ~VoyeSeqUI() override;
 
 protected:
-    /* DPF Callbacks */
     void parameterChanged(uint32_t index, float value) override;
     void stateChanged(const char* key, const char* value) override;
     void onNanoDisplay() override;
@@ -38,6 +37,7 @@ private:
     std::atomic<bool> fNeedsOscToggle = false;
     int fSock{-1};
     void  sendOscToggle();
+    NVGcontext* fLastVg;
     
     /* Logic Helpers */
     EditState getNextMode(EditState current);
