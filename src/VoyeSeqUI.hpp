@@ -4,13 +4,13 @@
 #include "DistrhoUI.hpp"
 #include "Constants.hpp"
 #include "PatternModel.hpp"
-
 #include <sys/socket.h>
 #include <netinet/in.h>
 #include <arpa/inet.h>
 #include <unistd.h>
-
 #include <atomic>
+#include <chrono>
+#include <vector>
 
 START_NAMESPACE_DISTRHO
 
@@ -29,7 +29,7 @@ protected:
     void parameterChanged(uint32_t index, float value) override;
     void stateChanged(const char* key, const char* value) override;
     void onNanoDisplay() override;
-    void auditionNote(uint8_t pitch, uint8_t velocity);
+    void auditionNote(uint8_t pitch, uint8_t velocity, int autoOffMs = 0);
     bool onKeyboard(const KeyboardEvent& event) override;
     void idleCallback() override;
 
@@ -61,7 +61,7 @@ private:
     //Pattern       fLocalPattern;            // Local copy of notes for rendering
     GridViewState fView;                    // Grouped 'Camera', Cursor, and Transport state
     EditState     fEdit = EditState::GridEdit;
-    
+
     // Note Editing Logic
     VoyeNote      fNoteEditBuffer;          // Temporary storage for the note being tweaked
     VoyeNote      fDefaultNoteSettings;     // Template for new note creation
@@ -70,6 +70,14 @@ private:
     int           fSelectedNoteIndex = -1;  // -1 means no note selected
     void          updateSelection();        // Helper to find note at carrot
     std::string   fTempName;
+    uint8_t       fAuditionTriggerCount = 0;
+
+    // Struct for auto-off auditioning notes
+    struct ScheduledNoteOff {
+        uint8_t pitch;
+        std::chrono::steady_clock::time_point offTime;
+    };
+    std::vector<ScheduledNoteOff> fScheduledNoteOffs;
 
     DISTRHO_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR(VoyeSeqUI)
 };

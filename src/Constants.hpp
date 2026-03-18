@@ -15,6 +15,11 @@ namespace Voye {
         PARAM_TICKSPERBEAT,
         PARAM_SIG_NUM,
         PARAM_SIG_DEN,
+        PARAM_UI_PATTERN,
+        PARAM_AUDITION,
+        PARAM_CH_TRIGGER,     // 0=Omni, 1-16=Ch, 17=Off
+        PARAM_CH_THRU,        // 0=Omni, 1-16=Ch, 17=Off
+        PARAM_CH_OUT,         // 1-16
 
         PARAM_COUNT
     };

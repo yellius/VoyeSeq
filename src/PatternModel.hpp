@@ -33,6 +33,7 @@ struct GridViewState {
     uint32_t quantizeTicks = 48; // Current grid snapping (e.g., 192/4)
     bool     carrotVisible = true; // For blinking logic
     bool     playing = false;
+    int      chThru = 0;
     
     TransportState transport; 
 };

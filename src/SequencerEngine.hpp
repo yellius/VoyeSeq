@@ -2,8 +2,7 @@
 #include "DistrhoPlugin.hpp"
 #include "PatternModel.hpp"
 #include "Constants.hpp"
-#include <vector>
-#include <algorithm>
+#include <array>
 #include <atomic>
 
 START_NAMESPACE_DISTRHO
@@ -14,6 +13,8 @@ public:
         uint32_t frame;
         uint8_t data[3];
     };
+
+    static constexpr size_t MAX_PENDING_EVENTS = 512;
     
     Pattern& getWritablePattern() { 
         return fBank.patterns[fActiveTriggerNote]; 
@@ -32,113 +33,145 @@ public:
 
     SequencerEngine() : fIsPlaying(false), fInternalTick(0.0),
                         fLastProcessedTick(-1), fActiveTriggerNote(64) {
+        
+        // Initialize scheduled Note Offs to -1 (not playing)
+        for (int i = 0; i < 128; ++i) { 
+            fActiveNoteOffTicks[i] = -1; 
+            fActiveNoteOffVels[i] = 64;
+        }
+        
         fBank.patterns[fActiveTriggerNote].lengthTicks = 768;
         fBank.patterns[fActiveTriggerNote].notes.clear();
     }
 
     void process(const TimePosition& timePos, bool triggerReceived, bool triggerReleased, uint8_t triggerNote, uint32_t frames, double sampleRate) {
-        fPendingEvents.clear();
+        
+        fPendingEventCount = 0;
 
-        if (fNeedsAudition.exchange(false)) { // Using atomic exchange
+        // --- NEW AUDITION QUEUE PROCESSING ---
+        int read = fAuditionReadIdx.load(std::memory_order_relaxed);
+        while (read != fAuditionWriteIdx.load(std::memory_order_acquire)) {
+            AuditionEvent ev = fAuditionQueue[read];
             
-            if (fLastAuditionPitch != 255) {
-                pushMidi(0, 0x80, fLastAuditionPitch, 0); 
+            if (ev.vel > 0) {
+                pushMidi(0, 0x90, ev.pitch, ev.vel); // Note On
+            } else {
+                pushMidi(0, 0x80, ev.pitch, 0);      // Note Off
             }
-            pushMidi(0, 0x90, fAuditionPitch, fAuditionVel);
-            fLastAuditionPitch = fAuditionPitch;
+            read = (read + 1) % 32;
+        }
+        fAuditionReadIdx.store(read, std::memory_order_release);
+
+        if (triggerReleased) {
+            killAllActiveNotes(0);
+            fIsPlaying = false;
         }
 
         if (triggerReceived) {
+            killAllActiveNotes(0);
             fIsPlaying = true;
             fInternalTick = 0.0;
             fLastProcessedTick = -1;
             fActiveTriggerNote = triggerNote;
         }
 
-        if (triggerReleased) {
-            killAllActiveNotes(0);
-            fIsPlaying = false;
-            return;
-        }
-        
-        Pattern& fPattern = fBank.patterns[fActiveTriggerNote];
-
         if (!fIsPlaying) return;
+
+        Pattern& fPattern = fBank.patterns[fActiveTriggerNote];
 
         double beatsPerSecond = timePos.bbt.beatsPerMinute / 60.0;
         double ticksPerSecond = beatsPerSecond * Voye::PPQN;
         double ticksPerSample = ticksPerSecond / sampleRate;
 
         for (uint32_t f = 0; f < frames; ++f) {
-            // 1. Determine current integer tick
             uint32_t currentTick = (uint32_t)fInternalTick;
 
-            // 2. Only process if the tick has changed
             if ((int)currentTick != fLastProcessedTick) {
                 
-                // Loop through notes to find matches for this specific tick
-                for (const auto& note : fPattern.notes) {
-                    
-                    // --- Note On ---
-                    if (currentTick == note.startTick) {
-                        pushMidi(f, 0x90, note.pitch, note.velocity);
-                        fActiveNotes.push_back(note.pitch);
-                    }
-                    
-                    // --- Note Off ---
-                    // We check if the note should end at this tick
-                    uint32_t offTick = (note.startTick + note.lengthTicks) % fPattern.lengthTicks;
-                    if (currentTick == offTick) {
-                        pushMidi(f, 0x80, note.pitch, note.off_velocity);
-                        removeActiveNote(note.pitch);
+                // 1. Process all scheduled Note Offs FIRST
+                // This guarantees back-to-back notes don't mute each other!
+                for (int i = 0; i < 128; ++i) {
+                    if (fActiveNoteOffTicks[i] == (int)currentTick) {
+                        pushMidi(f, 0x80, i, fActiveNoteOffVels[i]);
+                        fActiveNoteOffTicks[i] = -1; // Mark as successfully turned off
                     }
                 }
+
+                // 2. Process Note Ons from the pattern
+                for (const auto& note : fPattern.notes) {
+                    if (currentTick == note.startTick) {
+                        // Trigger the note
+                        pushMidi(f, 0x90, note.pitch, note.velocity);
+                        
+                        // Schedule the Note Off independently
+                        int offTick = (note.startTick + note.lengthTicks) % fPattern.lengthTicks;
+                        fActiveNoteOffTicks[note.pitch] = offTick;
+                        fActiveNoteOffVels[note.pitch] = note.off_velocity;
+                    }
+                }
+                
                 fLastProcessedTick = (int)currentTick;
             }
 
-            // 3. Increment and Wrap
             fInternalTick += ticksPerSample;
             if (fInternalTick >= (double)fPattern.lengthTicks) {
                 fInternalTick -= (double)fPattern.lengthTicks;
-                fLastProcessedTick = -1; // Reset to allow processing tick 0 again
+                fLastProcessedTick = -1; 
             }
         }
     }
     
-    std::vector<PendingEvent> getEvents() { return fPendingEvents; }
+    size_t getEventCount() const { return fPendingEventCount; }
+    const PendingEvent& getEvent(size_t index) const { return fPendingEvents[index]; }
+    
     uint32_t getCurrentTick() const { 
-        // .at() is a const-safe way to access map elements
         return (uint32_t)fInternalTick % fBank.patterns.at(fActiveTriggerNote).lengthTicks; 
     }
 
-    std::atomic<bool> fNeedsAudition{false};
-    uint8_t fAuditionPitch = 0;
-    uint8_t fAuditionVel = 0;
+    struct AuditionEvent { uint8_t pitch; uint8_t vel; };
+    std::atomic<int> fAuditionWriteIdx{0};
+    std::atomic<int> fAuditionReadIdx{0};
+    std::array<AuditionEvent, 32> fAuditionQueue{};
+
+    void pushAudition(uint8_t pitch, uint8_t vel) {
+        int write = fAuditionWriteIdx.load(std::memory_order_relaxed);
+        int nextWrite = (write + 1) % 32;
+        if (nextWrite != fAuditionReadIdx.load(std::memory_order_acquire)) {
+            fAuditionQueue[write] = {pitch, vel};
+            fAuditionWriteIdx.store(nextWrite, std::memory_order_release);
+        }
+    }
 
 private:
     void pushMidi(uint32_t frame, uint8_t status, uint8_t d1, uint8_t d2) {
-        fPendingEvents.push_back({frame, {status, d1, d2}});
-    }
-
-    void removeActiveNote(uint8_t pitch) {
-        fActiveNotes.erase(std::remove(fActiveNotes.begin(), fActiveNotes.end(), pitch), fActiveNotes.end());
+        if (fPendingEventCount < MAX_PENDING_EVENTS) {
+            fPendingEvents[fPendingEventCount++] = {frame, {status, d1, d2}};
+        }
     }
 
     void killAllActiveNotes(uint32_t frame) {
-        for (uint8_t pitch : fActiveNotes) {
-            pushMidi(frame, 0x80, pitch, 64);
+        // Iterate through all 128 scheduled ticks
+        for (uint8_t i = 0; i < 128; ++i) {
+            if (fActiveNoteOffTicks[i] != -1) { 
+                pushMidi(frame, 0x80, i, fActiveNoteOffVels[i]);
+                fActiveNoteOffTicks[i] = -1;
+            }
         }
-        fActiveNotes.clear();
     }
 
     PatternBank   fBank;
     uint8_t       fActiveTriggerNote = 64;
     bool          fIsPlaying;
-    double        fInternalTick;       // High precision local playhead
+    double        fInternalTick;       
     int           fLastProcessedTick;
     uint8_t       fLastAuditionPitch = 255;
-    std::vector<uint8_t> fActiveNotes;
-    std::vector<PendingEvent> fPendingEvents;
+    
+    std::array<PendingEvent, MAX_PENDING_EVENTS> fPendingEvents;
+    size_t fPendingEventCount = 0;
+    
+    // Independent scheduling arrays
+    int     fActiveNoteOffTicks[128]; 
+    uint8_t fActiveNoteOffVels[128];
 };
 
 END_NAMESPACE_DISTRHO

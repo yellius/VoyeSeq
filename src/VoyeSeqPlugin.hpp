@@ -1,6 +1,7 @@
 #pragma once
 #include "DistrhoPluginInfo.h"
 #include "DistrhoPlugin.hpp"
+#include "PatternModel.hpp"
 #include "SequencerEngine.hpp"
 #include <algorithm>
 
@@ -29,10 +30,17 @@ protected:
     void run(const float**, float**, uint32_t, const MidiEvent*, uint32_t) override;
 
 private:
-    SequencerEngine fEngine;
-    TransportState  fTransport;
-    float           fLastNote;
-    uint8_t         fTriggerNote;
+    SequencerEngine     fEngine;
+    PatternBank         fNextBank;
+    std::atomic<bool>   fHasNextBank{false};
+    TransportState      fTransport;
+    float               fLastNote;
+    uint8_t             fTriggerNote;
+    uint8_t             fUIPattern;
+    uint8_t             fChTrigger = 0;  // Default 0 (Omni)
+    uint8_t             fChThru = 0;    // Default 17 (Off)
+    uint8_t             fChOut = 1;      // Default 1 (Ch 1)
+    bool                fHasRunOnce = false;
 
     DISTRHO_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR(VoyeSeqPlugin)
 };

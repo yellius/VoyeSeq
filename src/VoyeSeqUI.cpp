@@ -1,5 +1,7 @@
+#include <cstdint>
 #include <pthread.h>
 #include "VoyeSeqUI.hpp"
+#include "Constants.hpp"
 #include "VoyeUIUtils.hpp"
 #include "VoyeRenderer.hpp"
 #include "VoyeSeqPlugin.hpp"
@@ -93,8 +95,10 @@ void VoyeSeqUI::parameterChanged(uint32_t index, float value) {
         case Voye::PARAM_TICK:      fView.transport.tick    = (int)value;    break;
         case Voye::PARAM_SIG_NUM:   fView.transport.sigNum  = (int)value;    break;
         case Voye::PARAM_SIG_DEN:   fView.transport.sigDen  = (int)value;    break;
-    }
+        case Voye::PARAM_UI_PATTERN: fCurrentPattern = static_cast<uint8_t>(value); break;
+        case Voye::PARAM_CH_THRU:   fView.chThru = static_cast<uint8_t>(value); break;
     repaint();
+    }
 }
 
 //--Interface to allow Plugin to send state changes to UI
@@ -162,17 +166,30 @@ void VoyeSeqUI::idleCallback() {
     auto now = std::chrono::steady_clock::now();
     double seconds = std::chrono::duration<double>(now.time_since_epoch()).count();
 
+    // Check if we need to send start/stop toggle over OSC
+    if (fNeedsOscToggle.exchange(false)) {
+        sendOscToggle();
+    }
+
+    if (!fScheduledNoteOffs.empty()) {
+        auto now = std::chrono::steady_clock::now();
+        for (auto it = fScheduledNoteOffs.begin(); it != fScheduledNoteOffs.end(); ) {
+            if (now >= it->offTime) {
+                // Time is up! Send a Note Off (velocity 0, autoOffMs 0)
+                auditionNote(it->pitch, 0); 
+                it = fScheduledNoteOffs.erase(it);
+            } else {
+                ++it;
+            }
+        }
+    }
+    
     // SPG-style blinking
     bool newVisibility = (std::fmod(seconds, 0.4) < 0.2);
 
     if (newVisibility != fView.carrotVisible) {
         fView.carrotVisible = newVisibility;
         repaint();
-    }
-    
-    // Check if we need to send start/stop toggle over OSC
-    if (fNeedsOscToggle.exchange(false)) {
-        sendOscToggle();
     }
 }
 
@@ -230,10 +247,14 @@ void VoyeSeqUI::onNanoDisplay() {
 
 //--Send MIDI note for Audition (when selecting note, inserting note)
 //------------------------------------------------------------------------------
-void VoyeSeqUI::auditionNote(uint8_t pitch, uint8_t velocity) {
-    //if (pitch > 127) return;
-    //this->getPlugin().previewNote(pitch, velocity);
-    sendNote(15, pitch, velocity);
+void VoyeSeqUI::auditionNote(uint8_t pitch, uint8_t velocity, int autoOffMs) {
+    fAuditionTriggerCount = (fAuditionTriggerCount + 1) % 128;
+    int packed = (fAuditionTriggerCount << 16) | (velocity << 8) | pitch;
+    setParameterValue(Voye::PARAM_AUDITION, static_cast<float>(packed));
+    if (autoOffMs > 0 && velocity > 0) {
+        auto offTime = std::chrono::steady_clock::now() + std::chrono::milliseconds(autoOffMs);
+        fScheduledNoteOffs.push_back({pitch, offTime});
+    }
 }
 
 //--Helper function to cycle through EditStates (tab key)
@@ -267,7 +288,8 @@ void VoyeSeqUI::applyDelta(int delta) {
             target.pitch = (uint8_t)std::clamp((int)target.pitch + delta, 0, 127);
             if (fSelectedNoteIndex != -1) {
                 resolveCollisions(target.pitch, target.startTick, target.lengthTicks, fSelectedNoteIndex);
-                auditionNote(target.pitch, target.velocity);
+                int beatMs = static_cast<int>(60000.0f / fView.transport.bpm);
+                auditionNote(target.pitch, target.velocity, beatMs);
             }
             break;
 
@@ -433,6 +455,19 @@ bool VoyeSeqUI::handleKeyGridEdit(const KeyboardEvent& event) {
         case 'l': case 'L': fCurrentEditField = EditField::Length;   break;
         case 'u': case 'U': fCurrentEditField = EditField::Units;    break;
         case kKeyEscape:    fCurrentEditField = EditField::None;     break;
+        case 't': { 
+            uint8_t nextThru;
+            if (event.mod & kModifierShift) {
+                nextThru = (fView.chThru + 1) % 18; 
+            } else {
+                nextThru = (fView.chThru > 0) ? 0 : 17; 
+            }
+            fView.chThru = nextThru;
+            setParameterValue(Voye::PARAM_CH_THRU, static_cast<float>(nextThru));
+            break;
+        }
+        repaint();
+        return true; 
     }
 
     uint32_t stepSize = getQuantizeTicks();
@@ -492,7 +527,8 @@ bool VoyeSeqUI::handleKeyGridEdit(const KeyboardEvent& event) {
         // Safety check: Ensure the pattern exists before trying to access index
         if (fSelectedNoteIndex != -1 && fLocalBank.patterns.count(fCurrentPattern)) {
             auto& note = fLocalBank.patterns[fCurrentPattern].notes[fSelectedNoteIndex];
-            auditionNote(note.pitch, note.velocity);
+            int beatMs = static_cast<int>(60000.0f / fView.transport.bpm);
+            auditionNote(note.pitch, note.velocity, beatMs);
         }
         repaint();
         return true;
@@ -530,13 +566,16 @@ bool VoyeSeqUI::handleKeyGridEdit(const KeyboardEvent& event) {
 
             // 3. Commit
             notes.push_back(fNoteEditBuffer);
-            auditionNote(fNoteEditBuffer.pitch, fNoteEditBuffer.velocity);
+            
+            // Calculate 1 beat in milliseconds based on current BPM
+            // Formula: (60 seconds / BPM) * 1000 ms
+            int beatMs = static_cast<int>(60000.0f / fView.transport.bpm);
+            // Fire the note and tell it to auto-off after 1 beat
+            auditionNote(fNoteEditBuffer.pitch, fNoteEditBuffer.velocity, beatMs);
             
             updateSelection();
             // IMPORTANT: Use serializeData() for the pattern_data key
-            this->setState("pattern_data", fLocalBank.serializeData().c_str());
-        }
-        updateSelection();
+            this->setState("pattern_data", fLocalBank.serializeData().c_str());        }
         repaint();
         return true;
     }
@@ -611,15 +650,19 @@ bool VoyeSeqUI::handleKeyGridEdit(const KeyboardEvent& event) {
 bool VoyeSeqUI::handleKeyPatternSelect(const KeyboardEvent& event) {
     if (event.key == '+' || event.key == '=' || event.key == kKeyUp) {
         if (fCurrentPattern < 127) fCurrentPattern++;
+        setParameterValue(Voye::PARAM_UI_PATTERN, fCurrentPattern);
     }
     else if (event.key == '-' || event.key == '_' || event.key == kKeyDown) {
         if (fCurrentPattern > 0) fCurrentPattern--;
+        setParameterValue(Voye::PARAM_UI_PATTERN, fCurrentPattern);
     }
     else if (event.key == ']') {
-    fCurrentPattern = std::min((int)fCurrentPattern + 10, 127);
+        fCurrentPattern = std::min((int)fCurrentPattern + 10, 127);
+        setParameterValue(Voye::PARAM_UI_PATTERN, fCurrentPattern);
     }
     else if (event.key == '[') {
         fCurrentPattern = std::max((int)fCurrentPattern - 10, 0);
+        setParameterValue(Voye::PARAM_UI_PATTERN, fCurrentPattern);
     }
     else if (event.key == kKeyEscape || event.key == kKeyTab) {
         if (fEdit == EditState::CopyPaste) {

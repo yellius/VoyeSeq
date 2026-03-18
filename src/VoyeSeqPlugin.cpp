@@ -1,13 +1,15 @@
+#include "Constants.hpp"
 #include "DistrhoPluginInfo.h"
 #include "DistrhoPlugin.hpp"
 #include "VoyeSeqPlugin.hpp"
+#include <atomic>
 #include <cstring>
 
 START_NAMESPACE_DISTRHO
 
 VoyeSeqPlugin::VoyeSeqPlugin() 
     : Plugin(Voye::PARAM_COUNT, 0, 2),
-      fLastNote(0.0f)
+      fLastNote(0.0f), fUIPattern(64)
 {
     fTransport.bpm = 120.0f;
     fTransport.playing = false;
@@ -26,11 +28,40 @@ void VoyeSeqPlugin::initParameter(uint32_t index, Parameter& parameter) {
         case Voye::PARAM_BPM:       parameter.name = "BPM"; break;
         case Voye::PARAM_TRANSPORT: parameter.name = "Transport"; break;
         case Voye::PARAM_BAR:       parameter.name = "Bar"; break;
-        case Voye::PARAM_BEAT:       parameter.name = "Beat"; break;
+        case Voye::PARAM_BEAT:      parameter.name = "Beat"; break;
         case Voye::PARAM_TICK:      parameter.name = "Tick"; break;
         case Voye::PARAM_TICKSPERBEAT: parameter.name = "TicksPerBeat"; break;
         case Voye::PARAM_SIG_NUM:   parameter.name = "SigNum"; break;
         case Voye::PARAM_SIG_DEN:   parameter.name = "SigDen"; break;
+        case Voye::PARAM_UI_PATTERN:
+            parameter.name = "UIPattern";
+            parameter.hints = kParameterIsAutomatable | kParameterIsInteger;
+            parameter.ranges.def = 64.0f; // Default pattern
+            parameter.ranges.min = 0.0f;  // Min MIDI note
+            parameter.ranges.max = 127.0f; // Max MIDI note
+            break;
+        case Voye::PARAM_AUDITION:
+            parameter.name = "Audition";
+            parameter.hints = kParameterIsInteger | kParameterIsHidden;
+            parameter.ranges.def = 0; 
+            parameter.ranges.min = 0; 
+            parameter.ranges.max = 0x7FFFFFFF; // Max 32-bit int
+            break;
+        case Voye::PARAM_CH_TRIGGER:
+            parameter.name = "TrigCh";
+            parameter.hints = kParameterIsInteger | kParameterIsAutomatable;
+            parameter.ranges.def = 0; parameter.ranges.min = 0; parameter.ranges.max = 17; 
+            break;
+        case Voye::PARAM_CH_THRU:
+            parameter.name = "ThruCh";
+            parameter.hints = kParameterIsInteger | kParameterIsAutomatable;
+            parameter.ranges.def = 0; parameter.ranges.min = 0; parameter.ranges.max = 17;
+            break;
+        case Voye::PARAM_CH_OUT:
+            parameter.name = "OutCh";
+            parameter.hints = kParameterIsInteger | kParameterIsAutomatable;
+            parameter.ranges.def = 1; parameter.ranges.min = 1; parameter.ranges.max = 16;
+            break;
     }
 
 }
@@ -41,11 +72,15 @@ float VoyeSeqPlugin::getParameterValue(uint32_t index) const {
         case Voye::PARAM_BPM:       return fTransport.bpm;
         case Voye::PARAM_TRANSPORT: return fTransport.playing ? 1.0f : 0.0f;
         case Voye::PARAM_BAR:       return (float)fTransport.bar;
-        case Voye::PARAM_BEAT:       return (float)fTransport.beat;
+        case Voye::PARAM_BEAT:      return (float)fTransport.beat;
         case Voye::PARAM_TICK:      return (float)fTransport.tick;
         case Voye::PARAM_TICKSPERBEAT: return (float)fTransport.tpb;
         case Voye::PARAM_SIG_NUM:   return (float)fTransport.sigNum;
         case Voye::PARAM_SIG_DEN:   return (float)fTransport.sigDen;
+        case Voye::PARAM_UI_PATTERN: return fUIPattern;
+        case Voye::PARAM_CH_TRIGGER: return fChTrigger;
+        case Voye::PARAM_CH_THRU:    return fChThru;
+        case Voye::PARAM_CH_OUT:     return fChOut;
         default: return 0.0f;
     }
 }
@@ -56,6 +91,19 @@ void VoyeSeqPlugin::setParameterValue(uint32_t index, float value) {
     // we would handle it here.
     switch (index) {
         //case Voye::PARAM_TRANSPORT: fIsPlaying = value; break;
+        case Voye::PARAM_UI_PATTERN: fUIPattern = static_cast<uint8_t>(value); break;
+        case Voye::PARAM_AUDITION:
+            // IGNORE if the DAW is just loading the project!
+            if (fHasRunOnce) {
+                int packed = static_cast<int>(value);
+                uint8_t pitch = packed & 0xFF;
+                uint8_t vel = (packed >> 8) & 0xFF;
+                fEngine.pushAudition(pitch, vel);
+            }
+            break;
+        case Voye::PARAM_CH_TRIGGER: fChTrigger = static_cast<uint8_t>(value); break;
+        case Voye::PARAM_CH_THRU:    fChThru = static_cast<uint8_t>(value); break;
+        case Voye::PARAM_CH_OUT:     fChOut = static_cast<uint8_t>(value); break;
         default: break;
     }
 }
@@ -84,19 +132,24 @@ String VoyeSeqPlugin::getState(const char* key) const {
 }
 
 void VoyeSeqPlugin::setState(const char* key, const char* value) {
-/*    d_stdout("VoyeSeq [Plugin]: setState called | Key: %s | Value Length: %zu", 
-             key, std::strlen(value));
-    std::fflush(stdout);*/
     if (std::strcmp(key, "pattern_data") == 0) {
-        fEngine.getBank().deserializeData(value);
+        fNextBank.deserializeData(value);
+        fHasNextBank.store(true, std::memory_order_release);
     }
     if (std::strcmp(key, "pattern_names") == 0) {
-        fEngine.getBank().deserializeNames(value);
+        fNextBank.deserializeNames(value);
+        fHasNextBank.store(true, std::memory_order_release);
     }
 }
 
 void VoyeSeqPlugin::run(const float**, float**, uint32_t frames, const MidiEvent* events, uint32_t count) {
     const TimePosition& timePos(getTimePosition());
+
+    fHasRunOnce = true;
+    
+    if (fHasNextBank.exchange(false, std::memory_order_acquire)) {
+        std::swap(fEngine.getBank(), fNextBank); 
+    }
 
     if (timePos.bbt.valid) {
         fTransport.bpm    = (float)timePos.bbt.beatsPerMinute;
@@ -117,44 +170,70 @@ void VoyeSeqPlugin::run(const float**, float**, uint32_t frames, const MidiEvent
 
     bool triggerReceived = false;
     bool triggerReleased = false;
-    
+
+    // 1. Array to hold all output events (Thru + Sequencer) safely on the stack
+    MidiEvent outEvents[1024]; 
+    size_t outCount = 0;
+
     for (uint32_t i = 0; i < count; ++i) {
         uint8_t status  = events[i].data[0] & 0xF0;
-        uint8_t channel = events[i].data[0] & 0x0F;
+        uint8_t channel = (events[i].data[0] & 0x0F) + 1; 
         uint8_t note    = events[i].data[1];
         uint8_t vel     = events[i].data[2];
 
-        // --- UI AUDITION TRIGGER (Channel 16) ---
-        if (channel == 15) {
-            if (status == 0x90 && vel > 0) {
-                fEngine.fAuditionPitch = note;
-                fEngine.fAuditionVel = vel;
-                fEngine.fNeedsAudition.store(true);
+        bool isNoteOn  = (status == 0x90 && vel > 0);
+        bool isNoteOff = (status == 0x80 || (status == 0x90 && vel == 0));
+
+        // --- MIDI THRU ---
+        if (fChThru != 17 && (fChThru == 0 || fChThru == channel)) { 
+            if (outCount < 1024) {
+                MidiEvent thruEv = events[i];
+                thruEv.data[0] = status | (fChOut - 1); // Stamp output channel
+                outEvents[outCount++] = thruEv;         // Store for sorting later
             }
-            continue; // Skip the rest of the loop for UI messages
         }
 
-        // --- MIDI PUSH TO HOST (All other channels) ---
-        if (channel != 15) {
-            // NOTE ON
-            if (status == 0x90 && vel > 0) {
-              fTriggerNote = note;
-              triggerReceived = true;
+        // --- PATTERN TRIGGER ---
+        if (fChTrigger != 17 && (fChTrigger == 0 || fChTrigger == channel)) {
+            if (isNoteOn) {
+                fTriggerNote = note;
+                triggerReceived = true;
+                triggerReleased = false;
+            } else if (isNoteOff && note == fTriggerNote) {
+                triggerReleased = true;
+                triggerReceived = false;
             }
-            // NOTE OFF
-            else if (status == 0x80 || (status == 0x90 && vel == 0)) triggerReleased = true;
         }
     }
     
-    fEngine.process(timePos, triggerReceived, triggerReleased, fTriggerNote,
-                    frames, getSampleRate());
-    
-    // Output MIDI from engine
-    for (const auto& ev : fEngine.getEvents()) {
-        MidiEvent outEv;
-        outEv.frame = ev.frame; outEv.size = 3;
-        std::copy(ev.data, ev.data + 3, outEv.data);
-        writeMidiEvent(outEv);
+    // 2. Process Engine
+    fEngine.process(timePos, triggerReceived, triggerReleased, fTriggerNote, frames, getSampleRate());
+
+    // 3. Add Sequencer Notes to Output Array
+    size_t engineEventCount = fEngine.getEventCount();
+    for (size_t i = 0; i < engineEventCount; ++i) {
+        const auto& pendingEv = fEngine.getEvent(i);
+        
+        if (outCount < 1024) {
+            MidiEvent outEv;
+            outEv.frame = pendingEv.frame; 
+            outEv.size = 3;
+            outEv.data[0] = (pendingEv.data[0] & 0xF0) | (fChOut - 1); 
+            outEv.data[1] = pendingEv.data[1];
+            outEv.data[2] = pendingEv.data[2];
+            
+            outEvents[outCount++] = outEv;
+        }
+    }
+
+    // 4. Sort all events chronologically to satisfy DAW MIDI rules!
+    std::sort(outEvents, outEvents + outCount, [](const MidiEvent& a, const MidiEvent& b) {
+        return a.frame < b.frame;
+    });
+
+    // 5. Finally, write the strictly-ordered events to the host
+    for (size_t i = 0; i < outCount; ++i) {
+        writeMidiEvent(outEvents[i]);
     }
 }
 

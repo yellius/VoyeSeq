@@ -148,6 +148,59 @@
         lv2:symbol "lv2_port_9" ;
         lv2:minimum 0 ;
         lv2:maximum 1 ;
+    ] ,
+    [
+        a lv2:InputPort, lv2:ControlPort ;
+        lv2:index 11 ;
+        lv2:name "UIPattern" ;
+        lv2:symbol "lv2_port_10" ;
+        lv2:default 64 ;
+        lv2:minimum 0 ;
+        lv2:maximum 127 ;
+        lv2:portProperty lv2:integer ;
+    ] ,
+    [
+        a lv2:InputPort, lv2:ControlPort ;
+        lv2:index 12 ;
+        lv2:name "Audition" ;
+        lv2:symbol "lv2_port_11" ;
+        lv2:default 0 ;
+        lv2:minimum 0 ;
+        lv2:maximum -2147483648 ;
+        lv2:portProperty lv2:integer ;
+        lv2:portProperty <http://lv2plug.in/ns/ext/port-props#notOnGUI> ;
+        lv2:portProperty <http://lv2plug.in/ns/ext/port-props#expensive> ,
+                         <http://kxstudio.sf.net/ns/lv2ext/props#NonAutomatable> ;
+    ] ,
+    [
+        a lv2:InputPort, lv2:ControlPort ;
+        lv2:index 13 ;
+        lv2:name "TrigCh" ;
+        lv2:symbol "lv2_port_12" ;
+        lv2:default 0 ;
+        lv2:minimum 0 ;
+        lv2:maximum 17 ;
+        lv2:portProperty lv2:integer ;
+    ] ,
+    [
+        a lv2:InputPort, lv2:ControlPort ;
+        lv2:index 14 ;
+        lv2:name "ThruCh" ;
+        lv2:symbol "lv2_port_13" ;
+        lv2:default 0 ;
+        lv2:minimum 0 ;
+        lv2:maximum 17 ;
+        lv2:portProperty lv2:integer ;
+    ] ,
+    [
+        a lv2:InputPort, lv2:ControlPort ;
+        lv2:index 15 ;
+        lv2:name "OutCh" ;
+        lv2:symbol "lv2_port_14" ;
+        lv2:default 1 ;
+        lv2:minimum 1 ;
+        lv2:maximum 16 ;
+        lv2:portProperty lv2:integer ;
     ] ;
 
     mod:brand "DISTRHO" ;

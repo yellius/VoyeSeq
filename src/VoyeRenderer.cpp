@@ -1,4 +1,5 @@
 #include "VoyeRenderer.hpp"
+#include "Constants.hpp"
 #include "VoyeUIUtils.hpp"
 
 START_NAMESPACE_DISTRHO
@@ -221,6 +222,26 @@ void VoyeRenderer::drawList(UI& ui, float w, float h, const EditState& edit, con
         std::sprintf(buf, " -> COPIED: %03d: %s", copyPattern, pName.c_str());
         ui.text(textX, textY, buf, nullptr);
     }
+
+    ui.textAlign(UI::ALIGN_RIGHT | UI::ALIGN_TOP);
+    textX = w - 2 * UI_PADDING;
+
+    if (view.chThru == 17) {
+        // Off State
+        ui.fillColor(Voye::Colors::Silver); // Grey out
+        ui.text(textX, textY, "Thru: Off", nullptr);
+    } else {
+        // Active State
+        ui.fillColor(Voye::Colors::Cyan); // Bright Green
+        
+        if (view.chThru == 0) {
+            ui.text(textX, textY, "Thru: Omni", nullptr);
+        } else {
+            char buf[32];
+            std::snprintf(buf, sizeof(buf), "Thru: %d", view.chThru);
+            ui.text(textX, textY, buf, nullptr);
+        }
+    }    
 }
 
 //--Renderer for Edit Grid
@@ -367,7 +388,7 @@ void VoyeRenderer::drawBottomBar(UI& ui, float w, float h, const EditState& edit
     
     switch (edit) {
       case EditState::GridEdit:
-        ui.text(textX, textY, "Pitch  Velocity  Off Vel  Units  Start  Length", nullptr);
+        ui.text(textX, textY, "Pitch  Velocity  Off Vel  Units  Start  Length  Thru", nullptr);
         ui.text(textX, textY + linSpc, "Pattern select [Tab]  Insert Note [Ins]  Delete Note [Del]", nullptr);
         break;
       case EditState::PatternSelect:
